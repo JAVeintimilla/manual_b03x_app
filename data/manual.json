@@ -1213,15 +1213,15 @@
        ],
        "rows": [
         [
-         "<b>Parking Plaza Brujas &ndash; Mercado Central</b><br/>C/ Editor Manuel Aguilar, 11",
+         "<b>Parking Plaza Brujas &ndash; Mercado Central</b><br/>C/ Editor Manuel Aguilar, 11<br/><a class=\"route-link\" href=\"https://www.google.com/maps/dir/?api=1&destination=Parking%20Plaza%20Brujas%2C%20Carrer%20de%20l%27Editor%20Manuel%20Aguilar%2011%2C%20Valencia&travelmode=driving\" target=\"_blank\" rel=\"noopener\">Cómo llegar</a>",
          "Es el sitio bueno. Cargadores en las plantas &minus;2 y &minus;3, gratis; solo se paga el parking, barato y con tope diario. Se enchufa el cable y se acerca una tarjeta contactless al lector; hay que esperar 20-30 segundos sin tocar nada hasta que arranca. A diez minutos andando de la falla. El único sin límite de tiempo: aquí van las cargas largas y los viernes de falla."
         ],
         [
-         "<b>Parking Centro Histórico</b><br/>C/ Editor Manuel Aguilar, 8",
+         "<b>Parking Centro Histórico</b><br/>C/ Editor Manuel Aguilar, 8<br/><a class=\"route-link\" href=\"https://www.google.com/maps/dir/?api=1&destination=Parking%20Centro%20Hist%C3%B3rico%2C%20Carrer%20de%20l%27Editor%20Manuel%20Aguilar%208%2C%20Valencia&travelmode=driving\" target=\"_blank\" rel=\"noopener\">Cómo llegar</a>",
          "A treinta metros del anterior, por si está lleno. Igual, pero plazas más estrechas."
         ],
         [
-         "<b>Parking Avenida del Oeste</b><br/>Av. de l'Oest, 34",
+         "<b>Parking Avenida del Oeste</b><br/>Av. de l'Oest, 34<br/><a class=\"route-link\" href=\"https://www.google.com/maps/dir/?api=1&destination=Avinguda%20de%20l%27Oest%2034%2C%20Valencia&travelmode=driving\" target=\"_blank\" rel=\"noopener\">Cómo llegar</a>",
          "Tercera opción en el centro. Entrada estrecha."
         ]
        ]
@@ -1240,15 +1240,15 @@
        ],
        "rows": [
         [
-         "<b>CC Aqua</b>",
+         "<b>CC Aqua</b><br/><a class=\"route-link\" href=\"https://www.google.com/maps/dir/?api=1&destination=Centro%20Comercial%20Aqua%2C%20Valencia&travelmode=driving\" target=\"_blank\" rel=\"noopener\">Cómo llegar</a>",
          "El sitio por defecto para cargas cortas. Gratis para clientes, con límite de tiempo. Cerca de casa."
         ],
         [
-         "<b>CC El Saler</b>",
+         "<b>CC El Saler</b><br/><a class=\"route-link\" href=\"https://www.google.com/maps/dir/?api=1&destination=Centro%20Comercial%20El%20Saler%2C%20Valencia&travelmode=driving\" target=\"_blank\" rel=\"noopener\">Cómo llegar</a>",
          "Lo mismo que Aqua. El que pille mejor ese día."
         ],
         [
-         "<b>El Corte Inglés, Avenida de Francia</b>",
+         "<b>El Corte Inglés, Avenida de Francia</b><br/><a class=\"route-link\" href=\"https://www.google.com/maps/dir/?api=1&destination=El%20Corte%20Ingl%C3%A9s%20Avenida%20de%20Francia%2C%20Valencia&travelmode=driving\" target=\"_blank\" rel=\"noopener\">Cómo llegar</a>",
          "Reserva, si Aqua está ocupado."
         ]
        ]
@@ -1267,7 +1267,7 @@
        ],
        "rows": [
         [
-         "<b>La Fe</b><br/>Av. Fernando Abril Martorell, enfrente de casa",
+         "<b>La Fe</b><br/>Av. Fernando Abril Martorell, enfrente de casa<br/><a class=\"route-link\" href=\"https://www.google.com/maps/dir/?api=1&destination=Avinguda%20de%20Fernando%20Abril%20Martorell%2C%20Hospital%20La%20Fe%2C%20Valencia&travelmode=driving\" target=\"_blank\" rel=\"noopener\">Cómo llegar</a>",
          "Carga rápida: 20 minutos. Prohibido durante el rodaje. Después, solo urgencias: nunca rutina, y no antes del 13 de noviembre."
         ]
        ]
@@ -4551,6 +4551,36 @@
    "section": "b6-2"
   }
  ],
+ "places": {
+  "mercado": {
+   "name": "Parking Plaza Brujas (Mercado Central)",
+   "query": "Parking Plaza Brujas, Carrer de l'Editor Manuel Aguilar 11, Valencia"
+  },
+  "historico": {
+   "name": "Parking Centro Histórico",
+   "query": "Parking Centro Histórico, Carrer de l'Editor Manuel Aguilar 8, Valencia"
+  },
+  "oeste": {
+   "name": "Parking Avenida del Oeste",
+   "query": "Avinguda de l'Oest 34, Valencia"
+  },
+  "aqua": {
+   "name": "CC Aqua",
+   "query": "Centro Comercial Aqua, Valencia"
+  },
+  "saler": {
+   "name": "CC El Saler",
+   "query": "Centro Comercial El Saler, Valencia"
+  },
+  "eci-francia": {
+   "name": "El Corte Inglés Avenida de Francia",
+   "query": "El Corte Inglés Avenida de Francia, Valencia"
+  },
+  "lafe": {
+   "name": "Punto de recarga de La Fe",
+   "query": "Avinguda de Fernando Abril Martorell, Hospital La Fe, Valencia"
+  }
+ },
  "calendar": {
   "section": "b2-2",
   "hideFrom": "2027-01-01",
@@ -4560,6 +4590,7 @@
     "end": null,
     "kind": "CARGA 1",
     "charge": true,
+    "place": null,
     "text": "Entrega del coche. Llega ya cargado al 100 %: cuenta como la primera carga del rodaje",
     "where": "Concesionario",
     "battery": "100 %",
@@ -4570,6 +4601,7 @@
     "end": null,
     "kind": "PREPARAR",
     "charge": false,
+    "place": null,
     "text": "Configurar el coche y la app en los tres móviles",
     "where": "Casa",
     "battery": "99 %",
@@ -4580,6 +4612,7 @@
     "end": null,
     "kind": "NADA",
     "charge": false,
+    "place": null,
     "text": "",
     "where": "—",
     "battery": "96 %",
@@ -4590,6 +4623,7 @@
     "end": null,
     "kind": "CARGA 2",
     "charge": true,
+    "place": "aqua",
     "text": "Segunda del rodaje. Hasta el 100 %. Unos 30 minutos, cabe en un recado",
     "where": "CC Aqua",
     "battery": "92 → 100 %",
@@ -4600,6 +4634,7 @@
     "end": null,
     "kind": "VIAJE",
     "charge": false,
+    "place": null,
     "text": "Al pueblo a comer, 100 km ida y vuelta. Sin cargar",
     "where": "—",
     "battery": "100 → 73 %",
@@ -4610,6 +4645,7 @@
     "end": null,
     "kind": "NADA",
     "charge": false,
+    "place": null,
     "text": "",
     "where": "—",
     "battery": "69 %",
@@ -4620,6 +4656,7 @@
     "end": null,
     "kind": "NADA",
     "charge": false,
+    "place": null,
     "text": "",
     "where": "—",
     "battery": "65 %",
@@ -4630,6 +4667,7 @@
     "end": null,
     "kind": "NADA",
     "charge": false,
+    "place": null,
     "text": "",
     "where": "—",
     "battery": "62 %",
@@ -4640,6 +4678,7 @@
     "end": null,
     "kind": "NADA",
     "charge": false,
+    "place": null,
     "text": "",
     "where": "—",
     "battery": "58 %",
@@ -4650,6 +4689,7 @@
     "end": null,
     "kind": "CARGA 3",
     "charge": true,
+    "place": "mercado",
     "text": "Tercera del rodaje. 2 h 30. Se deja enchufado y se sube andando a la falla. Con esta acaba el rodaje: ya se puede usar carga rápida",
     "where": "Mercado Central",
     "battery": "54 → 100 %",
@@ -4660,6 +4700,7 @@
     "end": null,
     "kind": "NADA",
     "charge": false,
+    "place": null,
     "text": "",
     "where": "—",
     "battery": "96 %",
@@ -4670,6 +4711,7 @@
     "end": null,
     "kind": "ENSAYO",
     "charge": true,
+    "place": "lafe",
     "text": "Práctica de carga rápida con Jaime. 15 minutos, antes de su viaje",
     "where": "La Fe",
     "battery": "92 → 96 %",
@@ -4680,6 +4722,7 @@
     "end": null,
     "kind": "NADA",
     "charge": false,
+    "place": null,
     "text": "",
     "where": "—",
     "battery": "88 %",
@@ -4690,6 +4733,7 @@
     "end": null,
     "kind": "PREPARAR",
     "charge": false,
+    "place": null,
     "text": "Revisión del viaje de Jaime: ruta, cadenas, seguro y apps",
     "where": "Casa",
     "battery": "84 %",
@@ -4700,6 +4744,7 @@
     "end": null,
     "kind": "CARGA",
     "charge": true,
+    "place": "aqua",
     "text": "Carga completa antes del viaje. 50 minutos",
     "where": "CC Aqua",
     "battery": "83 → 100 %",
@@ -4710,6 +4755,7 @@
     "end": null,
     "kind": "VIAJE",
     "charge": false,
+    "place": null,
     "text": "Jaime sale hacia Andorra",
     "where": "En ruta",
     "battery": "—",
@@ -4720,6 +4766,7 @@
     "end": "2026-12-20",
     "kind": "ESTANCIA",
     "charge": false,
+    "place": null,
     "text": "En Andorra",
     "where": "Red FEDA",
     "battery": "—",
@@ -4730,6 +4777,7 @@
     "end": null,
     "kind": "VUELTA",
     "charge": false,
+    "place": null,
     "text": "Regreso. Llega con el 20-30 %",
     "where": "En ruta",
     "battery": "→ 25 %",
@@ -4740,6 +4788,7 @@
     "end": null,
     "kind": "IMPORTANTE",
     "charge": true,
+    "place": "mercado",
     "text": "Carga de recalibración hasta el 100 %. 3 h 45. El coche vuelve de varias cargas rápidas en frío y esta es la que le devuelve la medida correcta del porcentaje. No saltársela",
     "where": "Mercado Central",
     "battery": "25 → 100 %",
@@ -4750,6 +4799,7 @@
     "end": null,
     "kind": "NADA",
     "charge": false,
+    "place": null,
     "text": "",
     "where": "—",
     "battery": "96 %",
@@ -4760,6 +4810,7 @@
     "end": null,
     "kind": "NADA",
     "charge": false,
+    "place": null,
     "text": "",
     "where": "—",
     "battery": "92 %",

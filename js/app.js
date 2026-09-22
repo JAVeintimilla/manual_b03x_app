@@ -8,10 +8,11 @@
  * @typedef {{ id: string, number: number, title: string, subtitle: string, icon: string,
  *             intro: ContentNode[], sections: Section[] }} Block
  * @typedef {{ label: string, icon: string, tone: string, section: string }} QuickLink
- * @typedef {{ date: string, end: string|null, kind: string, charge: boolean, text?: string, where?: string, battery?: string, cost?: string }} CalendarEntry
+ * @typedef {{ date: string, end: string|null, kind: string, charge: boolean, text?: string, where?: string, place?: string|null, battery?: string, cost?: string }} CalendarEntry
  * @typedef {{ id: string, label: string, pattern: string, flags: string, home: string, sections: string[] }} GlossaryTerm
  * @typedef {{ title: string, subtitle: string, blocks: Block[], quick: QuickLink[],
- *             calendar: { section: string, hideFrom: string, entries: CalendarEntry[] }, glossary: GlossaryTerm[] }} Manual
+ *             calendar: { section: string, hideFrom: string, entries: CalendarEntry[] }, glossary: GlossaryTerm[],
+ *             places?: Record<string, {name: string, query: string}> }} Manual
  * @typedef {{ section: Section, block: Block, text: string, title: string }} SearchEntry
  */
 
@@ -92,6 +93,15 @@ const coversToday = (entry) => entry.date <= TODAY && TODAY <= (entry.end ?? ent
 function todaysChargeEntry() {
   if (!manual?.calendar || isCalendarHidden()) return null;
   return manual.calendar.entries.find((entry) => entry.charge && coversToday(entry)) ?? null;
+}
+
+const isAppleDevice = () => /iphone|ipad|ipod|macintosh/i.test(navigator.userAgent) && navigator.maxTouchPoints > 1;
+
+/** Construyo la ruta hasta un punto de recarga; el origen es la ubicación actual que pone la app de mapas. */
+function routeUrl(place, provider) {
+  const destination = encodeURIComponent(place.query);
+  if (provider === "apple") return `https://maps.apple.com/?daddr=${destination}&dirflg=d`;
+  return `https://www.google.com/maps/dir/?api=1&destination=${destination}&travelmode=driving`;
 }
 
 /** Busco en todo el calendario si hoy tiene fila propia o, si no, qué fila corresponde a esta semana. */
@@ -394,16 +404,23 @@ function renderHome() {
     .join("");
 
   const charge = todaysChargeEntry();
+  const place = charge?.place ? manual.places?.[charge.place] : null;
   const chargeBanner = charge ? `
-    <a class="charge-alert" href="#/${manual.calendar.section}">
-      <span class="charge-alert__icon"><i class="ti ti-battery-charging"></i></span>
-      <span class="charge-alert__body">
-        <strong>Hoy toca cargar</strong>
-        <span>${charge.kind.charAt(0) + charge.kind.slice(1).toLowerCase()} en <b>${charge.where}</b>, ${charge.battery}</span>
-        ${charge.text ? `<small>${charge.text}</small>` : ""}
-      </span>
-      <i class="ti ti-chevron-right"></i>
-    </a>` : "";
+    <div class="charge-alert">
+      <a class="charge-alert__main" href="#/${manual.calendar.section}">
+        <span class="charge-alert__icon"><i class="ti ti-battery-charging"></i></span>
+        <span class="charge-alert__body">
+          <strong>Hoy toca cargar</strong>
+          <span>${charge.kind.charAt(0) + charge.kind.slice(1).toLowerCase()} en <b>${charge.where}</b>, ${charge.battery}</span>
+          ${charge.text ? `<small>${charge.text}</small>` : ""}
+        </span>
+      </a>
+      ${place ? `
+      <div class="charge-alert__routes">
+        <a class="route-btn" href="${routeUrl(place, "google")}" target="_blank" rel="noopener"><i class="ti ti-route"></i>Cómo llegar</a>
+        ${isAppleDevice() ? `<a class="route-btn route-btn--alt" href="${routeUrl(place, "apple")}" target="_blank" rel="noopener">Apple Mapas</a>` : ""}
+      </div>` : ""}
+    </div>` : "";
   view.innerHTML = `
     <section class="home-hero">
       <div class="home-hero__top">

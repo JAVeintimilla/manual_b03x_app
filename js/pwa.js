@@ -10,6 +10,11 @@ const offlineBadge = /** @type {HTMLElement} */ (document.getElementById("offlin
 
 const isStandalone = () =>
   window.matchMedia("(display-mode: standalone)").matches || /** @type {any} */ (navigator).standalone === true;
+/** Considero móvil o tablet cualquier Android, iPhone o iPad; en PC no ofrezco instalar. */
+const isMobileDevice = () =>
+  /** @type {any} */ (navigator).userAgentData?.mobile === true ||
+  /android|iphone|ipad|ipod|mobile/i.test(navigator.userAgent) ||
+  (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
 const isIos = () => /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
 
 // ---------------------------------------------------------------- menú lateral en móvil
@@ -93,7 +98,7 @@ if ("serviceWorker" in navigator) {
 let deferredPrompt = null;
 
 function refreshInstallButtons() {
-  const canInstall = !isStandalone() && (deferredPrompt || isIos());
+  const canInstall = isMobileDevice() && !isStandalone() && (deferredPrompt || isIos());
   document.querySelectorAll("[data-install]").forEach((button) => { /** @type {HTMLElement} */ (button).hidden = !canInstall; });
 }
 
@@ -123,7 +128,7 @@ window.addEventListener("beforeinstallprompt", (event) => {
   event.preventDefault();
   deferredPrompt = event;
   refreshInstallButtons();
-  if (!localStorage.getItem(INSTALL_DISMISSED_KEY)) {
+  if (isMobileDevice() && !localStorage.getItem(INSTALL_DISMISSED_KEY)) {
     showToast("Instala el manual en el móvil para usarlo sin conexión.", "Instalar", startInstall);
     localStorage.setItem(INSTALL_DISMISSED_KEY, "1");
   }
