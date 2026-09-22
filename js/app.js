@@ -763,7 +763,7 @@ function renderNotFound() {
 }
 
 function renderCrumbs(crumbs) {
-  const parts = [`<a href="#/" aria-label="Inicio"><i class="ti ti-home"></i></a>`];
+  const parts = [`<a class="crumb-home" href="#/" aria-label="Inicio" title="Inicio"><i class="ti ti-home"></i></a>`];
   for (const crumb of crumbs) {
     parts.push(`<i class="ti ti-chevron-right sep ${crumb.className === "here" ? "" : crumb.className}"></i>`);
     parts.push(crumb.href
