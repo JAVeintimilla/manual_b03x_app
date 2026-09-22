@@ -13,6 +13,21 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="B03X">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    // Aplico el tema antes de pintar nada para evitar el parpadeo claro-oscuro al abrir
+    (() => {
+      try {
+        const saved = localStorage.getItem("b03x-theme");
+        const mode = saved === "light" || saved === "dark" ? saved : "auto";
+        const isDark = mode === "dark" || (mode === "auto" && matchMedia("(prefers-color-scheme: dark)").matches);
+        document.documentElement.dataset.theme = isDark ? "dark" : "light";
+        document.querySelector('meta[name="theme-color"]')?.setAttribute("content", isDark ? "#12181F" : "#1D2733");
+      } catch (error) {
+        document.documentElement.dataset.theme = "light";
+      }
+    })();
+  </script>
   <link rel="stylesheet" href="vendor/fonts.css">
   <link rel="stylesheet" href="vendor/icons.css">
   <link rel="stylesheet" href="css/styles.css">

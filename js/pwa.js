@@ -10,8 +10,13 @@ const offlineBadge = /** @type {HTMLElement} */ (document.getElementById("offlin
 
 const isStandalone = () =>
   window.matchMedia("(display-mode: standalone)").matches || /** @type {any} */ (navigator).standalone === true;
-/** Considero móvil o tablet cualquier Android, iPhone o iPad; en PC no ofrezco instalar. */
+/**
+ * Considero móvil o tablet cualquier dispositivo cuyo puntero principal sea el dedo.
+ * Así cubro las tablets Android que Chrome presenta como «versión de escritorio» y los iPad;
+ * un portátil con pantalla táctil sigue contando como PC porque su puntero principal es el ratón.
+ */
 const isMobileDevice = () =>
+  window.matchMedia("(pointer: coarse)").matches ||
   /** @type {any} */ (navigator).userAgentData?.mobile === true ||
   /android|iphone|ipad|ipod|mobile/i.test(navigator.userAgent) ||
   (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
@@ -61,7 +66,10 @@ function hideToast() {
 // ---------------------------------------------------------------- service worker y actualizaciones
 
 function watchForUpdates(registration) {
-  const offerUpdate = (worker) => showToast("Hay una versión nueva del manual.", "Actualizar", () => worker.postMessage({ type: "SKIP_WAITING" }));
+  const offerUpdate = (worker) => showToast("Hay una versión nueva del manual.", "Actualizar", () => {
+    hasRequestedUpdate = true;
+    worker.postMessage({ type: "SKIP_WAITING" });
+  });
   if (registration.waiting && navigator.serviceWorker.controller) offerUpdate(registration.waiting);
   registration.addEventListener("updatefound", () => {
     const installing = registration.installing;
@@ -75,6 +83,9 @@ function watchForUpdates(registration) {
   });
 }
 
+// Solo recargo tras pulsar «Actualizar»: en la primera visita el service worker toma el control sin recargar
+let hasRequestedUpdate = false;
+
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", async () => {
     try {
@@ -86,7 +97,7 @@ if ("serviceWorker" in navigator) {
   });
   let isReloading = false;
   navigator.serviceWorker.addEventListener("controllerchange", () => {
-    if (isReloading) return;
+    if (isReloading || !hasRequestedUpdate) return;
     isReloading = true;
     location.reload();
   });
