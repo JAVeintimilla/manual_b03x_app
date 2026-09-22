@@ -2734,8 +2734,183 @@
     },
     {
      "id": "b4-7",
-     "title": "Lo que queda por verificar en pantalla",
+     "title": "Pitidos y avisos sonoros: cuáles se pueden quitar",
      "marker": "G",
+     "content": [
+      {
+       "t": "p",
+       "html": "No todos los avisos se comportan igual. Unos se quitan una vez y quedan así; otros el coche los vuelve a activar en cada arranque, y hay algunos que no se pueden quitar. Aquí están agrupados por cómo se comportan."
+      },
+      {
+       "t": "note",
+       "html": "<b>Cómo leer esta sección.</b> El manual solo confirma de forma expresa tres ajustes que se reactivan en cada arranque: la <b>detección de ocupantes olvidados</b>, la <b>vigilancia de fatiga</b> y el <b>modo mojado</b> (que vuelve a apagado). Del resto, el manual no dice que se reinicien. Pero la normativa europea de seguridad obliga a que algunas ayudas vuelvan a estar activas en cada arranque, y los propietarios de otros Leapmotor lo confirman. Lo marcado <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span> hay que comprobarlo en el coche."
+      },
+      {
+       "t": "h3",
+       "html": "1. Se quitan una vez y se quedan quitados"
+      },
+      {
+       "t": "p",
+       "html": "Son sonidos de confort. Se desactivan en su menú y el coche no los vuelve a encender."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Sonido",
+        "Dónde se quita"
+       ],
+       "rows": [
+        [
+         "Sonido al tocar la pantalla",
+         "<i>Ajustes &gt; Sonido &gt; Sonido táctil</i>"
+        ],
+        [
+         "Pitido al cambiar de marcha",
+         "<i>Ajustes &gt; Sonido &gt; Aviso de cambio de marcha</i>"
+        ],
+        [
+         "Pitido al cerrar el coche",
+         "<i>Ajustes &gt; Sonido &gt; Pitido de cierre</i>, o en la app del móvil: ajustes del vehículo, tono de cierre"
+        ],
+        [
+         "Música durante la marcha atrás",
+         "<i>Ajustes &gt; Sonido &gt; Silenciar al dar marcha atrás</i> (actívalo para que calle la música, no los sensores)"
+        ],
+        [
+         "Bajada de volumen al navegar o abrir puertas",
+         "<i>Ajustes &gt; Sonido</i>, cada una con su interruptor"
+        ],
+        [
+         "Pitido al activarse el Auto Hold",
+         "<i>Ajustes &gt; Conducción &gt; Auto Hold</i> &gt; sonido de activación"
+        ],
+        [
+         "Aviso de que arranca el coche de delante",
+         "<i>Ajustes &gt; Conducción inteligente &gt; Asistencia a la conducción</i>"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "2. Se quitan en Ajustes, pero pueden volver al arrancar <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span>"
+      },
+      {
+       "t": "p",
+       "html": "Son avisos de seguridad. Todos se ajustan en <i>Ajustes &gt; Conducción inteligente</i>: en <b>Asistencia a la conducción</b> el de velocidad y en <b>Seguridad activa</b> el resto. Los de la normativa europea casi con seguridad volverán a estar activos cada vez que subas al coche."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Aviso",
+        "Qué puedes cambiar",
+        "Al volver a arrancar"
+       ],
+       "rows": [
+        [
+         "Límite de velocidad (reconocimiento de señales)",
+         "Por separado: pitido al cambiar el límite, alarma de exceso, <b>sonido</b> de la alarma y control del límite. Si quitas el sonido, en el cuadro queda un testigo que lo indica",
+         "Vuelve a activarse (normativa europea)"
+        ],
+        [
+         "Salida de carril",
+         "Solo aviso, corrección o ambos; sensibilidad baja o alta; <b>sonido</b> y <b>vibración del volante</b> por separado",
+         "Vuelve a activarse (normativa europea)"
+        ],
+        [
+         "Mantenimiento de carril de emergencia",
+         "Activar o desactivar",
+         "Vuelve a activarse (normativa europea)"
+        ],
+        [
+         "Frenada automática de emergencia",
+         "Activar o desactivar. No es un pitido: mejor no tocarla",
+         "Vuelve a activarse (normativa europea)"
+        ],
+        [
+         "Vigilancia de fatiga y distracción",
+         "Activar o desactivar",
+         "Vuelve a activarse (lo confirma el manual)"
+        ],
+        [
+         "Aviso de colisión frontal",
+         "Activar o desactivar, sensibilidad baja, media o alta",
+         "Se mantiene, en principio"
+        ],
+        [
+         "Tráfico cruzado delantero y trasero",
+         "Solo aviso, o aviso y frenada",
+         "Se mantiene, en principio"
+        ],
+        [
+         "Ángulo muerto, apertura de puertas y colisión trasera",
+         "Activar o desactivar cada uno",
+         "Se mantiene, en principio"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "3. Con un toque, sin entrar en menús"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Qué",
+        "Cómo"
+       ],
+       "rows": [
+        [
+         "Pitido de los sensores de aparcamiento",
+         "En la propia vista 360&deg;, botón del altavoz del radar. También desde su botón de ajustes"
+        ],
+        [
+         "Varios avisos a la vez tras cada arranque",
+         "Botón personalizado del volante con <b>función combinada</b>: admite incluir ajustes de <b>conducción inteligente</b>. Es la forma de volver a dejar a tu gusto, con una pulsación, los avisos que el coche reactiva <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span>"
+        ],
+        [
+         "Panel de Acciones rápidas",
+         "Desliza desde el borde superior. El manual confirma Auto Hold y otros interruptores, pero no si admite los avisos sonoros <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span>"
+        ]
+       ]
+      },
+      {
+       "t": "note",
+       "html": "<b>Propuesta para tu botón del volante:</b> dejar la pulsación simple para la vista 360&deg; y, en la doble, añadir a la combinación de carretera el <b>sonido del aviso de salida de carril</b> y el <b>sonido de la alarma de velocidad</b> apagados. Así, al arrancar, dos toques y tienes el coche como te gusta."
+      },
+      {
+       "t": "h3",
+       "html": "4. ¿Se guardan en el perfil de cada uno?"
+      },
+      {
+       "t": "p",
+       "html": "El Centro personal guarda una «memoria de preferencias» por cuenta, pero el manual no detalla qué incluye. Lo previsible es que guarde los sonidos de confort del punto 1 y que no pueda saltarse los que la normativa obliga a reactivar. <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span>: quita un sonido con tu cuenta, cambia a la de otro conductor y vuelve a la tuya."
+      },
+      {
+       "t": "h3",
+       "html": "5. Los que no se pueden quitar"
+      },
+      {
+       "t": "list",
+       "items": [
+        "El aviso de <b>cinturón sin abrochar</b>.",
+        "El <b>sonido exterior para peatones</b> por debajo de 30 km/h y en marcha atrás.",
+        "Las alertas de <b>avería</b> de frenos, dirección, batería y demás testigos rojos.",
+        "La alarma de <b>ocupantes olvidados</b>: se puede apagar, pero el coche la vuelve a activar en cada arranque. Se puede retrasar 8 minutos si vas a volver enseguida."
+       ]
+      }
+     ],
+     "keywords": "pitido pitidos sonido sonidos silenciar quitar avisos alarma beep molesta ruido"
+    },
+    {
+     "id": "b4-8",
+     "title": "Lo que queda por verificar en pantalla",
+     "marker": "H",
      "content": [
       {
        "t": "table",
@@ -2762,6 +2937,9 @@
         ],
         [
          "&#9744; Lista completa de funciones asignables al botón del volante, en clic y doble clic"
+        ],
+        [
+         "&#9744; Qué avisos sonoros vuelven a activarse al arrancar y si el perfil de cada conductor guarda los sonidos"
         ]
        ]
       },
@@ -2787,9 +2965,9 @@
      ]
     },
     {
-     "id": "b4-8",
+     "id": "b4-9",
      "title": "Dónde mirar en el manual original (inglés)",
-     "marker": "H",
+     "marker": "I",
      "content": [
       {
        "t": "table",
@@ -4533,6 +4711,12 @@
    "section": "b4"
   },
   {
+   "label": "Quitar pitidos y avisos",
+   "icon": "volume-off",
+   "tone": "warning",
+   "section": "b4-7"
+  },
+  {
    "label": "Ciudad, carretera y garaje",
    "icon": "steering-wheel",
    "tone": "success",
@@ -4877,7 +5061,8 @@
     "b3-2",
     "b3-4",
     "b4-3",
-    "b4-8",
+    "b4-7",
+    "b4-9",
     "b5-6"
    ]
   },
@@ -4951,6 +5136,7 @@
     "b3-2",
     "b4-3",
     "b4-4",
+    "b4-7",
     "b5-7"
    ]
   },
@@ -4962,6 +5148,7 @@
    "home": "b5-7",
    "sections": [
     "b4-4",
+    "b4-7",
     "b5-7"
    ]
   },
@@ -4974,7 +5161,7 @@
    "sections": [
     "b3-4",
     "b4-3",
-    "b4-8",
+    "b4-9",
     "b5-3"
    ]
   },
@@ -4987,7 +5174,7 @@
    "sections": [
     "b3-4",
     "b4-3",
-    "b4-8",
+    "b4-9",
     "b5-2",
     "b5-3"
    ]
@@ -5011,7 +5198,8 @@
    "home": "b5-3",
    "sections": [
     "b3-4",
-    "b4-3"
+    "b4-3",
+    "b4-7"
    ]
   },
   {
@@ -5033,7 +5221,7 @@
    "home": "b1-2",
    "sections": [
     "b3-2",
-    "b4-8"
+    "b4-9"
    ]
   },
   {
@@ -5058,8 +5246,8 @@
     "b3-8",
     "b4-1",
     "b4-2",
-    "b4-7",
     "b4-8",
+    "b4-9",
     "b5-1",
     "b6-9"
    ]
@@ -5075,7 +5263,7 @@
     "b1-7",
     "b4-1",
     "b4-2",
-    "b4-8",
+    "b4-9",
     "b6-7"
    ]
   },
@@ -5100,6 +5288,7 @@
    "sections": [
     "b3-4",
     "b4-3",
+    "b4-7",
     "b5-9"
    ]
   },
@@ -5139,6 +5328,7 @@
    "sections": [
     "b3-4",
     "b4-2",
+    "b4-7",
     "b5-7"
    ]
   },
@@ -5174,7 +5364,7 @@
     "b1-2",
     "b3-4",
     "b4-5",
-    "b4-8"
+    "b4-9"
    ]
   },
   {
@@ -5186,8 +5376,8 @@
    "sections": [
     "b3-4",
     "b4-5",
-    "b4-7",
-    "b4-8"
+    "b4-8",
+    "b4-9"
    ]
   },
   {
@@ -5201,6 +5391,7 @@
     "b3-5",
     "b4-2",
     "b4-7",
+    "b4-8",
     "b5-6"
    ]
   },
@@ -5213,6 +5404,7 @@
    "sections": [
     "b3-3",
     "b4-3",
+    "b4-7",
     "b5-9"
    ]
   },
@@ -5226,7 +5418,7 @@
     "b1-1",
     "b3-2",
     "b4-6",
-    "b4-8"
+    "b4-9"
    ]
   },
   {
