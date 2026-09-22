@@ -604,3 +604,24 @@ tr.is-today td:first-child { box-shadow: inset 5px 0 0 var(--lamp-green); }
 .colophon strong { color: var(--ink); }
 .colophon a { color: var(--ink-soft); text-decoration: none; }
 .colophon a:hover { color: var(--signal-ink); }
+
+/* ---------- Añadir al calendario del teléfono ---------- */
+.cal-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin: 0 0 18px; padding: 14px 16px; border-radius: var(--radius-m); background: var(--beam-blue-soft); }
+.cal-tools p { flex: 1 1 320px; margin: 0; font-size: .88rem; color: var(--ink-soft); }
+.cal-tools__all {
+  display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border: 0; border-radius: 22px;
+  background: var(--beam-blue); color: #fff; font: 600 .98rem var(--font-ui); cursor: pointer;
+  transition: transform .25s var(--ease-spring), filter .2s;
+}
+.cal-tools__all:hover { filter: brightness(1.08); }
+.cal-tools__all:active { transform: scale(.96); }
+.cal-tools__all i { font-size: 18px; }
+.cal-add {
+  display: inline-flex; align-items: center; gap: 5px; margin-top: 6px;
+  padding: 4px 10px; border-radius: 14px; font-size: .85rem; font-weight: 600; text-decoration: none;
+  background: var(--beam-blue-soft); color: var(--beam-blue) !important;
+  transition: background-color .2s, transform .25s var(--ease-spring);
+}
+.cal-add:hover { background: color-mix(in srgb, var(--beam-blue) 20%, transparent); }
+.cal-add:active { transform: scale(.95); }
+.cal-add i { font-size: 16px; }

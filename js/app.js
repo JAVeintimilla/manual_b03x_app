@@ -104,6 +104,84 @@ function routeUrl(place, provider) {
   return `https://www.google.com/maps/dir/?api=1&destination=${destination}&travelmode=driving`;
 }
 
+// ---------------------------------------------------------------- añadir al calendario del teléfono
+
+const EVENT_KINDS_TO_SKIP = new Set(["NADA"]);
+const toCompactDate = (isoDate) => isoDate.replaceAll("-", "");
+
+/** Devuelvo el día siguiente en ISO: los eventos de día completo terminan el día después. */
+function nextIsoDay(isoDate) {
+  const [year, month, day] = isoDate.split("-").map(Number);
+  const next = new Date(Date.UTC(year, month - 1, day + 1));
+  return next.toISOString().slice(0, 10);
+}
+
+/** @param {CalendarEntry} entry */
+function eventTitle(entry) {
+  const kind = entry.kind.charAt(0) + entry.kind.slice(1).toLowerCase();
+  const hasPlace = entry.where && !["—", "Casa", "En ruta"].includes(entry.where);
+  return `B03X: ${kind}${hasPlace ? ` en ${entry.where}` : ""}`;
+}
+
+/** @param {CalendarEntry} entry */
+function eventDetails(entry) {
+  const appUrl = `${location.origin}${location.pathname}#/${manual?.calendar.section ?? ""}`;
+  return [entry.text, entry.battery && entry.battery !== "—" ? `Batería: ${entry.battery}` : "", entry.cost ? `Coste: ${entry.cost}` : "", `Manual: ${appUrl}`]
+    .filter(Boolean).join("\n");
+}
+
+/** @param {CalendarEntry} entry */
+function eventLocation(entry) {
+  return entry.place ? manual?.places?.[entry.place]?.query ?? "" : "";
+}
+
+/** Enlace que abre Google Calendar con el evento de día completo ya relleno. @param {CalendarEntry} entry */
+function googleCalendarUrl(entry) {
+  const params = new URLSearchParams({
+    action: "TEMPLATE",
+    text: eventTitle(entry),
+    dates: `${toCompactDate(entry.date)}/${toCompactDate(nextIsoDay(entry.end ?? entry.date))}`,
+    details: eventDetails(entry),
+    location: eventLocation(entry),
+  });
+  return `https://calendar.google.com/calendar/render?${params}`;
+}
+
+const escapeIcs = (text) => text.replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\n/g, "\\n");
+
+/** Genero un .ics con todos los eventos y dos recordatorios: la víspera y el mismo día a las 9:00. */
+function buildIcs() {
+  const stamp = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
+  const events = (manual?.calendar.entries ?? [])
+    .filter((entry) => !EVENT_KINDS_TO_SKIP.has(entry.kind))
+    .map((entry) => [
+      "BEGIN:VEVENT",
+      `UID:${entry.date}-${toCompactDate(entry.date)}-${entry.kind.replace(/\s/g, "")}@b03x-manual`,
+      `DTSTAMP:${stamp}`,
+      `DTSTART;VALUE=DATE:${toCompactDate(entry.date)}`,
+      `DTEND;VALUE=DATE:${toCompactDate(nextIsoDay(entry.end ?? entry.date))}`,
+      `SUMMARY:${escapeIcs(eventTitle(entry))}`,
+      `DESCRIPTION:${escapeIcs(eventDetails(entry))}`,
+      eventLocation(entry) ? `LOCATION:${escapeIcs(eventLocation(entry))}` : "",
+      "BEGIN:VALARM", "ACTION:DISPLAY", `DESCRIPTION:${escapeIcs(eventTitle(entry))} (mañana)`, "TRIGGER:-PT15H", "END:VALARM",
+      "BEGIN:VALARM", "ACTION:DISPLAY", `DESCRIPTION:${escapeIcs(eventTitle(entry))} (hoy)`, "TRIGGER:PT9H", "END:VALARM",
+      "END:VEVENT",
+    ].filter(Boolean).join("\r\n"));
+  return ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Toni Veintimilla//Manual B03X//ES", "CALSCALE:GREGORIAN",
+    "X-WR-CALNAME:Cargas B03X", ...events, "END:VCALENDAR"].join("\r\n");
+}
+
+function downloadIcs() {
+  const blob = new Blob([buildIcs()], { type: "text/calendar;charset=utf-8" });
+  const link = createElement("a");
+  link.href = URL.createObjectURL(blob);
+  link.download = "cargas-b03x.ics";
+  document.body.append(link);
+  link.click();
+  link.remove();
+  setTimeout(() => URL.revokeObjectURL(link.href), 4000);
+}
+
 /** Busco en todo el calendario si hoy tiene fila propia o, si no, qué fila corresponde a esta semana. */
 function calendarFocus() {
   const entries = manual?.calendar?.entries ?? [];
@@ -317,6 +395,13 @@ function renderTable(node) {
     row.forEach((cell, index) => {
       const td = createElement("td", typeof cell === "string" ? "" : "icon-cell", cellHtml(cell));
       td.dataset.label = labels[index] ?? "";
+      const fullEntry = entry && index === 1 && !EVENT_KINDS_TO_SKIP.has(entry.kind)
+        ? manual?.calendar.entries.find((candidate) => candidate.date === entry.date && candidate.kind === entry.kind)
+        : null;
+      if (fullEntry) {
+        td.insertAdjacentHTML("beforeend", `<a class="cal-add" href="${googleCalendarUrl(fullEntry)}" target="_blank" rel="noopener"
+          title="Añadir a Google Calendar" aria-label="Añadir a Google Calendar"><i class="ti ti-calendar-plus"></i> Añadir al calendario</a>`);
+      }
       if (index === 0 && rowIndex === exactIndex) td.insertAdjacentHTML("beforeend", ` <span class="today-badge">Hoy</span>`);
       if (index === 0 && rowIndex === weekIndex) td.insertAdjacentHTML("beforeend", ` <span class="today-badge today-badge--week">Esta semana</span>`);
       tr.append(td);
@@ -498,7 +583,9 @@ function renderSection(section, block, index) {
   header.innerHTML = `
     <a class="kicker" href="#/${block.id}"><i class="ti ti-${block.icon}"></i>${block.number}. ${block.title}</a>
     <h1>${section.marker}. ${section.title}</h1>`;
-  view.append(header, renderNodes(section.content, section.id));
+  view.append(header);
+  if (manual && section.id === manual.calendar.section) view.append(renderCalendarTools());
+  view.append(renderNodes(section.content, section.id));
 
   const previous = block.sections[index - 1];
   const next = block.sections[index + 1] ?? nextBlockFirstSection(block);
@@ -519,6 +606,17 @@ function renderSection(section, block, index) {
       { label: section.title, href: "", className: "here" },
     ],
   };
+}
+
+function renderCalendarTools() {
+  const tools = createElement("div", "cal-tools");
+  tools.innerHTML = `
+    <button type="button" class="cal-tools__all"><i class="ti ti-calendar-plus"></i> Añadir todas las fechas al calendario</button>
+    <p>Descarga un archivo con todas las cargas y gestiones, con aviso la víspera y el mismo día a las 9:00. En iPhone se
+    abre en Calendario; en Android lo abre el calendario de Samsung, Outlook u otros. Con Google Calendar en Android, usa el
+    botón «Añadir al calendario» de cada fila.</p>`;
+  tools.querySelector("button")?.addEventListener("click", downloadIcs);
+  return tools;
 }
 
 /** @param {Block} block */
