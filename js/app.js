@@ -488,17 +488,133 @@ function renderCredits() {
     <p class="credits__links"><a href="${REPO_URL}" target="_blank" rel="noopener"><i class="ti ti-brand-github"></i> Código en GitHub</a></p>`;
 }
 
+// ---------------------------------------------------------------- orden personal de las consultas rápidas
+
+const QUICK_ORDER_KEY = "b03x-quick-order";
+
+/** Aplico el orden guardado; lo nuevo que no estuviera guardado va al final y lo que ya no existe se ignora. */
+function orderedQuickLinks() {
+  const visible = (manual?.quick ?? []).filter((quick) => !isHiddenSection(quick.section));
+  let savedOrder = [];
+  try {
+    savedOrder = JSON.parse(localStorage.getItem(QUICK_ORDER_KEY) ?? "[]");
+  } catch (error) {
+    savedOrder = [];
+  }
+  const position = (quick) => {
+    const index = savedOrder.indexOf(quick.section);
+    return index < 0 ? Number.MAX_SAFE_INTEGER : index;
+  };
+  return visible
+    .map((quick, originalIndex) => ({ quick, originalIndex }))
+    .sort((first, second) => position(first.quick) - position(second.quick) || first.originalIndex - second.originalIndex)
+    .map(({ quick }) => quick);
+}
+
+/** @param {HTMLElement} grid */
+function saveQuickOrder(grid) {
+  const keys = Array.from(grid.querySelectorAll(".quick__item"), (item) => /** @type {HTMLElement} */ (item).dataset.key);
+  localStorage.setItem(QUICK_ORDER_KEY, JSON.stringify(keys));
+}
+
+/** Muevo una tarjeta con animación FLIP: guardo posiciones, cambio el DOM y animo desde donde estaban. */
+function moveQuickItem(item, direction) {
+  const grid = item.parentElement;
+  if (!grid) return;
+  const sibling = direction < 0 ? item.previousElementSibling : item.nextElementSibling;
+  if (!sibling) return;
+  const cards = Array.from(grid.children);
+  const before = new Map(cards.map((card) => [card, card.getBoundingClientRect()]));
+  if (direction < 0) sibling.before(item);
+  else sibling.after(item);
+  if (!prefersReducedMotion.matches) {
+    for (const card of cards) {
+      const previous = before.get(card);
+      const current = card.getBoundingClientRect();
+      const deltaX = (previous?.left ?? 0) - current.left;
+      const deltaY = (previous?.top ?? 0) - current.top;
+      if (!deltaX && !deltaY) continue;
+      card.animate([{ transform: `translate(${deltaX}px, ${deltaY}px)` }, { transform: "none" }],
+        { duration: 320, easing: "cubic-bezier(.2, .8, .2, 1)" });
+    }
+  }
+  saveQuickOrder(/** @type {HTMLElement} */ (grid));
+  /** @type {HTMLElement|null} */ (item.querySelector(`[data-move="${direction}"]`))?.focus();
+}
+
+/** @param {HTMLElement} view */
+function setupQuickOrdering(view) {
+  const grid = /** @type {HTMLElement|null} */ (view.querySelector(".quick"));
+  const editButton = /** @type {HTMLButtonElement|null} */ (view.querySelector("[data-quick-edit]"));
+  const resetButton = /** @type {HTMLButtonElement|null} */ (view.querySelector("[data-quick-reset]"));
+  const hint = /** @type {HTMLElement|null} */ (view.querySelector(".quick-hint"));
+  if (!grid || !editButton || !resetButton || !hint) return;
+
+  const SortableLibrary = /** @type {any} */ (window).Sortable;
+  const sortable = SortableLibrary?.create(grid, {
+    animation: 260,
+    easing: "cubic-bezier(.2, .8, .2, 1)",
+    disabled: true,
+    delay: 120,
+    delayOnTouchOnly: true,
+    ghostClass: "is-ghost",
+    chosenClass: "is-chosen",
+    dragClass: "is-dragging",
+    filter: ".quick__move",
+    preventOnFilter: false,
+    onEnd: () => saveQuickOrder(grid),
+  });
+
+  const setEditing = (isEditing) => {
+    grid.classList.toggle("is-editing", isEditing);
+    sortable?.option("disabled", !isEditing);
+    editButton.setAttribute("aria-pressed", String(isEditing));
+    editButton.innerHTML = isEditing
+      ? `<i class="ti ti-check"></i> <span>Listo</span>`
+      : `<i class="ti ti-arrows-move"></i> <span>Organizar</span>`;
+    resetButton.hidden = !isEditing;
+    hint.hidden = !isEditing;
+  };
+
+  editButton.addEventListener("click", () => setEditing(!grid.classList.contains("is-editing")));
+  resetButton.addEventListener("click", () => {
+    localStorage.removeItem(QUICK_ORDER_KEY);
+    withTransition(() => {
+      const fresh = renderHome();
+      if (!fresh) return;
+      contentElement.replaceChildren(fresh.view);
+    });
+  });
+  grid.addEventListener("click", (event) => {
+    const target = /** @type {HTMLElement} */ (event.target);
+    const moveButton = target.closest(".quick__move");
+    if (moveButton) {
+      event.preventDefault();
+      moveQuickItem(moveButton.closest(".quick__item"), Number(/** @type {HTMLElement} */ (moveButton).dataset.move));
+      return;
+    }
+    // Mientras organizo, las tarjetas no navegan
+    if (grid.classList.contains("is-editing") && target.closest(".quick__link")) event.preventDefault();
+  });
+}
+
 // ---------------------------------------------------------------- vistas
 
 function renderHome() {
   if (!manual) return;
   const view = createElement("div", "home");
-  const quickItems = manual.quick
-    .filter((quick) => !isHiddenSection(quick.section))
+  const quickItems = orderedQuickLinks()
     .map((quick, index) => `
-      <a class="quick__item tone-${quick.tone}" href="#/${quick.section}" style="--i:${index}">
-        <span class="lamp"><i class="ti ti-${quick.icon}"></i></span>${quick.label}
-      </a>`)
+      <div class="quick__item tone-${quick.tone}" data-key="${quick.section}" style="--i:${index}">
+        <span class="quick__grip" aria-hidden="true"><i class="ti ti-grip-vertical"></i></span>
+        <a class="quick__link" href="#/${quick.section}">
+          <span class="lamp"><i class="ti ti-${quick.icon}"></i></span><span class="quick__label">${quick.label}</span>
+        </a>
+        <span class="quick__moves">
+          <button type="button" class="quick__move" data-move="-1" aria-label="Subir «${quick.label}»"><i class="ti ti-arrow-up"></i></button>
+          <button type="button" class="quick__move" data-move="1" aria-label="Bajar «${quick.label}»"><i class="ti ti-arrow-down"></i></button>
+        </span>
+      </div>`)
     .join("");
   const blockItems = manual.blocks
     .map((block, index) => `
@@ -539,7 +655,14 @@ function renderHome() {
       </div>
       <button class="home-search" data-open-search><i class="ti ti-search"></i>Qué te pasa o qué buscas</button>
     </section>
-    <h2>Consultas rápidas</h2>
+    <div class="quick-head">
+      <h2>Consultas rápidas</h2>
+      <span class="quick-head__actions">
+        <button type="button" class="quick-reset" data-quick-reset hidden><i class="ti ti-refresh"></i> Orden original</button>
+        <button type="button" class="quick-edit" data-quick-edit aria-pressed="false"><i class="ti ti-arrows-move"></i> <span>Organizar</span></button>
+      </span>
+    </div>
+    <p class="quick-hint" hidden>Arrastra las tarjetas o usa las flechas para cambiarlas de sitio. El orden se guarda en este dispositivo.</p>
     <nav class="quick" aria-label="Consultas rápidas">${quickItems}</nav>
     <h2>El manual completo</h2>
     <ol class="blocks">${blockItems}</ol>
@@ -550,6 +673,7 @@ function renderHome() {
     view.classList.add("is-self-test");
     sessionStorage.setItem(SELF_TEST_KEY, "1");
   }
+  setupQuickOrdering(view);
   return { view, title: "Manual de casa", crumbs: [] };
 }
 

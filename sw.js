@@ -70,6 +70,7 @@ const PRECACHE = [
   "./vendor/fonts/barlow-semi-condensed-latin-700-normal.woff2",
   "./vendor/fonts/tabler-icons-subset.woff2",
   "./vendor/icons.css",
+  "./vendor/sortable.min.js",
   "./version.js"
 ];
 

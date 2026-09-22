@@ -2,11 +2,14 @@
 .ti{font-family:"tabler-icons"!important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .ti-adjustments-horizontal:before{content:"\ec38"}
 .ti-alert-triangle:before{content:"\ea06"}
+.ti-arrow-down:before{content:"\ea16"}
 .ti-arrow-up:before{content:"\ea25"}
+.ti-arrows-move:before{content:"\f22f"}
 .ti-battery-charging:before{content:"\ea33"}
 .ti-brand-github:before{content:"\ec1c"}
 .ti-calendar-event:before{content:"\ea52"}
 .ti-calendar-plus:before{content:"\ebba"}
+.ti-check:before{content:"\ea5e"}
 .ti-chevron-left:before{content:"\ea60"}
 .ti-chevron-right:before{content:"\ea61"}
 .ti-circle-half-2:before{content:"\eff3"}
@@ -15,6 +18,7 @@
 .ti-download:before{content:"\ea96"}
 .ti-file-type-pdf:before{content:"\fb10"}
 .ti-gauge:before{content:"\eab1"}
+.ti-grip-vertical:before{content:"\ec01"}
 .ti-home:before{content:"\eac1"}
 .ti-key:before{content:"\eac7"}
 .ti-lock-open:before{content:"\eae1"}
@@ -22,6 +26,7 @@
 .ti-menu-2:before{content:"\ec42"}
 .ti-moon:before{content:"\eaf8"}
 .ti-plug-connected:before{content:"\f00a"}
+.ti-refresh:before{content:"\eb13"}
 .ti-road:before{content:"\f018"}
 .ti-route:before{content:"\eb17"}
 .ti-search:before{content:"\eb1c"}
