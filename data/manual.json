@@ -1,0 +1,5204 @@
+{
+ "title": "Leapmotor B03X",
+ "subtitle": "Manual de casa en castellano",
+ "blocks": [
+  {
+   "id": "b1",
+   "number": 1,
+   "title": "Carga, seguridad y accesos",
+   "subtitle": "Carga y descarga, cinturones, airbags, sillas infantiles, llaves y puertas",
+   "icon": "plug-connected",
+   "intro": [
+    {
+     "t": "note",
+     "html": "Esta guía resume y explica en castellano el manual oficial en inglés (edición de julio de 2026). No es una traducción literal: agrupa lo importante, elimina repeticiones y mantiene los procedimientos y advertencias de seguridad. Ante cualquier duda, manda el manual oficial. Los elementos marcados con * en el original dependen del acabado."
+    }
+   ],
+   "sections": [
+    {
+     "id": "b1-1",
+     "title": "Carga del vehículo",
+     "marker": "1",
+     "content": [
+      {
+       "t": "p",
+       "html": "La toma de carga está en el <b>lateral delantero izquierdo</b> y tiene dos bocas: la de corriente alterna (carga lenta, en casa o en punto público) y la de corriente continua (carga rápida en estación). Dentro de la tapa hay símbolos que indican qué tipo de conector corresponde a cada boca."
+      },
+      {
+       "t": "h3",
+       "html": "Reglas generales"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Situación",
+        "Qué hacer"
+       ],
+       "rows": [
+        [
+         "Aviso de batería baja o nivel igual o inferior al 10 %",
+         "Cargar en un plazo máximo de <b>72 horas</b>."
+        ],
+        [
+         "Batería al 0 %",
+         "Cargar <b>inmediatamente</b>. La carga irá lenta hasta el 20 %. Si pasan 24 horas sin cargar, la batería puede sufrir daños irreversibles; si no puedes cargar, avisa al concesionario."
+        ],
+        [
+         "Primeras tres cargas tras la entrega",
+         "Hacerlas en <b>AC lenta hasta el 100 %</b>. Ayuda a la salud de la batería."
+        ],
+        [
+         "Batería por encima del 97 %",
+         "El coche no vuelve a cargar hasta que consumas algo de energía. Evita la carga flotante."
+        ],
+        [
+         "Uso diario",
+         "El manual recomienda priorizar la <b>carga programada</b> para alargar la vida de la batería. Solo funciona con carga AC."
+        ],
+        [
+         "Aparcado mucho tiempo",
+         "Dejarlo entre el 50 % y el 80 % y, una vez al mes, cargar al 100 % y bajar hasta el 80 %. Si no se hace, los daños pueden quedar fuera de garantía."
+        ],
+        [
+         "Temperatura por debajo de 0 &deg;C o por encima de 45 &deg;C",
+         "La carga empieza despacio y acelera cuando la batería se templa. Es normal."
+        ],
+        [
+         "Durante la carga",
+         "Puede ponerse en marcha el ventilador del radiador: es normal. Con el clima encendido la carga tarda más."
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Antes de enchufar, comprueba"
+      },
+      {
+       "t": "list",
+       "items": [
+        "Que el cable y los conectores no tienen cortes, desgaste, óxido ni grietas.",
+        "Que en la toma del coche no hay agua, suciedad ni terminales corroídos. Si hay polvo o humedad, secar con un paño seco.",
+        "Que el coche está en P y con el freno de estacionamiento puesto.",
+        "Que el enchufe de la pared tiene toma de tierra y protección diferencial."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Cómo cargar paso a paso"
+      },
+      {
+       "t": "steps",
+       "items": [
+        "Coche en P y con freno de estacionamiento. Presiona la parte trasera de la tapa de carga para abrirla.",
+        "Retira el tapón protector de la boca que vayas a usar. Para carga AC, solo el de AC. Para carga rápida DC, hay que retirar <b>los dos tapones</b>.",
+        "Conecta la manguera hasta oír un clic.",
+        "Activa el punto de carga o enchufa a la red. El cuadro muestra el testigo de conexión y la pantalla de carga; al terminar, avisa de que la carga ha finalizado.",
+        "Para desconectar: desbloquea el coche o pulsa <b>Desbloqueo de la manguera</b> en la pantalla. En carga rápida el desbloqueo se hace desde el propio poste.",
+        "Guarda la manguera y cierra el tapón y la tapa de carga."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Ajustes de carga en la pantalla (Ajustes &gt; Carga)"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Función",
+        "Para qué sirve"
+       ],
+       "rows": [
+        [
+         "Límite de carga",
+         "Fija hasta qué porcentaje carga el coche."
+        ],
+        [
+         "Desbloqueo de la manguera",
+         "Libera el conector para poder sacarlo."
+        ],
+        [
+         "Límite de corriente de seguridad",
+         "Limita a 8 A el cargador portátil, pensado para enchufes domésticos de 10 A. Úsalo si cargas en un enchufe normal."
+        ],
+        [
+         "Carga lenta programada",
+         "Hora de inicio, hora de fin y días de repetición. Puedes dar prioridad al límite de carga."
+        ],
+        [
+         "Autonomía mostrada",
+         "Estándar o dinámica (esta última se ajusta a tu forma de conducir)."
+        ]
+       ]
+      },
+      {
+       "t": "tip",
+       "html": "<b>Tu caso: sin wallbox, solo recarga pública y unos 10 km a la semana</b><br/><br/><b>Carga programada: desactivada.</b> Está pensada para cargar en casa de madrugada. En un poste público juega en contra: activas la sesión con la app o tarjeta del operador y, si el coche retrasa el inicio, ocupas el poste sin cargar, la sesión puede cortarse por inactividad y algunos operadores cobran por tiempo conectado.<br/><br/><b>Límite de carga: al 100 %.</b> Es el ajuste que sí importa. Con tu consumo, una carga completa te dura varias semanas, y llegar al 100 % en cada sesión cumple además el mantenimiento mensual que pide el manual para baterías LFP poco usadas (carga completa y dejarla bajar).<br/><br/><b>Primeras tres cargas:</b> en AC y hasta el 100 %, en los cargadores lentos (Mercado Central, CC Aqua). El poste de La Fe es de carga rápida: solo urgencias y nunca durante el rodaje. Calendario completo en el bloque 3.<br/><br/><b>Por abajo:</b> no dejarlo bajar del 20 %. Con aviso de batería baja, a cargar antes de 72 horas.<br/><br/><b>Límite de corriente de seguridad: activado, aunque no te afecte.</b> Solo actúa sobre la manguera portátil en un enchufe doméstico de 10 A. En los postes públicos cargas con cable tipo 2 y no interviene. Dejarlo activado no te quita nada y te protege el día que enchufes en casa de alguien."
+      },
+      {
+       "t": "warn",
+       "html": "<b>Importante.</b> Nunca cargues con alargadores improvisados, con el cable dañado o con agua en la toma. No mojes la toma durante la carga ni desconectes con las manos mojadas o pisando agua. Si notas olor o humo, para la carga y contacta con el servicio técnico. No cargues a la vez en rápida y en lenta. Si el conector no sale tras varios intentos, no lo fuerces: hay un desbloqueo de emergencia descrito en el capítulo de Emergencias (bloque 6)."
+      },
+      {
+       "t": "h3",
+       "html": "Tipos de manguera de carga AC"
+      },
+      {
+       "t": "p",
+       "html": "Según el mercado, el coche puede venir con distintas mangueras portátiles: con enchufe doméstico europeo, con otros tipos de clavija, o un cable M3 de doble extremo para postes públicos. Todas tienen tres partes: conector del coche, caja de control y clavija de red. El significado de las luces de la caja de control viene en la etiqueta de la propia caja. Guárdala siempre con su tapa protectora."
+      }
+     ]
+    },
+    {
+     "id": "b1-2",
+     "title": "Descarga hacia equipos externos (V2L)",
+     "marker": "2",
+     "content": [
+      {
+       "t": "p",
+       "html": "El B03X puede dar corriente a aparatos externos a través de la toma AC. <b>El adaptador no viene de serie</b>: hay que pedirlo al concesionario."
+      },
+      {
+       "t": "steps",
+       "items": [
+        "Enciende el coche.",
+        "Abre la tapa de carga y el tapón de la boca AC.",
+        "Conecta el adaptador de descarga a la toma y después el aparato.",
+        "Ajusta el límite de descarga en <b>Ajustes &gt; Carga &gt; Descarga</b>.",
+        "Para terminar, pulsa <b>Desbloqueo del conector de descarga</b> en esa misma pantalla.",
+        "Retira el adaptador y cierra tapón y tapa."
+       ]
+      },
+      {
+       "t": "list",
+       "items": [
+        "Con la batería por debajo del <b>20 %</b> no se permite descargar.",
+        "Apaga el aparato antes de conectarlo.",
+        "No se recomiendan aparatos con motor de arranque brusco (taladros, martillos percutores, lavadoras, bombas grandes, soldadores, sierras): el pico de arranque puede dañar el inversor del coche.",
+        "No lo uses con lluvia, nieve o tormenta. Si empieza a llover, detén la descarga, desbloquea desde la pantalla y retira el adaptador.",
+        "En modo Camping (bloque 3) la descarga sigue disponible con el coche cerrado."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b1-3",
+     "title": "Cinturones de seguridad",
+     "marker": "3",
+     "content": [
+      {
+       "t": "p",
+       "html": "Todas las plazas llevan cinturón de tres puntos. En un choque, el cinturón mantiene al ocupante en la posición en la que el airbag protege mejor; sin cinturón, el cuerpo sigue avanzando a la velocidad previa al impacto, incluso a baja velocidad. Los pasajeros traseros sin cinturón no solo se ponen en peligro ellos: también a los de delante."
+      },
+      {
+       "t": "h3",
+       "html": "Cómo colocarlo bien"
+      },
+      {
+       "t": "steps",
+       "items": [
+        "Siéntate erguido y ajusta antes el asiento.",
+        "Saca el cinturón despacio, pásalo por pecho y cadera y encájalo en el cierre hasta oír el clic.",
+        "Tira de él para comprobar que ha quedado anclado.",
+        "La banda del hombro debe cruzar el hombro entero sin rozar el cuello ni caerse; la banda de la cadera, lo más baja posible sobre la pelvis."
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Para soltarlo, sujeta la cinta junto al cierre, pulsa el botón rojo y acompáñala mientras se recoge, para que no golpee nada ni se quede enganchada."
+      },
+      {
+       "t": "h3",
+       "html": "Lo que no hay que hacer"
+      },
+      {
+       "t": "list",
+       "items": [
+        "Llevarlo retorcido, bajo el brazo, flojo o con la banda de cadera alta.",
+        "Compartir un cinturón entre dos personas, ni siquiera con un niño.",
+        "Reclinar demasiado el respaldo o poner un cojín entre la espalda y el asiento.",
+        "Usar hebillas falsas para silenciar el aviso, o poner pinzas o adornos que impidan que bloquee.",
+        "Pasarlo sobre objetos duros o punzantes en la ropa.",
+        "Desabrocharlo antes de que el coche esté completamente parado."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Embarazadas"
+      },
+      {
+       "t": "p",
+       "html": "La banda del hombro entre los pechos y la de cadera lo más baja posible, <b>nunca sobre el abdomen</b>. Si conduce, conviene alejar el asiento del volante todo lo que permita manejar con seguridad; como pasajera, mejor detrás, lejos del airbag frontal."
+      },
+      {
+       "t": "h3",
+       "html": "Aviso de cinturón"
+      },
+      {
+       "t": "p",
+       "html": "Si el conductor o un pasajero va sin cinturón, se enciende el testigo en el cuadro con aviso sonoro. Un objeto pesado en el asiento del acompañante puede provocar falsas alarmas. Si el aviso falla, no uses esa plaza hasta repararlo."
+      },
+      {
+       "t": "h3",
+       "html": "Revisión periódica (los tres controles del manual)"
+      },
+      {
+       "t": "steps",
+       "items": [
+        "Abrochado, da un tirón seco junto al cierre: no debe soltarse.",
+        "Desabrochado, sácalo entero y revisa desgaste, holgura y que se recoja suave.",
+        "Sácalo hasta la mitad y tira bruscamente de la hebilla: el enrollador debe bloquearse."
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Si falla alguno, al concesionario. Limpieza solo con jabón neutro y agua templada, sin disolventes, lejía ni tintes, y no dejes que se recoja hasta que esté seco. <b>Tras un accidente, los cinturones se cambian</b> aunque parezcan intactos."
+      }
+     ]
+    },
+    {
+     "id": "b1-4",
+     "title": "Airbags",
+     "marker": "4",
+     "content": [
+      {
+       "t": "p",
+       "html": "Los airbags complementan al cinturón, no lo sustituyen: solo protegen bien si el ocupante va abrochado y bien sentado."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Airbag",
+        "Dónde está",
+        "Cuándo actúa"
+       ],
+       "rows": [
+        [
+         "Frontal del conductor",
+         "En el volante",
+         "Choque frontal"
+        ],
+        [
+         "Frontal del acompañante",
+         "En el salpicadero, frente al acompañante",
+         "Choque frontal"
+        ],
+        [
+         "Laterales delanteros",
+         "En el lado exterior de los respaldos delanteros",
+         "Choque lateral"
+        ],
+        [
+         "Central (far-side)",
+         "En el respaldo del conductor, junto al reposabrazos",
+         "Choque lateral: evita que los ocupantes delanteros choquen entre sí"
+        ],
+        [
+         "De cortina",
+         "En el borde del techo, a ambos lados (marca en el pilar A)",
+         "Choque lateral"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Normas básicas"
+      },
+      {
+       "t": "list",
+       "items": [
+        "Conductor a <b>más de 25 cm</b> del volante.",
+        "Nada colgado ni pegado en las zonas donde se despliegan: salpicadero, respaldos delanteros y bordes del techo.",
+        "Nadie apoyado en la puerta, ni pies en el salpicadero. Nunca un niño, una mascota o un objeto en brazos delante.",
+        "No meter objetos bajo los asientos delanteros.",
+        "No poner fundas de asiento no homologadas: pueden bloquear el airbag lateral. No mojar los respaldos.",
+        "No modificar volante, asientos, suspensión, parachoques ni chasis, ni montar defensas delanteras.",
+        "Tras desplegarse, el airbag queda caliente: no tocarlo. Cada airbag funciona una sola vez y hay que sustituirlo."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Testigo de airbag"
+      },
+      {
+       "t": "p",
+       "html": "Al encender el coche se ilumina y se apaga tras el autodiagnóstico. Hay avería si no se enciende al arrancar, si no se apaga después, o si se enciende circulando. En cualquiera de los tres casos, al taller autorizado."
+      },
+      {
+       "t": "p",
+       "html": "Si vendes el coche, el comprador debe saber que lleva airbags y cuándo toca sustituirlos. Los airbags no desplegados de un coche que va al desguace deben desactivarse por profesionales."
+      }
+     ]
+    },
+    {
+     "id": "b1-5",
+     "title": "Niños a bordo y sillas infantiles",
+     "marker": "5",
+     "content": [
+      {
+       "t": "warn",
+       "html": "<b>Importante.</b> Nunca instales una silla infantil <b>a contramarcha</b> en el asiento del acompañante con el airbag frontal activado. Hay una etiqueta de advertencia en el parasol del acompañante que lo recuerda."
+      },
+      {
+       "t": "h3",
+       "html": "Desactivar el airbag del acompañante"
+      },
+      {
+       "t": "p",
+       "html": "En <b>Ajustes &gt; Sistema &gt; Seguridad</b>, botón de airbag del acompañante. El estado aparece siempre en la barra superior de la pantalla. El coche <b>recuerda la última elección</b> al volver a arrancar, así que acuérdate de reactivarlo cuando vuelva a sentarse un adulto. Desactivado, no se despliega en ningún caso."
+      },
+      {
+       "t": "h3",
+       "html": "Reglas del manual"
+      },
+      {
+       "t": "list",
+       "items": [
+        "Menores de 15 meses, siempre a contramarcha.",
+        "Nunca un niño en brazos, ni de pie o de rodillas en el asiento con el coche en marcha.",
+        "Una silla por niño. Sin objetos duros o punzantes en ella.",
+        "Silla vacía también bien sujeta: suelta, se convierte en un proyectil.",
+        "Al sol se calienta: comprueba la temperatura antes de sentar al niño.",
+        "Nada de cabezas ni manos por la ventanilla. Nunca dejar a un niño solo en el coche.",
+        "A partir de <b>1,50 m</b> de estatura, el niño puede usar el cinturón como un adulto, mejor en la fila trasera."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Plazas válidas para cada tipo de silla"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Tipo de silla",
+        "Conductor",
+        "Acompañante (airbag OFF)",
+        "Acompañante (airbag ON)",
+        "Trasera izq./dcha.",
+        "Trasera central"
+       ],
+       "rows": [
+        [
+         "Universal con cinturón",
+         "No",
+         "Sí (1)",
+         "Sí (1)(2)",
+         "Sí",
+         "No"
+        ],
+        [
+         "i-Size",
+         "No",
+         "No",
+         "No",
+         "Sí",
+         "No"
+        ],
+        [
+         "A contramarcha ISOFIX (R1-R3)",
+         "No",
+         "No",
+         "No",
+         "Sí",
+         "No"
+        ],
+        [
+         "De cara a la marcha ISOFIX (F2X-F3)",
+         "No",
+         "No",
+         "No",
+         "Sí",
+         "No"
+        ],
+        [
+         "Elevador (B2/B3)",
+         "No",
+         "Sí (3)",
+         "Sí (3)",
+         "Sí",
+         "No"
+        ],
+        [
+         "Silla lateral tipo capazo (L1/L2)",
+         "No",
+         "No",
+         "No",
+         "No",
+         "No"
+        ]
+       ]
+      },
+      {
+       "t": "small",
+       "html": "(1) Con el respaldo lo más vertical posible, para que el cinturón asiente bien en la silla. (2) Nunca a contramarcha con el airbag activado. (3) Solo instalado con cinturón. En las plazas traseras laterales el reposacabezas se puede regular o quitar, salvo si usas un elevador sin respaldo."
+      },
+      {
+       "t": "h3",
+       "html": "Sillas que recomienda Leapmotor (normativa ECE R129, por estatura del niño)"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Estatura",
+        "Silla",
+        "Anclaje"
+       ],
+       "rows": [
+        [
+         "40-83 cm",
+         "Maxi-Cosi Pebble 360",
+         "Cinturón"
+        ],
+        [
+         "76-105 cm",
+         "Britax Römer Trifix2 i-Size",
+         "ISOFIX + Top Tether"
+        ],
+        [
+         "100-150 cm",
+         "Britax Römer Kidfix i-Size (mejor con respaldo)",
+         "ISOFIX + cinturón"
+        ],
+        [
+         "135-150 cm",
+         "Graco Booster Basic",
+         "Cinturón"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Dónde están los anclajes"
+      },
+      {
+       "t": "p",
+       "html": "Los <b>ISOFIX</b> están en la unión entre respaldo y banqueta trasera, bajo una tapa: presiona la marca de la parte superior y tira desde abajo hasta abrirla. El anclaje <b>Top Tether</b> está en la parte trasera del respaldo trasero."
+      },
+      {
+       "t": "h3",
+       "html": "Instalación: pasos comunes a todos los sistemas"
+      },
+      {
+       "t": "steps",
+       "items": [
+        "Adelanta al máximo el asiento delantero y coloca el reposacabezas trasero donde no estorbe.",
+        "Apoya la silla en el asiento trasero y ajusta el respaldo hasta que haga buen contacto.",
+        "Fija la silla según su sistema (ver abajo).",
+        "Empuja y tira de la silla en todas direcciones para comprobar que no se mueve.",
+        "Devuelve el asiento delantero a su posición."
+       ]
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Sistema",
+        "Cómo se fija"
+       ],
+       "rows": [
+        [
+         "Solo cinturón",
+         "Pasa el cinturón según las instrucciones del fabricante de la silla, sin retorcerlo. Apoya tu peso en la silla mientras recoges la holgura."
+        ],
+        [
+         "ISOFIX + cinturón",
+         "Encaja los dos brazos ISOFIX hasta que queden bloqueados; después pasa y tensa el cinturón."
+        ],
+        [
+         "ISOFIX + Top Tether",
+         "Encaja los ISOFIX, pasa la correa superior <b>por debajo del reposacabezas</b> (súbelo o quítalo si molesta) y engánchala al anclaje trasero hasta el clic, sin retorcerla."
+        ],
+        [
+         "ISOFIX + pata de apoyo",
+         "Encaja los ISOFIX y despliega la pata hasta que apoye firme en el suelo."
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Una vez instalada, no muevas el asiento. Los anclajes ISOFIX y Top Tether son solo para sillas infantiles: nunca para sujetar carga u otros objetos."
+      }
+     ]
+    },
+    {
+     "id": "b1-6",
+     "title": "Llaves: NFC, Bluetooth y mecánica",
+     "marker": "6",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Llave",
+        "Qué hace",
+        "Límites"
+       ],
+       "rows": [
+        [
+         "Tarjeta NFC",
+         "Abre, cierra y arranca",
+         "Hay que apoyarla: alcance de 1-2 cm y 1-2 s de lectura"
+        ],
+        [
+         "Llave Bluetooth (app)",
+         "Abre, cierra, abre al acercarte y cierra al alejarte; funciona sin cobertura de datos",
+         "Requiere permisos concretos en el móvil"
+        ],
+        [
+         "Llave mecánica",
+         "Abre y cierra la puerta del conductor; activa el seguro infantil",
+         "<b>No arranca el coche</b>. Se entrega aparte: guárdala fuera del coche"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Tarjeta NFC"
+      },
+      {
+       "t": "list",
+       "items": [
+        "<b>Abrir</b>: apoyarla más de 1 segundo en la zona NFC del espejo exterior del conductor.",
+        "<b>Cerrar</b>: con todas las puertas cerradas y en P, apoyarla igual. Cierra y apaga el coche.",
+        "Llévala siempre contigo al bajar: sin ella puede que no puedas cerrar. Nunca la dejes en el maletero.",
+        "Lejos del móvil, altavoces, metales e imanes: pueden anularla. Sin fundas metálicas ni pegatinas encima.",
+        "No doblarla, mojarla, golpearla ni dejarla al sol en el salpicadero.",
+        "Se pueden registrar tarjetas de repuesto en un concesionario autorizado. Si la pierdes, avisa cuanto antes.",
+        "Portadores de marcapasos o desfibriladores implantados: consultar con el fabricante del dispositivo."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Llave Bluetooth: activación"
+      },
+      {
+       "t": "steps",
+       "items": [
+        "Activa el Bluetooth del móvil y el del sistema del coche.",
+        "Permiso de ubicación de la app Leapmotor en <b>Permitir siempre</b> (y ubicación precisa en iPhone).",
+        "Inicia sesión en la app y elige el coche en Mis vehículos.",
+        "En la pantalla Mi coche, toca el icono de llave Bluetooth y actívala."
+       ]
+      },
+      {
+       "t": "p",
+       "html": "En Android, además, hay que permitir el <b>inicio automático</b> de la app y su funcionamiento en segundo plano. La apertura automática al acercarte no está disponible en todos los móviles; la apertura pulsando el botón de la maneta funciona en todos. La distancia de apertura se configura en la app."
+      },
+      {
+       "t": "p",
+       "html": "Funciones de la llave Bluetooth: abrir al acercarse, cerrar al alejarse, cerrar al perder la conexión, abrir y cerrar con el botón de la maneta del conductor, autodiagnóstico y actualización remota."
+      },
+      {
+       "t": "note",
+       "html": "<b>Si la llave Bluetooth deja de funcionar</b> (aparece como no disponible o el coche no la detecta), mantén pulsado el botón de la maneta del conductor <b>más de 20 segundos</b> para reiniciarla."
+      }
+     ],
+     "keywords": "tarjeta nfc movil bluetooth no abre"
+    },
+    {
+     "id": "b1-7",
+     "title": "Puertas, portón, ventanillas y capó",
+     "marker": "7",
+     "content": [
+      {
+       "t": "h3",
+       "html": "Abrir y cerrar"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Desde",
+        "Cómo"
+       ],
+       "rows": [
+        [
+         "Botón de la maneta del conductor",
+         "Con el coche cerrado, abre. Con el coche abierto, parado, puertas cerradas y nadie en el lado del conductor, cierra y apaga."
+        ],
+        [
+         "Botón del volante",
+         "Con todas las puertas cerradas, abre o cierra todas."
+        ],
+        [
+         "Pantalla central",
+         "Icono de cierre centralizado en la pantalla de inicio o en la barra superior."
+        ],
+        [
+         "Maneta interior",
+         "Con el coche cerrado, un tirón desbloquea esa puerta y un segundo tirón la abre. No usarla en marcha."
+        ]
+       ]
+      },
+      {
+       "t": "list",
+       "items": [
+        "<b>Cierre automático en marcha</b>: por encima de 15 km/h las puertas se bloquean solas.",
+        "<b>Desbloqueo tras colisión</b>: en un impacto fuerte las puertas se abren automáticamente para facilitar la salida. Todas las funciones de cierre quedan anuladas hasta que se abra alguna puerta.",
+        "<b>Puerta mal cerrada</b>: se enciende un testigo en el cuadro."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Seguro infantil"
+      },
+      {
+       "t": "p",
+       "html": "Las dos puertas traseras lo llevan y se activa <b>por separado en cada una</b>, con la llave mecánica: girar hacia la parte delantera del coche lo activa, hacia la trasera lo desactiva. Activado, esa puerta solo se abre desde fuera. Comprueba que ha quedado puesto antes de salir."
+      },
+      {
+       "t": "h3",
+       "html": "Portón trasero"
+      },
+      {
+       "t": "p",
+       "html": "Para abrirlo, con el coche desbloqueado y parado, pulsa el interruptor exterior del portón y levántalo con la mano. Para cerrarlo, tira de la maneta interior hacia abajo y, cuando esté cerca del final, empuja con las dos manos hasta que encaje. Si no abre, tiene apertura de emergencia desde dentro (bloque 6)."
+      },
+      {
+       "t": "h3",
+       "html": "Ventanillas"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Acción",
+        "Cómo"
+       ],
+       "rows": [
+        [
+         "Subir o bajar a mano",
+         "Mantener pulsado el botón hacia atrás (subir) o hacia delante (bajar). Se detiene al soltar."
+        ],
+        [
+         "Subir o bajar del todo",
+         "Una pulsación corta hacia atrás o hacia delante."
+        ],
+        [
+         "Desde la pantalla",
+         "<b>Ajustes &gt; Puertas y ventanillas</b>: cerrar, abrir, dejar en ventilación; bloqueo de ventanillas para acompañante y traseros; qué hacer con ellas al cerrar el coche (mantener, cerrar o ventilación)."
+        ]
+       ]
+      },
+      {
+       "t": "list",
+       "items": [
+        "<b>Antiatrapamiento</b> en las cuatro: si al subir detecta un obstáculo, retrocede y se para. No detecta objetos finos o blandos, así que asegúrate siempre de que la zona está libre. Nunca lo pruebes con una parte del cuerpo.",
+        "Muchas subidas y bajadas seguidas activan una <b>protección</b>: la ventanilla se bloquea unos 2 minutos.",
+        "Si el antiatrapamiento salta 3 veces seguidas en el mismo punto, la ventanilla pierde la <b>inicialización</b> y deja de subir y bajar sola (a mano sigue funcionando)."
+       ]
+      },
+      {
+       "t": "p",
+       "html": "<b>Cómo reinicializar una ventanilla:</b>"
+      },
+      {
+       "t": "steps",
+       "items": [
+        "Cierra la puerta.",
+        "Baja la ventanilla a mano hasta el tope inferior.",
+        "Súbela a mano hasta el tope superior y mantén el botón <b>más de 3 segundos</b>, hasta que el motor se pare.",
+        "Bájala a mano del todo. Queda reinicializada."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Capó delantero"
+      },
+      {
+       "t": "p",
+       "html": "Tira <b>dos veces seguidas</b> de la palanca situada en la parte inferior izquierda del salpicadero: el capó se desbloquea y se levanta un poco. Antes de cerrarlo, comprueba que no hay nada ni nadie en su recorrido."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "number": 2,
+   "title": "Nuestro plan: batería y calendario",
+   "subtitle": "Las reglas de casa, el calendario de septiembre a enero y dónde cargamos",
+   "icon": "battery-charging",
+   "intro": [
+    {
+     "t": "p",
+     "html": "Todo lo que hay que saber sobre la batería y cuándo tocará cargar. El viaje de Jaime a Andorra tiene su propia guía con las cadenas, el seguro y las reglas del viaje."
+    },
+    {
+     "t": "note",
+     "html": "<b>Por qué de momento cargamos fuera de casa.</b> La compra incluía el cargador, pero el punto de recarga en nuestra plaza del garaje no está instalado: está en el sótano &minus;2 y el contador probablemente en el &minus;1, con un forjado de por medio. Mientras tanto, cada carga completa es una salida de 2 a 4 horas y sale más del doble de cara: unos 3,5 &euro; cada 100 km cargando fuera, frente a unos 1,5 &euro; con wallbox y tarifa nocturna. Se decide pasados los tres primeros meses, con el consumo real de la app en la mano."
+    }
+   ],
+   "sections": [
+    {
+     "id": "b2-1",
+     "title": "Las cinco reglas",
+     "marker": "1",
+     "content": [
+      {
+       "t": "steps",
+       "items": [
+        "<b>Cargar hasta el 100 % está bien.</b> No hay que quedarse en el 80 %. El fabricante recomienda una carga completa a la semana; con lo poco que rodamos, la que de verdad aplica es una al mes (ver el calendario).",
+        "<b>No bajar del 20 %.</b> Si se queda por debajo del 10 %, avisar: hay que enchufarlo en menos de tres días.",
+        "<b>Los tres primeros meses, carga lenta.</b> Lenta: 2-4 h, en parking o centro comercial. Rápida: 15-20 min, en un poste de calle. Durante el rodaje, solo lenta.",
+        "<b>Si ya está casi lleno, no lo enchufes.</b> Con el 97 % o más, dejarlo. Volver a enchufar con la batería casi llena le sienta mal.",
+        "<b>El cable va siempre en el maletero.</b> Sin él no se puede cargar en casi ningún sitio público."
+       ]
+      },
+      {
+       "t": "warn",
+       "html": "<b>Importante.</b> Si alguna vez llega al 0 %, hay que enchufarlo enseguida. El manual dice que si no se recarga en 24 horas, el daño puede ser irreversible. No debería pasar nunca siguiendo la regla del 20 %, pero si pasa, es la prioridad número uno."
+      }
+     ]
+    },
+    {
+     "id": "b2-2",
+     "title": "Calendario: de septiembre a enero",
+     "marker": "2",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Hito",
+        "Fecha"
+       ],
+       "rows": [
+        [
+         "Entrega",
+         "24 de septiembre"
+        ],
+        [
+         "Rodaje cerrado",
+         "13 de noviembre"
+        ],
+        [
+         "Jaime en Andorra",
+         "18-21 de diciembre"
+        ],
+        [
+         "Coste total previsto",
+         "unos 105 &euro;"
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Cada fila es una semana. La mayoría dicen <span style=\"color:#A0A0A0\"><b>NADA</b></span>, y eso es correcto: con 10 km semanales el coche apenas gasta batería. Leyenda: <span style=\"color:#1F4E79\"><b>CARGA</b></span> lenta hasta el 100 % &middot; <span style=\"color:#E89B00\"><b>RÁPIDA</b></span> 15-30 min, solo desde el 14 de noviembre &middot; <span style=\"color:#7B4FA0\"><b>VIAJE</b></span> días de carretera &middot; <span style=\"color:#666666\"><b>PREPARAR</b></span> gestiones sin tocar el coche."
+      },
+      {
+       "t": "h3",
+       "html": "Septiembre"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Fecha",
+        "Qué hacer",
+        "Dónde",
+        "Batería",
+        "Coste"
+       ],
+       "rows": [
+        [
+         "Jue 24",
+         "<span style=\"color:#1F4E79\"><b>CARGA 1</b></span><br/>Entrega del coche. Llega ya cargado al 100 %: cuenta como la primera carga del rodaje",
+         "Concesionario",
+         "100 %",
+         "0 &euro;"
+        ],
+        [
+         "Sáb 26",
+         "<span style=\"color:#666666\"><b>PREPARAR</b></span><br/>Configurar el coche y la app en los tres móviles",
+         "Casa",
+         "99 %",
+         "0 &euro;"
+        ]
+       ],
+       "calendar": [
+        {
+         "date": "2026-09-24",
+         "end": null,
+         "kind": "CARGA 1",
+         "charge": true
+        },
+        {
+         "date": "2026-09-26",
+         "end": null,
+         "kind": "PREPARAR",
+         "charge": false
+        }
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Octubre"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Fecha",
+        "Qué hacer",
+        "Dónde",
+        "Batería",
+        "Coste"
+       ],
+       "rows": [
+        [
+         "Sáb 3",
+         "<span style=\"color:#A0A0A0\"><b>NADA</b></span><br/>",
+         "&mdash;",
+         "96 %",
+         "0 &euro;"
+        ],
+        [
+         "Jue 8",
+         "<span style=\"color:#1F4E79\"><b>CARGA 2</b></span><br/>Segunda del rodaje. Hasta el 100 %. Unos 30 minutos, cabe en un recado",
+         "CC Aqua",
+         "92 &rarr; 100 %",
+         "0 &euro;"
+        ],
+        [
+         "Sáb 10",
+         "<span style=\"color:#7B4FA0\"><b>VIAJE</b></span><br/>Al pueblo a comer, 100 km ida y vuelta. Sin cargar",
+         "&mdash;",
+         "100 &rarr; 73 %",
+         "0 &euro;"
+        ],
+        [
+         "Sáb 17",
+         "<span style=\"color:#A0A0A0\"><b>NADA</b></span><br/>",
+         "&mdash;",
+         "69 %",
+         "0 &euro;"
+        ],
+        [
+         "Sáb 24",
+         "<span style=\"color:#A0A0A0\"><b>NADA</b></span><br/>",
+         "&mdash;",
+         "65 %",
+         "0 &euro;"
+        ],
+        [
+         "Sáb 31",
+         "<span style=\"color:#A0A0A0\"><b>NADA</b></span><br/>",
+         "&mdash;",
+         "62 %",
+         "0 &euro;"
+        ]
+       ],
+       "calendar": [
+        {
+         "date": "2026-10-03",
+         "end": null,
+         "kind": "NADA",
+         "charge": false
+        },
+        {
+         "date": "2026-10-08",
+         "end": null,
+         "kind": "CARGA 2",
+         "charge": true
+        },
+        {
+         "date": "2026-10-10",
+         "end": null,
+         "kind": "VIAJE",
+         "charge": false
+        },
+        {
+         "date": "2026-10-17",
+         "end": null,
+         "kind": "NADA",
+         "charge": false
+        },
+        {
+         "date": "2026-10-24",
+         "end": null,
+         "kind": "NADA",
+         "charge": false
+        },
+        {
+         "date": "2026-10-31",
+         "end": null,
+         "kind": "NADA",
+         "charge": false
+        }
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Noviembre"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Fecha",
+        "Qué hacer",
+        "Dónde",
+        "Batería",
+        "Coste"
+       ],
+       "rows": [
+        [
+         "Sáb 7",
+         "<span style=\"color:#A0A0A0\"><b>NADA</b></span><br/>",
+         "&mdash;",
+         "58 %",
+         "0 &euro;"
+        ],
+        [
+         "Vie 13",
+         "<span style=\"color:#1F4E79\"><b>CARGA 3</b></span><br/>Tercera del rodaje. 2 h 30. Se deja enchufado y se sube andando a la falla. Con esta acaba el rodaje: ya se puede usar carga rápida",
+         "Mercado Central",
+         "54 &rarr; 100 %",
+         "~6 &euro;"
+        ],
+        [
+         "Sáb 21",
+         "<span style=\"color:#A0A0A0\"><b>NADA</b></span><br/>",
+         "&mdash;",
+         "96 %",
+         "0 &euro;"
+        ],
+        [
+         "Sáb 28",
+         "<span style=\"color:#E89B00\"><b>ENSAYO</b></span><br/>Práctica de carga rápida con Jaime. 15 minutos, antes de su viaje",
+         "La Fe",
+         "92 &rarr; 96 %",
+         "~2 &euro;"
+        ]
+       ],
+       "calendar": [
+        {
+         "date": "2026-11-07",
+         "end": null,
+         "kind": "NADA",
+         "charge": false
+        },
+        {
+         "date": "2026-11-13",
+         "end": null,
+         "kind": "CARGA 3",
+         "charge": true
+        },
+        {
+         "date": "2026-11-21",
+         "end": null,
+         "kind": "NADA",
+         "charge": false
+        },
+        {
+         "date": "2026-11-28",
+         "end": null,
+         "kind": "ENSAYO",
+         "charge": true
+        }
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Diciembre y primeros de enero"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Fecha",
+        "Qué hacer",
+        "Dónde",
+        "Batería",
+        "Coste"
+       ],
+       "rows": [
+        [
+         "Sáb 5",
+         "<span style=\"color:#A0A0A0\"><b>NADA</b></span><br/>",
+         "&mdash;",
+         "88 %",
+         "0 &euro;"
+        ],
+        [
+         "Sáb 12",
+         "<span style=\"color:#666666\"><b>PREPARAR</b></span><br/>Revisión del viaje de Jaime: ruta, cadenas, seguro y apps",
+         "Casa",
+         "84 %",
+         "0 &euro;"
+        ],
+        [
+         "Mié 16",
+         "<span style=\"color:#1F4E79\"><b>CARGA</b></span><br/>Carga completa antes del viaje. 50 minutos",
+         "CC Aqua",
+         "83 &rarr; 100 %",
+         "0 &euro;"
+        ],
+        [
+         "Vie 18",
+         "<span style=\"color:#7B4FA0\"><b>VIAJE</b></span><br/>Jaime sale hacia Andorra",
+         "En ruta",
+         "&mdash;",
+         "~45 &euro;"
+        ],
+        [
+         "Sáb 19-Dom 20",
+         "<span style=\"color:#7B4FA0\"><b>ESTANCIA</b></span><br/>En Andorra",
+         "Red FEDA",
+         "&mdash;",
+         "variable"
+        ],
+        [
+         "Lun 21",
+         "<span style=\"color:#7B4FA0\"><b>VUELTA</b></span><br/>Regreso. Llega con el 20-30 %",
+         "En ruta",
+         "&rarr; 25 %",
+         "~45 &euro;"
+        ],
+        [
+         "Mié 23",
+         "<span style=\"color:#C0504D\"><b>IMPORTANTE</b></span><br/>Carga de recalibración hasta el 100 %. 3 h 45. El coche vuelve de varias cargas rápidas en frío y esta es la que le devuelve la medida correcta del porcentaje. No saltársela",
+         "Mercado Central",
+         "25 &rarr; 100 %",
+         "~7 &euro;"
+        ],
+        [
+         "Sáb 26",
+         "<span style=\"color:#A0A0A0\"><b>NADA</b></span><br/>",
+         "&mdash;",
+         "96 %",
+         "0 &euro;"
+        ],
+        [
+         "Vie 1 ene",
+         "<span style=\"color:#A0A0A0\"><b>NADA</b></span><br/>",
+         "&mdash;",
+         "92 %",
+         "0 &euro;"
+        ]
+       ],
+       "calendar": [
+        {
+         "date": "2026-12-05",
+         "end": null,
+         "kind": "NADA",
+         "charge": false
+        },
+        {
+         "date": "2026-12-12",
+         "end": null,
+         "kind": "PREPARAR",
+         "charge": false
+        },
+        {
+         "date": "2026-12-16",
+         "end": null,
+         "kind": "CARGA",
+         "charge": true
+        },
+        {
+         "date": "2026-12-18",
+         "end": null,
+         "kind": "VIAJE",
+         "charge": false
+        },
+        {
+         "date": "2026-12-19",
+         "end": "2026-12-20",
+         "kind": "ESTANCIA",
+         "charge": false
+        },
+        {
+         "date": "2026-12-21",
+         "end": null,
+         "kind": "VUELTA",
+         "charge": false
+        },
+        {
+         "date": "2026-12-23",
+         "end": null,
+         "kind": "IMPORTANTE",
+         "charge": true
+        },
+        {
+         "date": "2026-12-26",
+         "end": null,
+         "kind": "NADA",
+         "charge": false
+        },
+        {
+         "date": "2027-01-01",
+         "end": null,
+         "kind": "NADA",
+         "charge": false
+        }
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Lo que cuesta todo"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Periodo",
+        "Coste"
+       ],
+       "rows": [
+        [
+         "Septiembre",
+         "0 &euro;"
+        ],
+        [
+         "Octubre",
+         "0 &euro;"
+        ],
+        [
+         "Noviembre",
+         "~8 &euro;"
+        ],
+        [
+         "Diciembre (de los que ~90 &euro; son el viaje de Jaime)",
+         "~97 &euro;"
+        ],
+        [
+         "<b>Total de septiembre a enero</b>",
+         "<b>~105 &euro;</b>"
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Sin el viaje a Andorra, los tres meses y medio costarían 8 &euro;. Prácticamente todo lo demás es gratis, porque usamos los cargadores libres de los centros comerciales."
+      }
+     ]
+    },
+    {
+     "id": "b2-3",
+     "title": "Dónde cargamos",
+     "marker": "3",
+     "content": [
+      {
+       "t": "h3",
+       "html": "Para llenar del todo (2-4 horas)"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Sitio",
+        "Cómo funciona"
+       ],
+       "rows": [
+        [
+         "<b>Parking Plaza Brujas &ndash; Mercado Central</b><br/>C/ Editor Manuel Aguilar, 11",
+         "Es el sitio bueno. Cargadores en las plantas &minus;2 y &minus;3, gratis; solo se paga el parking, barato y con tope diario. Se enchufa el cable y se acerca una tarjeta contactless al lector; hay que esperar 20-30 segundos sin tocar nada hasta que arranca. A diez minutos andando de la falla. El único sin límite de tiempo: aquí van las cargas largas y los viernes de falla."
+        ],
+        [
+         "<b>Parking Centro Histórico</b><br/>C/ Editor Manuel Aguilar, 8",
+         "A treinta metros del anterior, por si está lleno. Igual, pero plazas más estrechas."
+        ],
+        [
+         "<b>Parking Avenida del Oeste</b><br/>Av. de l'Oest, 34",
+         "Tercera opción en el centro. Entrada estrecha."
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Para rellenar un poco (1-2 horas, gratis)"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Sitio",
+        "Cómo funciona"
+       ],
+       "rows": [
+        [
+         "<b>CC Aqua</b>",
+         "El sitio por defecto para cargas cortas. Gratis para clientes, con límite de tiempo. Cerca de casa."
+        ],
+        [
+         "<b>CC El Saler</b>",
+         "Lo mismo que Aqua. El que pille mejor ese día."
+        ],
+        [
+         "<b>El Corte Inglés, Avenida de Francia</b>",
+         "Reserva, si Aqua está ocupado."
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Solo para emergencias"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Sitio",
+        "Cómo funciona"
+       ],
+       "rows": [
+        [
+         "<b>La Fe</b><br/>Av. Fernando Abril Martorell, enfrente de casa",
+         "Carga rápida: 20 minutos. Prohibido durante el rodaje. Después, solo urgencias: nunca rutina, y no antes del 13 de noviembre."
+        ]
+       ]
+      },
+      {
+       "t": "note",
+       "html": "<b>Antes de salir a cargar:</b> Electromaps y Chargemap en los tres móviles, para ver si un cargador está libre antes de ir. Y llevar siempre una tarjeta contactless en la cartera."
+      }
+     ],
+     "keywords": "cargador punto recarga mercado central aqua saler la fe"
+    },
+    {
+     "id": "b2-4",
+     "title": "Cómo se enchufa",
+     "marker": "4",
+     "content": [
+      {
+       "t": "steps",
+       "items": [
+        "Aparcar, poner la P y el freno de mano. Solo entonces abrir la trampilla.",
+        "Abrir la tapita de protección de dentro.",
+        "Meter el cable hasta oír el clic. Si no ha sonado, no está puesto.",
+        "Arrancar la sesión en el poste, con la app o acercando la tarjeta. La pantalla del coche muestra que está cargando.",
+        "Para sacarlo: desbloquear el coche, o botón de desbloqueo del cargador en pantalla.",
+        "Cerrar tapita y trampilla. Cable al maletero."
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Si el conector está mojado o sucio, secarlo antes de enchufar. Si el cable no sale, no tirar con fuerza: avisar, hay tirador de emergencia (bloque 6)."
+      }
+     ]
+    },
+    {
+     "id": "b2-5",
+     "title": "Cosas que asustan y son normales",
+     "marker": "5",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Lo que pasa",
+        "Por qué"
+       ],
+       "rows": [
+        [
+         "Con el coche lleno del todo, casi no frena al levantar el pie",
+         "No tiene dónde meter la energía que recupera. Vuelve a la normalidad en los primeros kilómetros."
+        ],
+        [
+         "Se oye un ventilador mientras carga",
+         "Normal. Es la refrigeración de la batería."
+        ],
+        [
+         "Carga muy despacio con mucho frío o mucho calor",
+         "Normal. Acelera al templarse."
+        ],
+        [
+         "El porcentaje da un salto raro",
+         "Tras mucho tiempo sin usar el coche. Se arregla con una carga completa al 100 %."
+        ],
+        [
+         "Tarda más con el aire puesto",
+         "Es así. Con prisa, mejor apagarlo mientras carga."
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Lo que no hay que hacer"
+      },
+      {
+       "t": "list",
+       "items": [
+        "Usar carga rápida durante los tres primeros meses. Lo más importante.",
+        "Enchufar si ya marca 97 % o más.",
+        "Dejarlo aparcado varios días con menos del 10 %. Máximo tres días, mejor ninguno.",
+        "Enchufar con el conector mojado, sucio u oxidado. Secarlo primero.",
+        "Cargar durante una tormenta eléctrica.",
+        "Tirar del cable si no sale."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b2-6",
+     "title": "Normas de casa",
+     "marker": "6",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Norma",
+        "Detalle"
+       ],
+       "rows": [
+        [
+         "Nadie por debajo del 20 %",
+         "Si se deja más bajo, avisar al grupo."
+        ],
+        [
+         "Una carga completa al mes",
+         "Es la que de verdad toca con nuestro uso: ver el calendario para las fechas reales."
+        ],
+        [
+         "El cable, siempre en el maletero",
+         "No se saca ni se deja en casa."
+        ],
+        [
+         "Las apps de recarga, en los tres móviles",
+         "Electromaps y Chargemap."
+        ],
+        [
+         "Si va a estar parado semanas",
+         "Dejarlo entre el 50 % y el 80 %, ni lleno ni vacío."
+        ]
+       ]
+      },
+      {
+       "t": "warn",
+       "html": "<b>Importante.</b> Esto no es una recomendación genérica, está en el manual del B03X: si no se cuidan estas cosas, los daños que sufra la batería pueden quedar fuera de la garantía."
+      },
+      {
+       "t": "note",
+       "html": "<b>Resumen en una línea:</b> cargar hasta arriba una vez al mes, no bajar del 20 %, y nada de carga rápida hasta el 13 de noviembre."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "number": 3,
+   "title": "Cuadro, pantalla, climatización e interior",
+   "subtitle": "Testigos, volante, menú Ajustes, conectividad, clima y equipamiento",
+   "icon": "dashboard",
+   "intro": [
+    {
+     "t": "note",
+     "html": "Resumen explicado del manual oficial en inglés (julio de 2026), no una traducción literal. Tras las actualizaciones OTA, el cuadro y la pantalla pueden cambiar respecto a lo descrito: manda lo que veas en el coche."
+    }
+   ],
+   "sections": [
+    {
+     "id": "b3-1",
+     "title": "Cuadro de instrumentos",
+     "marker": "1",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Zona",
+        "Qué muestra"
+       ],
+       "rows": [
+        [
+         "Velocímetro",
+         "Velocidad en km/h. Por normativa marca algo más que la velocidad real."
+        ],
+        [
+         "Pantalla de información derecha",
+         "Alterna entre mapa, multimedia y consumo. Se cambia con el botón de información del volante."
+        ],
+        [
+         "Marcha",
+         "P, R, N o D."
+        ],
+        [
+         "Batería y autonomía",
+         "Porcentaje y kilómetros restantes. La autonomía real puede ser menor según clima y forma de conducir."
+        ],
+        [
+         "Modo de aceleración",
+         "Confort, estándar o sport, el que tengas seleccionado."
+        ],
+        [
+         "Temperatura exterior y hora",
+         "&mdash;"
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "La unidad de distancia (km o millas) se cambia en <b>Ajustes &gt; Pantalla</b>."
+      }
+     ]
+    },
+    {
+     "id": "b3-2",
+     "title": "Testigos del cuadro",
+     "marker": "2",
+     "content": [
+      {
+       "t": "p",
+       "html": "Agrupados según lo que tienes que hacer cuando se encienden. El color orienta: <b>rojo</b>, parar o atención inmediata; <b>ámbar</b>, revisar o función no disponible; <b>verde o azul</b>, función activa."
+      },
+      {
+       "t": "small",
+       "html": "Iconos orientativos dibujados para esta guía: en el cuadro del coche el diseño exacto puede variar algo, pero la forma y el color son los habituales para cada testigo."
+      },
+      {
+       "t": "table",
+       "tone": "danger",
+       "icons": true,
+       "head": [
+        "",
+        "Parar en cuanto sea seguro y avisar al taller",
+        "Qué significa / qué hacer"
+       ],
+       "rows": [
+        [
+         {
+          "icon": "brake-red"
+         },
+         "Frenos / líquido de frenos",
+         "Avería del reparto de frenada, fallo de frenos o nivel bajo de líquido. Afecta a la seguridad"
+        ],
+        [
+         {
+          "icon": "eps-red"
+         },
+         "Dirección asistida (EPS)",
+         "La dirección puede endurecerse de golpe"
+        ],
+        [
+         {
+          "icon": "battery_fault-red"
+         },
+         "Avería de la batería de tracción",
+         "Fallo de la batería de alta tensión"
+        ],
+        [
+         {
+          "icon": "battery_temp-red"
+         },
+         "Sobretemperatura de la batería",
+         "Batería demasiado caliente"
+        ],
+        [
+         {
+          "icon": "insulation-red"
+         },
+         "Fallo de aislamiento",
+         "Fallo de aislamiento eléctrico de alta tensión"
+        ],
+        [
+         {
+          "icon": "motor_temp-red"
+         },
+         "Sobretemperatura del motor",
+         "El sistema de propulsión se ha calentado en exceso"
+        ],
+        [
+         {
+          "icon": "motor_fault-red"
+         },
+         "Controlador del motor",
+         "Avería del control del motor eléctrico"
+        ],
+        [
+         {
+          "icon": "vehicle_stop-red"
+         },
+         "Aviso de detención por avería",
+         "El coche indica una avería que obliga a detenerse"
+        ],
+        [
+         {
+          "icon": "mil-amber"
+         },
+         "Avería general del sistema (MIL)",
+         "Fallo en un sistema del vehículo; no seguir sin diagnóstico"
+        ]
+       ]
+      },
+      {
+       "t": "table",
+       "tone": "warning",
+       "icons": true,
+       "head": [
+        "",
+        "Revisar pronto en taller",
+        "Qué significa / qué hacer"
+       ],
+       "rows": [
+        [
+         {
+          "icon": "brake-amber"
+         },
+         "Fallo leve de asistencia de frenos",
+         "Según el manual no compromete la seguridad inmediata, pero hay que revisarlo cuanto antes"
+        ],
+        [
+         {
+          "icon": "abs-amber"
+         },
+         "ABS",
+         "Frena, pero sin antibloqueo"
+        ],
+        [
+         {
+          "icon": "epb-amber"
+         },
+         "Avería del freno de estacionamiento",
+         "Puede no sujetar o no soltar. También sale en modo mantenimiento"
+        ],
+        [
+         {
+          "icon": "airbag-red"
+         },
+         "Airbag",
+         "Puede no desplegarse en un choque"
+        ],
+        [
+         {
+          "icon": "tpms-amber"
+         },
+         "Presión de neumáticos",
+         "Fuga, presión alta o baja, sobretemperatura o fallo del sistema. Reduce, para y revisa las cuatro ruedas"
+        ],
+        [
+         {
+          "icon": "esp-amber"
+         },
+         "ESP, tracción y antivuelco",
+         "<b>Fijo</b>: avería. <b>Parpadeando</b>: está actuando, es normal"
+        ],
+        [
+         {
+          "icon": "lightfault-amber"
+         },
+         "Fallo de iluminación",
+         "Alguna luz no funciona (también hay testigo propio para la luz larga automática)"
+        ],
+        [
+         {
+          "icon": "aeb-amber"
+         },
+         "Frenada automática (AEB)",
+         "Avería o no disponible en este momento; conduce sin contar con ella"
+        ],
+        [
+         {
+          "icon": "lane-amber"
+         },
+         "Carril (LDW / LKA)",
+         "Fallo del aviso o del mantenimiento de carril. También hay variante de función apagada"
+        ],
+        [
+         {
+          "icon": "dms_fault-amber"
+         },
+         "Vigilancia de fatiga y distracción",
+         "Temporal: cámara tapada o sucia. Persistente: avería"
+        ],
+        [
+         {
+          "icon": "avh-amber"
+         },
+         "Avería de Auto Hold",
+         "El Auto Hold no funcionará"
+        ],
+        [
+         {
+          "icon": "hdc-amber"
+         },
+         "Avería de HDC",
+         "El control de descenso no está disponible"
+        ]
+       ]
+      },
+      {
+       "t": "table",
+       "tone": "success",
+       "icons": true,
+       "head": [
+        "",
+        "Informativos: solo indican que algo está activo",
+        "Qué significa / qué hacer"
+       ],
+       "rows": [
+        [
+         {
+          "icon": "ready-green"
+         },
+         "READY",
+         "Listo para circular"
+        ],
+        [
+         {
+          "icon": "turn-green"
+         },
+         "Intermitentes",
+         "Intermitente o luces de emergencia encendidos"
+        ],
+        [
+         {
+          "icon": "lowbeam-green"
+         },
+         "Luz de cruce / posición / diurna",
+         "Luces encendidas (cada una tiene su testigo)"
+        ],
+        [
+         {
+          "icon": "highbeam-blue"
+         },
+         "Luz larga",
+         "Largas encendidas"
+        ],
+        [
+         {
+          "icon": "autohigh-blue"
+         },
+         "Luz larga automática",
+         "Activada, o funcionando si alterna sola"
+        ],
+        [
+         {
+          "icon": "rearfog-amber"
+         },
+         "Antiniebla trasero",
+         "Encendido"
+        ],
+        [
+         {
+          "icon": "seatbelt-red"
+         },
+         "Cinturón sin abrochar",
+         "Delanteros o traseros, con aviso sonoro en marcha"
+        ],
+        [
+         {
+          "icon": "door-red"
+         },
+         "Puerta abierta",
+         "Alguna puerta mal cerrada"
+        ],
+        [
+         {
+          "icon": "trunk-red"
+         },
+         "Capó o portón abierto",
+         "Capó delantero o portón mal cerrados"
+        ],
+        [
+         {
+          "icon": "epb-red"
+         },
+         "Freno de estacionamiento",
+         "Aplicado. Parpadea mientras se aplica o suelta"
+        ],
+        [
+         {
+          "icon": "plug-green"
+         },
+         "Manguera conectada",
+         "Coche enchufado. Hay otro testigo para carga programada"
+        ],
+        [
+         {
+          "icon": "battery_discharge-green"
+         },
+         "Descarga (V2L)",
+         "El coche está dando corriente a un aparato"
+        ],
+        [
+         {
+          "icon": "battery_low-amber"
+         },
+         "Batería baja",
+         "A cargar en un plazo máximo de 72 horas"
+        ],
+        [
+         {
+          "icon": "turtle-amber"
+         },
+         "Limitación de potencia",
+         "El motor entrega menos potencia (batería fría, caliente o baja)"
+        ],
+        [
+         {
+          "icon": "espoff-amber"
+         },
+         "ESP desactivado",
+         "Lo has apagado tú"
+        ],
+        [
+         {
+          "icon": "avh-green"
+         },
+         "Auto Hold",
+         "Activado, o sujetando el coche parado"
+        ],
+        [
+         {
+          "icon": "hdc-green"
+         },
+         "HDC",
+         "Parpadea mientras controla la bajada"
+        ],
+        [
+         {
+          "icon": "acc-green"
+         },
+         "Crucero adaptativo",
+         "Disponible o funcionando"
+        ],
+        [
+         {
+          "icon": "lcc-green"
+         },
+         "Centrado de carril",
+         "Disponible, funcionando o en pausa (por ejemplo, en un cruce)"
+        ],
+        [
+         {
+          "icon": "aeboff-amber"
+         },
+         "AEB desactivado",
+         "Has apagado la frenada automática"
+        ],
+        [
+         {
+          "icon": "speedlimit-red"
+         },
+         "Límite de velocidad",
+         "Señal detectada. Otras variantes: sin límite, señal dudosa, alarma silenciada o función apagada"
+        ],
+        [
+         {
+          "icon": "fatigue-amber"
+         },
+         "Aviso de fatiga o distracción",
+         "Tómate un descanso o vuelve la atención a la carretera"
+        ]
+       ]
+      }
+     ],
+     "keywords": "luz encendida cuadro aviso piloto"
+    },
+    {
+     "id": "b3-3",
+     "title": "Volante y sus mandos",
+     "marker": "3",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Mando",
+        "Función"
+       ],
+       "rows": [
+        [
+         "Botón de cierre",
+         "Abre o cierra todas las puertas (con todas cerradas)."
+        ],
+        [
+         "Ruleta izquierda",
+         "Con el crucero: arriba y abajo cambian la velocidad de 1 en 1 km/h; hacia los lados, la distancia al coche de delante (izquierda la reduce, derecha la aumenta); pulsarla confirma el límite de velocidad que muestra el cuadro. En modo espejos, orienta el <b>espejo izquierdo</b>."
+        ],
+        [
+         "Botón personalizado",
+         "Pulsación simple o doble, con la función que elijas en <b>Ajustes &gt; Conducción &gt; Botón personalizado del volante</b>."
+        ],
+        [
+         "Ruleta derecha",
+         "Volumen arriba y abajo, pulsar para pausa, hacia los lados cambia de canción; en llamada, izquierda contesta y derecha cuelga. En navegación elige ruta. En modo espejos, orienta el <b>espejo derecho</b>."
+        ],
+        [
+         "Botón de voz",
+         "Activa el asistente. Pulsar de nuevo lo cierra."
+        ],
+        [
+         "Botón de información",
+         "Cambia lo que muestra la zona derecha del cuadro."
+        ],
+        [
+         "Claxon",
+         "Centro del volante. No mantenerlo pulsado mucho rato: se estropea."
+        ]
+       ]
+      },
+      {
+       "t": "note",
+       "html": "<b>Si la pantalla central se cuelga</b>, mantén pulsados a la vez la <b>ruleta izquierda y el botón de voz más de 10 segundos</b> para reiniciarla. También se puede desde <b>Ajustes &gt; Sistema &gt; Mantenimiento &gt; Reiniciar el IVI</b>."
+      },
+      {
+       "t": "h3",
+       "html": "Posición del volante"
+      },
+      {
+       "t": "p",
+       "html": "Con el coche parado: baja la palanca bajo la columna, coloca el volante en altura y profundidad con las dos manos, sube la palanca para bloquearlo y muévelo para comprobar que no se desplaza. Debe quedar frente al pecho y a un mínimo de 25 cm."
+      },
+      {
+       "t": "h3",
+       "html": "Volante calefactado (según acabado)"
+      },
+      {
+       "t": "p",
+       "html": "Se activa en la pantalla de <b>Asientos</b>. En sus ajustes puedes dejar el encendido automático cuando hace frío. Si no notas calor o se calienta demasiado, apágalo y llévalo a revisar."
+      }
+     ]
+    },
+    {
+     "id": "b3-4",
+     "title": "Pantalla central",
+     "marker": "4",
+     "content": [
+      {
+       "t": "p",
+       "html": "Tiene tres zonas: <b>barra superior</b> con iconos de estado, <b>tarjetas rápidas</b> en el centro (navegación, multimedia, consumo) y <b>barra inferior</b> con inicio, aplicaciones, clima y volumen."
+      },
+      {
+       "t": "h3",
+       "html": "Iconos de la barra superior"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Icono",
+        "Al tocarlo"
+       ],
+       "rows": [
+        [
+         "Centro personal",
+         "Memoria de preferencias y cambio de cuenta"
+        ],
+        [
+         "Batería",
+         "Abre los ajustes de carga y descarga"
+        ],
+        [
+         "Candado",
+         "Abre o cierra el coche"
+        ],
+        [
+         "Carga inalámbrica",
+         "Activa o desactiva la base del móvil"
+        ],
+        [
+         "Grabadora de viaje (según acabado)",
+         "Abre la dashcam"
+        ],
+        [
+         "Airbag del acompañante",
+         "Solo muestra si está activado o no"
+        ],
+        [
+         "ESP",
+         "Lo apaga o enciende. Naranja = apagado, blanco = activo"
+        ],
+        [
+         "Bluetooth, red y GPS",
+         "Gris = inactivo, blanco = activo. Tocar abre sus ajustes"
+        ],
+        [
+         "Centro de mensajes",
+         "Notificaciones del sistema"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Barra inferior"
+      },
+      {
+       "t": "p",
+       "html": "Inicio, centro de aplicaciones, ajustes, mapa, música (app «Zero Ting» o Lingting: Bluetooth y USB), vista 360&deg;, temperatura, encendido del aire, desempañado delantero y trasero, recirculación y volumen. <b>Mantenla pulsada</b> para elegir qué aparece y en qué orden, o hazlo desde <b>Ajustes &gt; Pantalla &gt; Barra inferior personalizada</b>."
+      },
+      {
+       "t": "h3",
+       "html": "Acciones rápidas"
+      },
+      {
+       "t": "p",
+       "html": "Deslizando desde el borde superior se abre un panel con accesos directos: brillo, ajuste de espejos, desbloqueo de la manguera, bloqueo de ventanillas, control de descenso, modo guardián, camping y otros. Con el botón de editar (o manteniendo pulsada una celda) se añaden, quitan y reordenan."
+      },
+      {
+       "t": "h3",
+       "html": "Menú de Ajustes"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Apartado",
+        "Lo principal"
+       ],
+       "rows": [
+        [
+         "Iluminación",
+         "Luces apagadas / posición / cruce / automáticas, antiniebla trasero, altura de faros (0 más alto a 4 más bajo), luz de lectura, largas automáticas, luces de acompañamiento al cerrar, lectura automática, señal luminosa en carga y luz ambiental (color, efecto, brillo, ritmo de la música)"
+        ],
+        [
+         "Puertas y ventanillas",
+         "Posición de ventanillas, bloqueo de las de pasajeros, comportamiento al cerrar, apertura del portón"
+        ],
+        [
+         "Carga",
+         "Ver bloque 1"
+        ],
+        [
+         "Conducción",
+         "Aceleración, recuperación, dirección, espejos, botón del volante, límite de velocidad, L-pedal, creep, Auto Hold, ESP, modo mojado, súper ahorro, HDC, freno confortable y limpiaparabrisas. Se detalla en el bloque 5"
+        ],
+        [
+         "Conducción inteligente",
+         "Asistentes y seguridad activa. Bloque 5"
+        ],
+        [
+         "Sonido",
+         "Volúmenes por separado (multimedia, navegación, teléfono, voz), sonido al tocar, aviso de cambio de marcha, pitido al cerrar, silenciar al dar marcha atrás, bajar música con la navegación o al abrir puertas, zona de sonido y ecualizador"
+        ],
+        [
+         "Asistente Leapmotor",
+         "Activación por voz con «Hola, Leapmotor», voz sin palabra de activación y ejemplos de órdenes"
+        ],
+        [
+         "Pantalla",
+         "Modo claro u oscuro (o automático), brillo (o automático), unidades, <b>modo limpieza</b> (apaga la pantalla para limpiarla) y barra inferior"
+        ],
+        [
+         "Sistema &gt; Seguridad",
+         "Arranque con contraseña, detección de vida, airbag del acompañante, contraseña de operaciones, contraseña del límite de velocidad y vinculación del propietario"
+        ],
+        [
+         "Sistema &gt; Mantenimiento",
+         "Corte de alimentación de mantenimiento (solo emergencias), freno de mano, reinicio del sistema, <b>arranque rápido</b> del sistema (más rápido al abrir, pero gasta algo más de batería), calibración de presiones y modo mantenimiento de limpiaparabrisas"
+        ],
+        [
+         "Sistema &gt; General",
+         "Versión de software y VIN, descarga automática de actualizaciones con wifi, caché de aplicaciones, idioma, zona horaria y <b>restablecimiento de fábrica</b> (pide la contraseña de operaciones)"
+        ]
+       ]
+      },
+      {
+       "t": "warn",
+       "html": "<b>Importante.</b> El <b>corte de alimentación de mantenimiento</b> apaga el coche en el acto. Es solo para emergencias o trabajos en alta tensión; activarlo en marcha es peligroso."
+      },
+      {
+       "t": "h3",
+       "html": "Aplicaciones destacadas"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "App",
+        "Para qué"
+       ],
+       "rows": [
+        [
+         "Estado del vehículo",
+         "Estado general, consumos y próxima revisión"
+        ],
+        [
+         "Teléfono",
+         "Llamadas con el móvil emparejado por Bluetooth. No marcar con el teclado en marcha"
+        ],
+        [
+         "Modo escena",
+         "Guardián (clima encendido con el coche cerrado, necesita más del 20 %), camping (mantiene la descarga externa y desactiva la apertura automática por Bluetooth), exposición (coche inmovilizado), lavado (cierra ventanillas, recircula y evita el autocierre) y suministro al salir (mantiene la corriente dentro)"
+        ],
+        [
+         "Zero Motion Space (Espacio Lingdong)",
+         "Crear escenarios propios que combinan funciones del coche y lanzarlos con un toque"
+        ]
+       ]
+      },
+      {
+       "t": "warn",
+       "html": "<b>Importante.</b> En modo guardián y en suministro al salir, <b>no dejes nunca niños ni mascotas solos</b> en el coche. En túneles de lavado con arrastre: alguien al volante, punto muerto (N) y freno de mano quitado."
+      }
+     ]
+    },
+    {
+     "id": "b3-5",
+     "title": "Conectividad",
+     "marker": "5",
+     "content": [
+      {
+       "t": "h3",
+       "html": "CarPlay y Android Auto"
+      },
+      {
+       "t": "steps",
+       "items": [
+        "Activa el Bluetooth del coche (desde su pantalla de Bluetooth) y el del móvil.",
+        "Desde el coche, busca el móvil y toca para emparejar. Acepta en ambos.",
+        "El coche pregunta si quieres pasar a CarPlay o Android Auto: confirma y aparece la proyección.",
+        "Para desconectar, abre Acciones rápidas y toca CarPlay o Android Auto."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Wifi"
+      },
+      {
+       "t": "p",
+       "html": "Tocando el icono de red en la barra superior. No lo configures en marcha. Con la descarga automática activada, las actualizaciones se bajan solas cuando hay wifi."
+      },
+      {
+       "t": "h3",
+       "html": "Voz"
+      },
+      {
+       "t": "p",
+       "html": "Botón de voz del volante, o activando «Hola, Leapmotor» en Ajustes &gt; Asistente Leapmotor. Acepta órdenes del tipo «abre la ventanilla» o del clima."
+      },
+      {
+       "t": "h3",
+       "html": "Mapas sin conexión"
+      },
+      {
+       "t": "p",
+       "html": "En el navegador: Ajustes &gt; Mapa sin conexión. Se descargan por país o ciudad (sin wifi, pregunta si quieres usar datos móviles), se pausan, reanudan o borran, y un punto rojo avisa de que hay actualización. Puedes priorizar mapa en línea o sin conexión."
+      },
+      {
+       "t": "h3",
+       "html": "Actualizaciones OTA"
+      },
+      {
+       "t": "steps",
+       "items": [
+        "El coche avisa en <b>Ajustes &gt; Sistema &gt; General</b> cuando Leapmotor envía una actualización.",
+        "Acepta las condiciones y confirma. Si la pospones, instálala después desde el icono de actualización de la barra superior.",
+        "Durante la instalación, pantalla y cuadro se reinician varias veces y algunas funciones (ventanillas, cierre) no responden.",
+        "Al terminar, el sistema reinicia y el coche vuelve a estar disponible."
+       ]
+      },
+      {
+       "t": "list",
+       "items": [
+        "Requisitos: coche en P, freno de mano puesto y batería <b>al 20 % o más</b>.",
+        "<b>Mientras se actualiza el coche no puede circular.</b> Hazlo cuando no lo necesites.",
+        "Si falla y el coche no llega a READY, no carga o no suelta el freno de mano, contacta con el servicio técnico."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b3-6",
+     "title": "Climatización",
+     "marker": "6",
+     "content": [
+      {
+       "t": "p",
+       "html": "Salidas de aire: laterales y centrales delanteras, desempañado del parabrisas y de las ventanillas laterales, y pies. En cada rejilla, la aleta arriba y abajo orienta el aire y hacia los lados regula el caudal; llevándola al tope la cierras."
+      },
+      {
+       "t": "p",
+       "html": "La temperatura va de LO (18 &deg;C) a HI (32 &deg;C) y <b>es la misma para conductor y acompañante</b>. La cifra que ves es la temperatura objetivo, no la real. El ventilador tiene 9 velocidades."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Función",
+        "Qué hace y cuándo usarla"
+       ],
+       "rows": [
+        [
+         "AUTO",
+         "Gestiona solo caudal, reparto y recirculación. El manual recomienda entre <b>22 y 26 &deg;C</b>"
+        ],
+        [
+         "Frío",
+         "No se puede activar con menos de 5 &deg;C fuera. Es normal que gotee agua bajo el coche"
+        ],
+        [
+         "Calor",
+         "Gasta bastante batería: el manual aconseja tirar de los <b>asientos calefactados</b> y usar la calefacción solo si hace falta. La recirculación la hace más eficiente"
+        ],
+        [
+         "Ventilación",
+         "Aire natural del exterior sin enfriar ni calentar"
+        ],
+        [
+         "Máximo frío (AC MAX)",
+         "Recirculación, ventilador al máximo, temperatura mínima y aire a la cara. Otra pulsación vuelve al estado anterior"
+        ],
+        [
+         "Desempañado delantero",
+         "1.ª pulsación: rápido (ventilador a 9 y aire exterior); 2.ª: automático; 3.ª: apagado"
+        ],
+        [
+         "Luneta térmica",
+         "Se apaga sola a los 20 minutos"
+        ],
+        [
+         "Recirculación",
+         "Automática, interior o exterior. Interior en caminos con polvo; no mucho tiempo seguido porque sube el CO2 y empaña"
+        ],
+        [
+         "Modo Eco",
+         "Limita temperatura de salida, caudal y compresor para gastar menos"
+        ],
+        [
+         "Antimoho",
+         "Tras apagar, el ventilador sigue un rato para secar el evaporador"
+        ],
+        [
+         "Reparto de aire",
+         "Cara (verano), pies (invierno), cara y pies (entretiempo), desempañado, pies y desempañado"
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Si se empañan los cristales, no subas la calefacción: usa el desempañado. Mantén libre de hojas o nieve la rejilla de entrada bajo el parabrisas y no pongas objetos sobre el salpicadero. El clima también se maneja por voz y desde la app."
+      }
+     ]
+    },
+    {
+     "id": "b3-7",
+     "title": "Asientos, limpiaparabrisas e iluminación interior",
+     "marker": "7",
+     "content": [
+      {
+       "t": "h3",
+       "html": "Asiento del conductor (6 posiciones, manual)"
+      },
+      {
+       "t": "p",
+       "html": "Palanca bajo la parte delantera para deslizarlo: suéltala y empuja con el cuerpo hasta oír el clic. Palanca lateral para el respaldo, apoyando la espalda para que no caiga de golpe. El sexto movimiento es la altura. No ajustes el asiento con el cinturón abrochado ni con nadie o nada debajo, y no pongas fundas: impiden que salga el airbag lateral."
+      },
+      {
+       "t": "h3",
+       "html": "Asiento del acompañante (4 posiciones)"
+      },
+      {
+       "t": "p",
+       "html": "Longitud y respaldo, igual que el del conductor. Se puede abatir hacia delante, pero <b>primero hay que llevarlo al tope trasero</b>: si no, el reposacabezas golpea el salpicadero."
+      },
+      {
+       "t": "h3",
+       "html": "Calefacción de asientos delanteros (según acabado)"
+      },
+      {
+       "t": "p",
+       "html": "En la pantalla del clima, icono de asiento. Cada toque recorre: apagado, nivel 3 (máximo), 2, 1, apagado. Hay encendido automático con frío y ocupante sentado, botón para encender a la vez asientos y volante, y otro para apagarlo todo. No usarla con el asiento mojado, ni al máximo mucho tiempo, ni con mantas encima."
+      },
+      {
+       "t": "h3",
+       "html": "Aviso de abandono del asiento"
+      },
+      {
+       "t": "p",
+       "html": "Si el conductor se levanta con el coche en READY, suena un aviso y aparece un mensaje en el cuadro."
+      },
+      {
+       "t": "h3",
+       "html": "Asientos traseros"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Operación",
+        "Cómo"
+       ],
+       "rows": [
+        [
+         "Abatir respaldo (60/40)",
+         "Coche parado y asiento vacío. Quita el reposacabezas exterior (botón de bloqueo y tirar hacia arriba), tira de la cinta de desbloqueo, aparta los cinturones hacia las puertas y lleva el respaldo hacia delante hasta la banqueta"
+        ],
+        [
+         "Volver a subirlo",
+         "Comprueba que no quede ningún cinturón en la bisagra ni equipaje estorbando. Aparta los cinturones y sube el respaldo hasta el clic. Coloca el reposacabezas y empuja el respaldo para confirmar que está bloqueado"
+        ],
+        [
+         "Levantar la banqueta",
+         "Tira del pestillo hacia fuera y levántala hasta que quede fijada. Para bajarla, lo mismo"
+        ],
+        [
+         "Reposacabezas",
+         "Subir: tirar. Bajar: botón y empujar. El centro debe quedar a la altura de los ojos. La posición más baja es de reposo: con alguien sentado, hay que subirlo"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Limpiaparabrisas"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Mando",
+        "Función"
+       ],
+       "rows": [
+        [
+         "Anillo de la palanca",
+         "Apagado, intermitente, AUTO (con sensor de lluvia), lento y rápido"
+        ],
+        [
+         "Botón del extremo, pulsación corta",
+         "Un barrido"
+        ],
+        [
+         "Botón del extremo, mantenido",
+         "Lava y barre 3 veces, y un barrido más a los pocos segundos"
+        ],
+        [
+         "Trasero",
+         "Anillo propio con intermitente; empujando la palanca arriba lava y barre, abajo solo lava"
+        ],
+        [
+         "En pantalla",
+         "Sensibilidad del modo AUTO (baja, media, alta) y velocidad del intermitente"
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "No lo uses en seco ni sin líquido. Quita antes nieve, hielo o suciedad pegada, comprueba en invierno que las escobillas no estén congeladas y apágalo antes de entrar en un túnel de lavado. No llenes el depósito solo con agua: se congela."
+      },
+      {
+       "t": "h3",
+       "html": "Luces interiores"
+      },
+      {
+       "t": "p",
+       "html": "Luces de lectura delanteras con botón independiente para cada lado; en modo automático se encienden al abrir y se apagan al cerrar. No las uses de noche en marcha. La luz del maletero se enciende al abrir el portón. La luz ambiental (según acabado) se configura en Ajustes &gt; Iluminación &gt; Luz ambiental."
+      },
+      {
+       "t": "h3",
+       "html": "Retrovisor interior"
+      },
+      {
+       "t": "p",
+       "html": "Manual. Para evitar deslumbramientos, acciona la pestaña inferior. No lo ajustes en marcha ni cuelgues nada de él."
+      }
+     ]
+    },
+    {
+     "id": "b3-8",
+     "title": "Almacenamiento, tomas y carga inalámbrica",
+     "marker": "8",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Elemento",
+        "Detalle"
+       ],
+       "rows": [
+        [
+         "Maletero",
+         "Ampliable abatiendo los asientos. Hay un cajón bajo el suelo del maletero. Líquidos cerrados, objetos duros bien sujetos, nada inflamable ni que impida cerrar el portón, y nunca niños dentro. Menos peso, menos consumo"
+        ],
+        [
+         "Consola central",
+         "Hueco y portavasos delanteros, y cofre bajo el reposabrazos (llevarlo cerrado en marcha)"
+        ],
+        [
+         "Guantera",
+         "Tirar para abrir, empujar hasta el clic para cerrar"
+        ],
+        [
+         "USB delanteros",
+         "2 USB-C en el cofre del reposabrazos: uno solo carga y el otro carga y transmite datos"
+        ],
+        [
+         "USB traseros",
+         "1 USB-A (12 W) y 1 USB-C (15 W), solo carga"
+        ],
+        [
+         "Toma de 12 V",
+         "En el lateral izquierdo del maletero, bajo una tapa"
+        ],
+        [
+         "Parasoles",
+         "Bajarlos para el sol frontal; soltarlos del anclaje interior y girarlos hacia la ventanilla para el lateral"
+        ],
+        [
+         "Barras de techo",
+         "Elige barras transversales cuyas garras no queden por debajo de la base de las barras longitudinales. Quítalas al terminar: aumentan el consumo"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Carga inalámbrica del móvil"
+      },
+      {
+       "t": "p",
+       "html": "Con todas las puertas cerradas, se activa desde el icono de la barra superior, que también muestra el estado: desactivada, activada sin móvil, cargando, completa o fallo. Solo para móviles con certificación <b>Qi</b> y de uno en uno. Puede cortarse en baches o si el móvil se mueve, y se detiene si se calienta demasiado."
+      },
+      {
+       "t": "warn",
+       "html": "<b>Importante.</b> Nada entre el móvil y la base: tarjetas con chip o banda magnética se estropean, y llaves o monedas se calientan. Si descubres un objeto metálico durante la carga, apágala y espera a que se enfríe antes de retirarlo. La base es también donde se apoya la <b>tarjeta NFC para arrancar</b>, así que no dejes las dos a la vez."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "number": 4,
+   "title": "Nuestra configuración inicial",
+   "subtitle": "Lo que dejamos configurado, cuentas y llaves, modos, ayudas y lo pendiente de verificar",
+   "icon": "adjustments-horizontal",
+   "intro": [
+    {
+     "t": "p",
+     "html": "Guía para los tres: lo que hay que dejar configurado y cómo nos organizamos. Lo marcado <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span> es lo que el manual no concreta del todo y hay que comprobar en pantalla el primer día; el resto está confirmado. La batería y el calendario de cargas están en el bloque 2."
+    }
+   ],
+   "sections": [
+    {
+     "id": "b4-1",
+     "title": "Antes de firmar la entrega",
+     "marker": "A",
+     "content": [
+      {
+       "t": "checklist",
+       "items": [
+        {
+         "title": "Llave mecánica",
+         "html": "Existe, se entrega aparte. Abre y cierra la puerta del conductor, pero no arranca el coche. Pedirla y guardarla fuera del vehículo."
+        },
+        {
+         "title": "Tarjeta NFC de repuesto",
+         "html": "Solo un concesionario autorizado da de alta tarjetas adicionales. Con una sola tarjeta y tres conductores, pedirla ya."
+        },
+        {
+         "title": "Cuenta y vinculación",
+         "html": "El correo debe ser el mismo que se dio al comprar el coche: si no coincide, el QR falla. En pantalla: <i>Sistema &gt; Seguridad &gt; Autenticación de vinculación del propietario</i>. En la app: <i>Centro personal &gt; Añadir vehículo &gt; Escanear QR</i>."
+        },
+        {
+         "title": "Actualización OTA",
+         "html": "Que instalen la pendiente con su wifi antes de salir. <i>Ajustes &gt; Sistema &gt; General</i> muestra versión y VIN."
+        },
+        {
+         "title": "Probar la tarjeta",
+         "html": "Desbloqueo: apoyarla en la zona NFC del retrovisor exterior del conductor, más de 1 segundo, a 1-2 cm. Arranque: en la base de carga inalámbrica."
+        },
+        {
+         "title": "Carga",
+         "html": "Confirmar el cable modo 3 tipo 2 y la potencia AC máxima. La toma está en el lateral delantero izquierdo: AC lenta y DC rápida juntas."
+        },
+        {
+         "title": "Idioma y hora",
+         "html": "<i>Ajustes &gt; Sistema &gt; General</i>: español y zona horaria automática."
+        },
+        {
+         "title": "Apertura sin corriente",
+         "html": "Que enseñen: apertura manual de puertas, apertura de emergencia del portón, punto de remolcado y reinicio del sistema (<i>Sistema &gt; Mantenimiento &gt; Reiniciar IVI</i>)."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b4-2",
+     "title": "Cuentas, llaves y cómo nos organizamos",
+     "marker": "B",
+     "content": [
+      {
+       "t": "p",
+       "html": "El coche sí tiene cuentas de usuario, por dos vías: el <b>Centro Personal</b> en pantalla (memoria de preferencias y cambio de cuenta) y <b>Compartir vehículo</b> desde la app, por correo, hasta 8 personas, con permisos por 24 horas, una semana, un mes o permanente. Cada vez que comparto, me llega aviso. Así que yo quedo como titular y os invito a los dos con vuestra propia cuenta: si alguien pierde el móvil, se le quita el acceso a él solo."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Función",
+        "Detalle"
+       ],
+       "rows": [
+        [
+         "Centro Personal <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span>",
+         "El manual confirma que guarda «memoria de preferencias» pero no dice qué parámetros incluye exactamente. Hay que mirarlo en pantalla el primer día."
+        ],
+        [
+         "Memoria de posiciones",
+         "No existe. Asientos de ajuste manual: 6 posiciones el del conductor, 4 el del acompañante. Espejos con ruletas del volante. Se ajusta a mano cada vez."
+        ],
+        [
+         "Llave Bluetooth: requisitos",
+         "Bluetooth del móvil activo, ubicación en «Siempre», ubicación precisa en iPhone, y en Android además autoarranque de la app y permisos de segundo plano."
+        ],
+        [
+         "Aviso del manual",
+         "No todos los móviles soportan la llave Bluetooth sin contacto (la que abre al acercarse). La modalidad por pulsación en la manilla funciona en todos. Probarlo con el iPhone de Jaime y con el Android que use su madre."
+        ],
+        [
+         "Distancia de apertura",
+         "Personalizable en los ajustes de zona de detección, dentro de la app."
+        ],
+        [
+         "Arranque con contraseña",
+         "<i>Ajustes &gt; Sistema &gt; Seguridad &gt; Arranque con contraseña</i>. Con una sola tarjeta circulando entre tres, es una capa de seguridad barata."
+        ],
+        [
+         "Detección de vida",
+         "Detecta seres vivos dentro tras cerrar, avisa por luces, claxon y app, y activa el clima. Activarlo."
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Las tres formas de abrir el coche"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Llave",
+        "Cómo se usa"
+       ],
+       "rows": [
+        [
+         "Tarjeta NFC",
+         "Retrovisor exterior del conductor, 1-2 cm, 1-2 segundos. Funciona siempre, sin batería ni cobertura. No doblarla, no mojarla, sin pegatinas ni fundas metálicas."
+        ],
+        [
+         "El móvil",
+         "Dentro de la app. Abre al acercarse, cierra al alejarse, funciona sin cobertura, solo con Bluetooth."
+        ],
+        [
+         "Llave mecánica",
+         "La de emergencia. Sitio fijo en casa, conocido por los tres."
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "La organización de la pantalla (barras, tarjetas y Acciones rápidas) está en el bloque 3. <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span> si el modo de aceleración, la recuperación o la dirección pueden añadirse a Acciones rápidas: si se puede, resuelve el cambio ciudad-carretera sin usar el botón del volante."
+      }
+     ]
+    },
+    {
+     "id": "b4-3",
+     "title": "Los tres modos de conducción",
+     "marker": "C",
+     "content": [
+      {
+       "t": "p",
+       "html": "Son <b>tres ajustes independientes</b>. No hay un modo «Eco» o «Sport» que los mueva los tres a la vez. Cada uno se elige por separado en <i>Ajustes &gt; Conducción</i> y, si se quieren cambiar juntos con un gesto, se agrupan en el botón del volante."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Ajuste",
+        "Opciones",
+        "Qué cambia",
+        "Detalle importante"
+       ],
+       "rows": [
+        [
+         "Modo de aceleración",
+         "Confort / Estándar / Sport",
+         "Respuesta del acelerador",
+         "También cambia la asistencia de dirección según la velocidad"
+        ],
+        [
+         "Recuperación de energía",
+         "Débil / Media / Fuerte",
+         "Cuánto frena el coche solo al soltar el acelerador",
+         "No recupera si no vas en D, con la batería llena, o muy fría o muy caliente"
+        ],
+        [
+         "Modo de dirección",
+         "Confort / Estándar / Sport",
+         "Peso y dureza del volante",
+         "Independiente del modo de aceleración: se elige aparte"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Cómo se agrupan en el botón del volante"
+      },
+      {
+       "t": "steps",
+       "items": [
+        "Entrar en <i>Ajustes &gt; Conducción &gt; Botón personalizado del volante</i> (un solo botón, con pulsación simple y doble).",
+        "Elegir «función combinada» en las opciones de disparo.",
+        "Marcar qué se agrupa. El manual cita expresamente: modo de aceleración, recuperación de energía y conducción inteligente.",
+        "Guardar. A partir de ahí, una pulsación del botón aplica todo lo marcado de golpe."
+       ]
+      },
+      {
+       "t": "note",
+       "html": "<b>Matiz importante:</b> el modo de dirección no aparece en la lista que el manual cita como combinable con el botón. Puede que sí se pueda añadir y el manual simplemente no lo detalle, pero no está confirmado: <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span>. Si no se puede meter en el combo, habrá que tocarlo aparte en <i>Ajustes &gt; Conducción</i>, un toque más."
+      },
+      {
+       "t": "h3",
+       "html": "Las tres configuraciones que voy a usar"
+      },
+      {
+       "t": "columns",
+       "items": [
+        {
+         "title": "<b>Ciudad</b><br/>primeras semanas",
+         "html": "<b>Aceleración:</b> Confort<br/><b>Recuperación:</b> Fuerte (o L-pedal, sabiendo que anula la selección de recuperación)<br/><b>Dirección:</b> Confort<br/><b>Creep:</b> activado<br/><b>Auto Hold:</b> activado, con aviso acústico<br/><b>Aviso de exceso de velocidad:</b> activado, sonido a tu gusto<br/><b>Aviso al abrir puerta:</b> activado"
+        },
+        {
+         "title": "<b>Carretera</b><br/>viajes de 100-200 km",
+         "html": "<b>Aceleración:</b> Estándar (Sport solo si se quiere respuesta inmediata)<br/><b>Recuperación:</b> Débil o Media, con L-pedal desactivado para poder elegirla<br/><b>Dirección:</b> Sport<br/><b>Centrado de carril:</b> activado (si corrige de más, bajar el aviso de salida de carril a solo aviso)<br/><b>Distancia de seguimiento:</b> ruleta izquierda del volante<br/><b>Cambio de carril automático:</b> con centrado activado, se dispara con el intermitente<br/><b>Aviso de arranque del de delante:</b> útil en retenciones"
+        },
+        {
+         "title": "<b>Garaje</b><br/>rampa y sótano &minus;2",
+         "html": "<b>Aceleración:</b> Confort<br/><b>Recuperación:</b> Media, L-pedal desactivado (el un pedal frena de golpe al soltar y descoloca la maniobra)<br/><b>Dirección:</b> Confort<br/><b>Creep:</b> activado (se controla la rampa con el freno)<br/><b>Auto Hold:</b> activado (si se para a media rampa, no rueda hacia atrás)<br/><b>HDC:</b> activado para la bajada al &minus;2<br/><b>Espejos:</b> plegado automático al cerrar<br/><b>Silencio en marcha atrás:</b> <i>Ajustes &gt; Sonido</i>"
+        }
+       ]
+      },
+      {
+       "t": "note",
+       "html": "<b>El hallazgo más útil para el garaje:</b> en <i>Conducción inteligente &gt; Imagen asistida</i> hay cuatro activaciones automáticas de la cámara 360&deg;: al detectar una rampa, en calle estrecha, al pasar de P a D y al poner el intermitente. Con las cuatro activadas, y sumando que el 360&deg; se abre solo al meter marcha atrás y por debajo de 30 km/h, entrar al garaje no requiere tocar nada de cámara a mano."
+      },
+      {
+       "t": "p",
+       "html": "<b>¿Se mantienen al apagar?</b> El manual no dice que aceleración, recuperación o dirección se reinicien. El único ajuste que confirma que vuelve a su valor por defecto en cada ciclo es el modo mojado. Lo previsible es que la configuración se mantenga y que el botón del volante sirva para alternar entre Ciudad y Carretera, no para «resetear». <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span> las primeras veces."
+      }
+     ]
+    },
+    {
+     "id": "b4-4",
+     "title": "Ayudas a la conducción",
+     "marker": "D",
+     "content": [
+      {
+       "t": "p",
+       "html": "<i>Ajustes &gt; Conducción inteligente</i>. El primer mes las dejo todas en modo «avisar», no en modo «actuar», para acostumbrarnos sin sustos. A partir del segundo mes subo el nivel. Lo que pido: que nadie las desactive por su cuenta; si alguna molesta, se comenta y se ajusta entre todos."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Ayuda",
+        "Primer mes",
+        "Después"
+       ],
+       "rows": [
+        [
+         "Frenada automática de emergencia",
+         "Activada",
+         "Activada, siempre"
+        ],
+        [
+         "Aviso de posible choque frontal",
+         "Activado, sensibilidad media",
+         "Igual"
+        ],
+        [
+         "Aviso de salida de carril",
+         "Solo aviso",
+         "Aviso + corrección, si convence"
+        ],
+        [
+         "Mantenerse centrado en el carril",
+         "Desactivado en ciudad",
+         "Activado para viajes largos"
+        ],
+        [
+         "Aviso de ángulo muerto",
+         "Activado",
+         "Activado"
+        ],
+        [
+         "Aviso al abrir la puerta",
+         "Activado",
+         "Activado"
+        ],
+        [
+         "Aviso de coches al dar marcha atrás",
+         "Solo aviso",
+         "Aviso + frenada"
+        ],
+        [
+         "Lectura de señales de velocidad",
+         "Activada, sin el pitido",
+         "Igual"
+        ],
+        [
+         "Aviso de distracción del conductor",
+         "Activado",
+         "Activado"
+        ],
+        [
+         "Imagen asistida (arranque, giro, rampa, calle estrecha)",
+         "Activadas",
+         "Activadas"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b4-5",
+     "title": "Rutinas y modos con un toque",
+     "marker": "E",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Función",
+        "Qué es",
+        "Para qué"
+       ],
+       "rows": [
+        [
+         "<b>Zero Motion Space</b><br/>app del centro de aplicaciones",
+         "Permite crear escenarios propios combinando libremente funciones del coche, y lanzarlos con un toque. <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span> qué disparadores admite: manuales, por velocidad, por temperatura",
+         "Aquí se monta la combinación de clima, ventanillas, luz, etc. para salir de casa o llegar al garaje"
+        ],
+        [
+         "<b>Modo Escena</b><br/>app con modos de fábrica",
+         "Modos ya hechos, no configurables",
+         "Guardián (clima con coche cerrado, más del 20 % de batería) &middot; Camping (mantiene la descarga externa) &middot; Exposición (coche inmovilizado) &middot; Lavado (cierra ventanas, recirculación, sin autocierre)"
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Además, la app del móvil tiene <b>Preparación con un botón</b>: destino enviado al navegador, clima, calefacción de asientos, volante y espejos, con programación horaria y repetición. Para las mañanas de invierno, más práctico que cualquier rutina de a bordo."
+      }
+     ]
+    },
+    {
+     "id": "b4-6",
+     "title": "Carga y batería, lo esencial",
+     "marker": "F",
+     "content": [
+      {
+       "t": "list",
+       "items": [
+        "<b>Límite de carga y carga programada:</b> en <i>Ajustes &gt; Carga</i> y desde Centro de carga en la app. Con recarga pública, límite al 100 % y carga programada desactivada (ver «Tu caso» en el bloque 1).",
+        "<b>Limitador de corriente a 8 A:</b> solo afecta a la manguera portátil en enchufes domésticos. En los postes públicos no interviene; se deja activado.",
+        "<b>Frío y calor:</b> por debajo de 0 &deg;C o por encima de 45 &deg;C la carga arranca lenta y acelera al templarse. Precondicionar desde la app antes de un viaje.",
+        "<b>Tres primeras cargas:</b> lentas en AC y al 100 %, tal como recomienda el manual. El detalle completo, en el bloque 2."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b4-7",
+     "title": "Lo que queda por verificar en pantalla",
+     "marker": "G",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Verificar <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span>"
+       ],
+       "rows": [
+        [
+         "&#9744; Qué guarda exactamente la memoria de preferencias del Centro Personal"
+        ],
+        [
+         "&#9744; Si el modo de aceleración, la recuperación y la dirección se pueden añadir al panel de Acciones rápidas"
+        ],
+        [
+         "&#9744; Si el modo de dirección se puede incluir en la función combinada del botón del volante"
+        ],
+        [
+         "&#9744; Si los tres ajustes de conducción se mantienen al apagar y volver a arrancar"
+        ],
+        [
+         "&#9744; Qué disparadores admite Zero Motion Space: manuales, por velocidad, por temperatura"
+        ],
+        [
+         "&#9744; Lista completa de funciones asignables al botón del volante, en clic y doble clic"
+        ]
+       ]
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Lo que solo resuelve el concesionario"
+       ],
+       "rows": [
+        [
+         "&#9744; ¿Cuántas tarjetas NFC incluye el coche? Se pueden dar de alta más a través del concesionario"
+        ],
+        [
+         "&#9744; ¿Viene el cable de doble extremo modo 3 tipo 2 para los postes públicos, o solo el cargador de enchufe normal? El manual lo lista como opcional según versión"
+        ],
+        [
+         "&#9744; Garantía de la batería: años, kilómetros y capacidad mínima garantizada. El manual no lo recoge; tiene que estar en los papeles de la compra"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b4-8",
+     "title": "Dónde mirar en el manual original (inglés)",
+     "marker": "H",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Pág.",
+        "Contenido"
+       ],
+       "rows": [
+        [
+         "14",
+         "Precauciones de carga y descarga: tres primeras cargas, porcentajes límite, qué pasa al 0 %"
+        ],
+        [
+         "18",
+         "Carga programada y descarga a aparatos (V2L)"
+        ],
+        [
+         "35",
+         "El cuadro de instrumentos"
+        ],
+        [
+         "43-46",
+         "Pantalla principal, Centro Personal e iconos de la interfaz"
+        ],
+        [
+         "49-51",
+         "Ajustes de Conducción: los tres modos, botón del volante, creep, Auto Hold, L-pedal"
+        ],
+        [
+         "50",
+         "Ajustes de carga"
+        ],
+        [
+         "55",
+         "Modo Escena y Zero Motion Space"
+        ],
+        [
+         "60-63",
+         "Las llaves: Bluetooth, tarjeta NFC y llave mecánica"
+        ],
+        [
+         "61",
+         "Emparejar el móvil por Bluetooth, CarPlay y Android Auto"
+        ],
+        [
+         "85-88",
+         "La app: registro, vinculación y cómo compartir el coche con hasta 8 personas"
+        ],
+        [
+         "101",
+         "Más detalle de la tarjeta NFC"
+        ],
+        [
+         "160",
+         "Consejos para la batería, incluida la carga en caliente"
+        ],
+        [
+         "178-180",
+         "Tabla de mantenimiento: cada 20.000 km o 12 meses"
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Si en pantalla algo no coincide con lo escrito aquí, avisadme: son los puntos marcados <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span> los que más probablemente cambien. &mdash; Toni"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "number": 5,
+   "title": "Arranque, conducción y ayudas",
+   "subtitle": "Encendido, modos, frenos, seguridad activa, crucero y vista 360°",
+   "icon": "steering-wheel",
+   "intro": [
+    {
+     "t": "note",
+     "html": "Resumen explicado del manual oficial en inglés (julio de 2026), no una traducción literal. Ninguna ayuda a la conducción sustituye al conductor: todas tienen límites de funcionamiento y pueden desconectarse en cualquier momento."
+    }
+   ],
+   "sections": [
+    {
+     "id": "b5-1",
+     "title": "Estados de encendido, arranque y apagado",
+     "marker": "1",
+     "content": [
+      {
+       "t": "p",
+       "html": "El coche no tiene botón de arranque: pasa por estados de encendido según lo que hagas."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Estado",
+        "Cuándo se produce",
+        "Qué supone"
+       ],
+       "rows": [
+        [
+         "ON1 &mdash; desbloqueado",
+         "Al abrir con una llave válida",
+         "Coche abierto, sistemas en reposo"
+        ],
+        [
+         "ON2 &mdash; encendido",
+         "Al abrir una puerta (no el portón) o pisar el freno estando desbloqueado",
+         "Pantallas y equipamiento activos; no se mueve"
+        ],
+        [
+         "ON3 &mdash; READY",
+         "Al pisar el freno en ON2 y validar la llave",
+         "Listo para circular: testigo READY en el cuadro"
+        ],
+        [
+         "Apagado",
+         "Con el coche parado, cerrándolo con una llave válida",
+         "Se apaga todo"
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Si estás en READY, pones P, te levantas y abres la puerta del conductor, el coche vuelve solo a ON2."
+      },
+      {
+       "t": "h3",
+       "html": "Formas de arrancar"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Método",
+        "Cómo"
+       ],
+       "rows": [
+        [
+         "Normal (llave Bluetooth o coche ya validado)",
+         "Entra, comprueba que está en P y pisa el freno. Se enciende READY"
+        ],
+        [
+         "Con tarjeta NFC",
+         "En P, pisa el freno y apoya la tarjeta más de 1 segundo en la base de carga inalámbrica del móvil"
+        ],
+        [
+         "Con contraseña",
+         "Actívalo antes en Ajustes &gt; Sistema &gt; Seguridad. En P, pisa el freno y teclea la contraseña en la ventana que aparece. Si la pantalla está dañada, habrá que ir al concesionario"
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Si el coche lleva tiempo sin arrancar y no te reconoce, la contraseña o la tarjeta NFC sirven de alternativa. Si la batería de 12 V está descargada, se puede arrancar con pinzas (bloque 6). Antes de arrancar, ajusta asiento, volante y espejos y comprueba que el pedal de freno baja del todo."
+      },
+      {
+       "t": "h3",
+       "html": "Preinstalación para alcoholímetro"
+      },
+      {
+       "t": "p",
+       "html": "Bajo el asiento delantero izquierdo hay una toma reservada para instalar un alcoholímetro antiarranque. Lo monta el concesionario."
+      }
+     ]
+    },
+    {
+     "id": "b5-2",
+     "title": "Marchas, freno de estacionamiento y aparcar",
+     "marker": "2",
+     "content": [
+      {
+       "t": "list",
+       "items": [
+        "Para salir: en READY, pisa el freno, pon D, suelta el freno y acelera suave. Con el <b>creep</b> activado el coche avanza solo al soltar el freno.",
+        "Para parar: frena hasta detenerte y pon P. El freno de estacionamiento eléctrico (EPB) <b>se aplica solo al poner P</b> y se enciende su testigo.",
+        "Al bajarte: apaga el coche, llévate llaves y objetos de valor, y comprueba puertas, ventanillas y portón.",
+        "Aparcando en pendiente, gira las ruedas delanteras hacia el bordillo, tanto cuesta arriba como cuesta abajo."
+       ]
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Testigo EPB",
+        "Significado"
+       ],
+       "rows": [
+        [
+         "Encendido fijo",
+         "Freno de estacionamiento aplicado"
+        ],
+        [
+         "Parpadeando",
+         "Aplicándose o soltándose, frenada de emergencia con el EPB, frenado degradado activo o estado desconocido"
+        ],
+        [
+         "Testigo de avería",
+         "Fallo del EPB, EPB en modo mantenimiento o comprobación no completada"
+        ]
+       ]
+      },
+      {
+       "t": "warn",
+       "html": "<b>Importante.</b> <b>Frenada de emergencia si fallan los frenos:</b> mantén pulsado el botón <b>P</b> y el coche frenará con el freno eléctrico. Se cancela metiendo D o R y acelerando. Úsalo solo en caso real: frena únicamente las ruedas traseras, puede desestabilizar el coche y desgasta el sistema."
+      }
+     ]
+    },
+    {
+     "id": "b5-3",
+     "title": "Modos de conducción y recuperación de energía",
+     "marker": "3",
+     "content": [
+      {
+       "t": "p",
+       "html": "Todo en <b>Ajustes &gt; Conducción</b>. Los tres ajustes son independientes entre sí."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Ajuste",
+        "Opciones",
+        "Cómo se nota"
+       ],
+       "rows": [
+        [
+         "Modo de aceleración",
+         "Confort / Estándar / Sport",
+         "Confort: respuesta suave y progresiva. Estándar: equilibrada. Sport: entrega inmediata. El manual pide <b>cambiarlo con el coche parado</b>"
+        ],
+        [
+         "Recuperación de energía",
+         "Baja / Media / Alta",
+         "Cuánto retiene el coche al soltar el acelerador. Alta = retención fuerte"
+        ],
+        [
+         "Dirección",
+         "Confort / Estándar / Sport",
+         "Dureza del volante. La asistencia también varía sola con la velocidad"
+        ],
+        [
+         "L-pedal (un pedal)",
+         "Sí / No",
+         "Aceleras y frenas solo con el acelerador. Se activa con el coche parado. Anula la elección de recuperación. Para una frenada de emergencia, sigue haciendo falta el freno"
+        ],
+        [
+         "Creep",
+         "Sí / No",
+         "Avance lento al soltar el freno"
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "<b>La recuperación no funciona</b> si no estás en D, durante un deslizamiento de ruedas, con la batería llena o con la batería muy fría o muy caliente. En esos casos el coche retiene menos de lo habitual: tenlo en cuenta en bajadas con la batería al 100 %. El reparto entre freno regenerativo e hidráulico es automático y no alarga la distancia de frenado."
+      },
+      {
+       "t": "h3",
+       "html": "Otros modos"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Modo",
+        "Para qué"
+       ],
+       "rows": [
+        [
+         "Mojado (deslizante)",
+         "Suelos resbaladizos. Solo con el ESP activo, y <b>se apaga en cada arranque</b>"
+        ],
+        [
+         "Súper ahorro",
+         "Deja solo la conducción básica; apaga clima y entretenimiento para estirar la batería"
+        ],
+        [
+         "Freno confortable",
+         "Suaviza el cabeceo al detenerse. Actúa por debajo de 8 km/h, con pendientes de hasta el 10 % y sin crucero ni AEB actuando"
+        ],
+        [
+         "Límite de velocidad máxima",
+         "Tope de velocidad configurable, protegible con contraseña. No se cambia en marcha y limita algunas ayudas"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b5-4",
+     "title": "Conducción eficiente y en condiciones difíciles",
+     "marker": "4",
+     "content": [
+      {
+       "t": "h3",
+       "html": "Consejos de eficiencia del manual"
+      },
+      {
+       "t": "list",
+       "items": [
+        "Acelerar y arrancar con suavidad; frenar pronto y suave para aprovechar la recuperación.",
+        "Velocidad constante. <b>Ventanillas cerradas por encima de 80 km/h</b>: abiertas disparan el consumo.",
+        "Presión de neumáticos correcta, sin peso innecesario en el maletero y sin cambiar a llantas más grandes o anchas.",
+        "Aire acondicionado solo cuando haga falta, en recirculación; a baja velocidad, mejor ventanillas. Apagar asientos calefactados cuando ya no se necesiten.",
+        "Bajos limpios de barro, mantenimiento al día y rutas sin atascos."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Carga y equipaje"
+      },
+      {
+       "t": "p",
+       "html": "Lo más pesado, delante en el maletero y bien sujeto. Nunca por encima de la carga máxima por eje ni del peso total. Con el portón abierto no se debe circular."
+      },
+      {
+       "t": "h3",
+       "html": "Pendientes"
+      },
+      {
+       "t": "p",
+       "html": "Nunca bajar en punto muerto ni con el coche apagado. Comprueba los frenos antes de un puerto largo."
+      },
+      {
+       "t": "h3",
+       "html": "Por la noche, con niebla y con lluvia"
+      },
+      {
+       "t": "list",
+       "items": [
+        "Largas cuando no haya tráfico, por encima de 30 km/h y sin alumbrado; nunca con niebla ni al cruzarte con alguien.",
+        "Niebla: cruce y antiniebla, velocidad baja, sin adelantar y sin frenazos. Si hay que reducir, varias pisadas suaves.",
+        "Lluvia: velocidad baja, sin volantazos ni frenazos, y desempañado de espejos activado. Con tormenta eléctrica fuerte, parar en lugar seguro. Lava el coche después de lluvia ácida."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Zonas inundadas"
+      },
+      {
+       "t": "list",
+       "items": [
+        "Comprueba antes la profundidad. Cruza despacio y de forma constante, sin parar, sin dar marcha atrás y sin apagar ni arrancar dentro del agua.",
+        "Las olas de otros vehículos pueden superar la altura que admite el coche. El agua puede esconder baches y barro. Nunca agua salada.",
+        "Al salir, pisa el freno varias veces suavemente hasta que frene con normalidad.",
+        "Si el coche se apaga por entrada de agua, <b>no intentes arrancarlo</b>. Tras un vadeo, conviene una revisión en el concesionario."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Invierno"
+      },
+      {
+       "t": "list",
+       "items": [
+        "Arrancar y acelerar despacio, distancia de seguridad amplia y frenadas suaves.",
+        "Quitar nieve y hielo del coche, de los pasos de rueda y de pilotos y manetas.",
+        "No aparcar sobre nieve o charcos (el agua congelada daña los neumáticos) ni bajo árboles.",
+        "El frío reduce la energía disponible de cualquier batería: vigila más la autonomía. Usa líquido limpiaparabrisas anticongelante.",
+        "Cadenas: por parejas, de la medida correcta, con presión suficiente y <b>sin pasar de 50 km/h</b> (o menos si lo indica el fabricante). Quitarlas en asfalto seco. No vienen con el coche."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Verano"
+      },
+      {
+       "t": "p",
+       "html": "Sin mecheros ni objetos inflamables en el salpicadero, no dejarlo muchas horas al sol y vigilar el sistema de refrigeración. La presión sube con el calor: si salta el aviso de presiones, para y espera a que se enfríen los neumáticos. Nada de conducir con chanclas o tacones."
+      }
+     ]
+    },
+    {
+     "id": "b5-5",
+     "title": "Antirrobo, aviso a peatones y presión de neumáticos",
+     "marker": "5",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Situación",
+        "Qué pasa"
+       ],
+       "rows": [
+        [
+         "Cerrar con llave válida (parado, puertas cerradas)",
+         "Los intermitentes parpadean <b>una vez</b>: alarma armada"
+        ],
+        [
+         "Abrir con llave válida",
+         "Los intermitentes parpadean <b>dos veces</b>. Si no abres ninguna puerta en un rato, se vuelve a armar sola"
+        ],
+        [
+         "Apertura forzada de puerta o portón",
+         "Salta la alarma con los intermitentes. Se detiene abriendo con una llave válida"
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "<b>Aviso acústico a peatones:</b> el coche emite un sonido por debajo de 30 km/h y siempre en marcha atrás. No sustituye tu atención."
+      },
+      {
+       "t": "h3",
+       "html": "Control de presión de neumáticos"
+      },
+      {
+       "t": "p",
+       "html": "Es un sistema <b>indirecto</b>: no hay sensores en las ruedas, calcula la presión a partir de su giro. Avisa si detecta presión anómala, si necesita reiniciarse o si falla."
+      },
+      {
+       "t": "list",
+       "items": [
+        "Si se enciende el testigo: reduce, evita curvas bruscas y frenazos, para en lugar seguro y revisa <b>las cuatro ruedas</b>, no solo la señalada.",
+        "Tras corregir la presión, cambiar o rotar ruedas, hay que <b>recalibrar</b>: con las cuatro a la presión recomendada y el coche parado más de 60 segundos, <b>Ajustes &gt; Sistema &gt; Mantenimiento &gt; Calibración de presión</b>.",
+        "No confíes solo en el sistema: revisa presiones y estado de los neumáticos periódicamente."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b5-6",
+     "title": "Frenos y estabilidad",
+     "marker": "6",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Sistema",
+        "Qué hace",
+        "Detalles"
+       ],
+       "rows": [
+        [
+         "ESP / ESC",
+         "Evita derrapes corrigiendo con los frenos y la potencia",
+         "Se apaga desde la barra superior o Ajustes &gt; Conducción. Solo tiene sentido quitarlo en casos muy concretos: aumenta el riesgo de perder el control"
+        ],
+        [
+         "ABS",
+         "Evita que las ruedas se bloqueen al frenar fuerte",
+         "Es normal notar vibración en el pedal y ruido cuando actúa. Pisa a fondo y sigue dirigiendo"
+        ],
+        [
+         "EBD",
+         "Reparte la frenada entre ejes según la carga",
+         "Si falla, se enciende el testigo rojo de frenos: parar"
+        ],
+        [
+         "Control de tracción",
+         "Limita el patinamiento de las ruedas motrices",
+         "Parte del ESP"
+        ],
+        [
+         "Arranque en pendiente",
+         "Sujeta el coche 1-2 segundos al soltar el freno en una subida",
+         "Pendientes entre el 4 % y el 30 %, coche totalmente parado y freno de mano quitado. Si no arrancas en ese tiempo, se libera"
+        ],
+        [
+         "HDC (descenso controlado)",
+         "Baja pendientes pronunciadas a velocidad lenta sin pisar el freno",
+         "Se activa en Ajustes &gt; Conducción. Funciona <b>entre 8 y 35 km/h</b>; fuera de ese margen se desconecta. Su testigo parpadea mientras actúa"
+        ],
+        [
+         "Antivuelco",
+         "Detecta riesgo de vuelco y corrige",
+         "Automático"
+        ],
+        [
+         "Frenado tras colisión",
+         "Tras un primer impacto frena para reducir un segundo choque",
+         "Automático"
+        ],
+        [
+         "Auto Hold",
+         "Mantiene el coche parado sin pisar el freno",
+         "Ver abajo"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Auto Hold, explicado"
+      },
+      {
+       "t": "p",
+       "html": "<b>Qué es.</b> Mantiene el coche parado sin que tengas que seguir pisando el freno. Está pensado para paradas cortas y frecuentes: semáforos, retenciones, stop and go y paradas en rampa. En cuanto pisas el acelerador, suelta el freno y el coche arranca con normalidad."
+      },
+      {
+       "t": "p",
+       "html": "<b>Diferencia con el resto de frenos automáticos.</b> El <b>arranque en pendiente</b> solo sujeta 1-2 segundos al soltar el freno en una cuesta; el <b>Auto Hold</b> sujeta todo el tiempo que estés parado; y el <b>freno de estacionamiento (EPB)</b> es para dejar el coche aparcado y se aplica solo al poner P."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Paso",
+        "Qué haces",
+        "Qué hace el coche"
+       ],
+       "rows": [
+        [
+         "1. Activarlo una vez",
+         "<i>Ajustes &gt; Conducción &gt; Auto Hold</i>, o desde el panel de <b>Acciones rápidas</b> (deslizando desde arriba)",
+         "Se enciende el testigo de Auto Hold <b>disponible</b> (en espera)"
+        ],
+        [
+         "2. Pararte",
+         "Frena hasta detenerte y <b>pisa el freno con firmeza</b> un momento",
+         "El testigo pasa a <b>activo</b>: el coche queda sujeto"
+        ],
+        [
+         "3. Esperar",
+         "Suelta el freno y relaja el pie",
+         "El coche no se mueve, ni en llano ni en rampa"
+        ],
+        [
+         "4. Salir",
+         "Pisa el acelerador",
+         "Suelta el freno al instante y arranca según la pendiente"
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Solo funciona si se cumplen <b>todas</b> estas condiciones: función activada en pantalla, coche en <b>READY</b>, <b>todas las puertas cerradas</b>, <b>cinturón del conductor abrochado</b> y freno pisado. Si alguna falla, el coche no retiene: es la razón habitual de que «no funcione»."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Testigo",
+        "Significado"
+       ],
+       "rows": [
+        [
+         "Auto Hold disponible",
+         "Función activada, esperando a que te detengas"
+        ],
+        [
+         "Auto Hold activo",
+         "Está sujetando el coche ahora mismo"
+        ],
+        [
+         "Avería de Auto Hold",
+         "No funciona: para en un sitio seguro y llévalo a revisar"
+        ]
+       ]
+      },
+      {
+       "t": "note",
+       "html": "<b>Para el garaje:</b> con Auto Hold activado puedes parar a mitad de la rampa, soltar el freno y el coche no rueda hacia atrás. Al acelerar, sale sin retroceder."
+      },
+      {
+       "t": "warn",
+       "html": "<b>Importante.</b> No sustituye al conductor: vigila siempre que el coche está quieto. <b>Desactívalo</b> si te remolcan y antes de entrar en un túnel de lavado automático."
+      }
+     ]
+    },
+    {
+     "id": "b5-7",
+     "title": "Ayudas de seguridad activa",
+     "marker": "7",
+     "content": [
+      {
+       "t": "p",
+       "html": "Se configuran en <b>Ajustes &gt; Conducción inteligente &gt; Seguridad activa</b>. Todas funcionan dentro de unos márgenes de velocidad y pueden fallar con lluvia fuerte, niebla, nieve, deslumbramientos, líneas borradas, obras o sensores sucios."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Ayuda",
+        "Funciona",
+        "Qué hace y opciones"
+       ],
+       "rows": [
+        [
+         "Aviso de colisión frontal (FCW)",
+         "5-150 km/h",
+         "Avisa en cuadro y con sonido si te acercas demasiado. Sensibilidad baja, media o alta"
+        ],
+        [
+         "Frenada automática de emergencia (AEB)",
+         "Reduce entre 5 y 150 km/h; <b>detiene el coche entre 5 y 60 km/h</b>",
+         "Frena si detecta vehículo, peatón u obstáculo y tú no frenas lo suficiente. No actúa marcha atrás. Puede frenar sin riesgo real"
+        ],
+        [
+         "Aviso de tráfico cruzado delantero (FCTA)",
+         "4-15 km/h",
+         "Vigila los lados del morro a baja velocidad. Solo aviso, o aviso y frenada"
+        ],
+        [
+         "Aviso de salida de carril (LDW)",
+         "Desde 60 km/h",
+         "Aviso si pisas la línea sin intermitente. Sensibilidad baja o alta, sonido y vibración del volante opcionales"
+        ],
+        [
+         "Mantenimiento de carril (LKA)",
+         "Desde 60 km/h",
+         "Corrige suavemente la dirección. Niveles: aviso, corrección, o aviso y corrección"
+        ],
+        [
+         "Mantenimiento de carril de emergencia (ELK)",
+         "En marcha",
+         "Interviene con más fuerza si vas a salirte hacia un coche que viene de frente, uno que adelanta o el borde de la vía"
+        ],
+        [
+         "Detección de ángulo muerto (BSD)",
+         "Desde 12 km/h",
+         "Luz en el espejo si hay un vehículo en tu ángulo muerto; parpadea si pones el intermitente hacia él"
+        ],
+        [
+         "Aviso de apertura de puertas (DOW)",
+         "Parado o a baja velocidad",
+         "Avisa si vas a abrir con un coche, moto o bici acercándose por detrás"
+        ],
+        [
+         "Aviso de colisión trasera (RCW)",
+         "15-150 km/h",
+         "Si el de detrás viene demasiado rápido, avisa y enciende las luces de emergencia"
+        ],
+        [
+         "Tráfico cruzado trasero (RCTA)",
+         "Marcha atrás",
+         "Avisa de vehículos que cruzan por detrás al salir de una plaza. Solo aviso, o aviso y frenada"
+        ],
+        [
+         "Aviso de arranque del coche delantero",
+         "Parado",
+         "Pitido si el de delante arranca en un semáforo o atasco"
+        ],
+        [
+         "Vigilancia de fatiga y distracción",
+         "En marcha",
+         "Una cámara vigila al conductor y avisa si se distrae o da signos de cansancio. Si se tapa la cámara, avisa de fallo temporal"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Detección de ocupantes olvidados"
+      },
+      {
+       "t": "p",
+       "html": "Un radar en el techo vigila las plazas delanteras y traseras <b>durante 8 minutos</b> tras cerrar el coche. Si detecta a alguien (un niño, una mascota), avisa con luces, claxon y app, y puede encender el clima. Se activa en Ajustes &gt; Sistema &gt; Seguridad &gt; Detección de vida."
+      }
+     ]
+    },
+    {
+     "id": "b5-8",
+     "title": "Crucero adaptativo, centrado y cambio de carril",
+     "marker": "8",
+     "content": [
+      {
+       "t": "p",
+       "html": "Se manejan con la <b>palanca de cambios</b> y la <b>ruleta izquierda</b> del volante. Son sistemas de confort, no de seguridad: las manos siempre en el volante."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Acción",
+        "Cómo"
+       ],
+       "rows": [
+        [
+         "Activar el crucero adaptativo (ACC)",
+         "Con el icono de disponible en el cuadro, empuja la palanca de cambios <b>hacia abajo una vez</b>. Toma como velocidad la actual si vas a más de 30 km/h; si vas más lento, fija 30 km/h"
+        ],
+        [
+         "Activar además el centrado de carril (LCC)",
+         "Palanca <b>hacia abajo dos veces seguidas</b>. Antes hay que tenerlo activado en Ajustes &gt; Conducción inteligente &gt; Asistencia a la conducción"
+        ],
+        [
+         "Cambiar la velocidad",
+         "Ruleta izquierda arriba o abajo: 1 km/h por clic"
+        ],
+        [
+         "Cambiar la distancia (3 niveles)",
+         "Ruleta izquierda hacia la izquierda (más cerca) o hacia la derecha (más lejos)"
+        ],
+        [
+         "Adoptar el límite detectado",
+         "Con el crucero activo, cuando el cuadro muestra el límite de una señal, pulsa la ruleta izquierda: la velocidad del crucero pasa a ese límite y el coche <b>acelera o frena solo</b> hasta ajustarse a ella. Sin el crucero activo, la señal solo avisa y no toca la velocidad"
+        ],
+        [
+         "Reanudar tras detenerse",
+         "En retenciones el coche puede parar del todo. Tras una parada breve, toca suavemente el acelerador para que siga"
+        ],
+        [
+         "Desactivar",
+         "Palanca <b>hacia arriba</b> o pisar el freno"
+        ]
+       ]
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Sistema",
+        "Márgenes",
+        "Se desconecta o no está disponible si..."
+       ],
+       "rows": [
+        [
+         "ACC",
+         "Velocidad fijable de 30 a 150 km/h; puede detenerse hasta 0",
+         "No estás en D, hay una puerta abierta, pisas el freno, el freno de mano está puesto, el coche va hacia atrás, la curva es muy cerrada o hay poca luz o mal tiempo"
+        ],
+        [
+         "LCC",
+         "30-130 km/h",
+         "Giras el volante, subes la palanca, frenas, faltan líneas mucho tiempo, el carril es muy ancho o estrecho, la curva es muy cerrada o el ángulo respecto a la línea es excesivo"
+        ],
+        [
+         "Cambio de carril asistido (ALC)",
+         "65-130 km/h con el LCC activo",
+         "Se lanza poniendo el intermitente. Se activa en Asistencia a la conducción"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "En atascos: no hay un asistente específico"
+      },
+      {
+       "t": "p",
+       "html": "El manual no incluye una función separada de «asistente de atascos». Hace ese papel la combinación de <b>crucero adaptativo de velocidad completa</b> y <b>centrado de carril</b>:"
+      },
+      {
+       "t": "list",
+       "items": [
+        "El crucero sigue al coche de delante y puede <b>detenerse del todo</b> sin que toques el freno.",
+        "Tras una <b>parada breve</b>, reanuda cuando confirmas con un <b>toque suave al acelerador</b>. Si la parada se alarga, sal del modo pisando el freno.",
+        "Se activa y desactiva igual que siempre: palanca hacia abajo una vez (crucero) o dos (crucero + centrado), y hacia arriba para salir.",
+        "El centrado de carril solo actúa desde 30 km/h, así que en el arranca y para real te ayuda sobre todo el crucero.",
+        "En retenciones cuesta arriba, el manual recomienda pisar el freno con firmeza unos segundos antes de arrancar para que no ruede hacia atrás."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Aviso por soltar el volante (con LCC)"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Tiempo sin manos",
+        "Reacción"
+       ],
+       "rows": [
+        [
+         "30 segundos",
+         "Nivel 1: el cuadro pide mover ligeramente el volante"
+        ],
+        [
+         "60 segundos",
+         "Nivel 2: alarma en el cuadro"
+        ],
+        [
+         "90 segundos",
+         "Nivel 3: el centrado se desconecta de forma progresiva"
+        ]
+       ]
+      },
+      {
+       "t": "warn",
+       "html": "<b>Importante.</b> No uses el ACC ni el LCC en carreteras de curvas cerradas, con hielo o lluvia, en obras, entradas y salidas de autovía, ni donde puede haber peatones o ciclistas. Pueden no ver a tiempo coches que se meten de golpe, vehículos con formas raras, motos o bicis, y reaccionan tarde en curvas por el campo de visión limitado del radar. Un soporte de matrícula delantera no original puede estropear la calibración del radar."
+      }
+     ],
+     "keywords": "acc lcc velocidad autopista palanca"
+    },
+    {
+     "id": "b5-9",
+     "title": "Sensores, cámaras y vista 360&deg;",
+     "marker": "9",
+     "content": [
+      {
+       "t": "p",
+       "html": "El coche lleva cámara frontal en el parabrisas, cámaras de visión perimetral delante, detrás y en los espejos (según acabado), cámara de vigilancia del conductor y radares. Mantenlos limpios y sin pegatinas ni objetos delante."
+      },
+      {
+       "t": "h3",
+       "html": "Abrir y cerrar la vista 360&deg;"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Se abre",
+        "Se cierra"
+       ],
+       "rows": [
+        [
+         "Tocando el icono 360&deg; por debajo de 30 km/h",
+         "Tocando otro botón de la barra inferior"
+        ],
+        [
+         "Por voz",
+         "Por voz"
+        ],
+        [
+         "Con el <b>botón personalizado del volante</b>, si lo has asignado",
+         "Con el mismo botón"
+        ],
+        [
+         "<b>Automáticamente al meter la R</b>",
+         "Al poner P"
+        ],
+        [
+         "Automáticamente con las imágenes asistidas activadas (ver abajo)",
+         "Al superar la velocidad de desconexión configurada"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Pantalla de la vista 360&deg;"
+      },
+      {
+       "t": "p",
+       "html": "Botones para alternar 2D y 3D, vista de ruedas y gran angular, y un botón de ajustes con tres opciones interesantes: <b>chasis transparente</b> (muestra lo que hay bajo el coche), <b>líneas de trayectoria dinámicas</b> y <b>sonido de los sensores</b>. La vista cenital muestra además las líneas de radar y la distancia a los obstáculos."
+      },
+      {
+       "t": "h3",
+       "html": "Cómo se reparte la pantalla"
+      },
+      {
+       "t": "p",
+       "html": "La vista tiene dos zonas fijas: la <b>vista cenital</b> del coche (2D o 3D, con radar y trayectorias) y una <b>zona principal</b> con una cámara grande. Tocando en la vista cenital la parte delantera, trasera o un lateral del coche, la zona principal cambia a esa cámara. El manual no ofrece una vista con las cuatro cámaras a la vez ni permite cambiar la distribución: se ve una cámara grande cada vez, más la vista cenital."
+      },
+      {
+       "t": "h3",
+       "html": "Imágenes asistidas automáticas (Conducción inteligente &gt; Imagen asistida)"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Función",
+        "Se abre sola cuando..."
+       ],
+       "rows": [
+        [
+         "Imagen de giro",
+         "Pones el intermitente: muestra la vista lateral trasera en 3D"
+        ],
+        [
+         "Imagen de arranque",
+         "Pasas de P a D"
+        ],
+        [
+         "Imagen en pendiente",
+         "El coche detecta que está en una rampa"
+        ],
+        [
+         "Imagen en calle estrecha",
+         "Circulas despacio por un paso angosto"
+        ]
+       ]
+      },
+      {
+       "t": "note",
+       "html": "Para tu garaje: con la <b>imagen en pendiente</b> y la de <b>calle estrecha</b> activadas, el 360&deg; aparece solo en la rampa. Y el <b>chasis transparente</b> ayuda a ver bordillos y el borde de la rampa bajo el morro."
+      },
+      {
+       "t": "list",
+       "items": [
+        "La imagen deforma los objetos y las distancias no son exactas. Si la dirección tiene alguna anomalía, la trayectoria dibujada puede no coincidir con la real.",
+        "No la uses con los espejos plegados ni con puertas abiertas: las cámaras de los espejos quedan fuera de posición.",
+        "Es una ayuda: mira siempre alrededor."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "number": 6,
+   "title": "Mantenimiento, emergencias y datos técnicos",
+   "subtitle": "Revisiones, neumáticos, plan de mantenimiento, emergencias y fichas",
+   "icon": "tool",
+   "intro": [
+    {
+     "t": "note",
+     "html": "Resumen explicado del manual oficial en inglés (julio de 2026), no una traducción literal. Los plazos de mantenimiento se cumplen por lo primero que llegue: tiempo o kilómetros."
+    }
+   ],
+   "sections": [
+    {
+     "id": "b6-1",
+     "title": "Revisiones que puedes hacer tú",
+     "marker": "1",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Qué",
+        "Cómo y cada cuánto"
+       ],
+       "rows": [
+        [
+         "Nivel de batería",
+         "En el cuadro, antes de cada viaje"
+        ],
+        [
+         "Líquido refrigerante",
+         "Con el coche <b>frío</b>, entre MIN y MAX. Nunca abrir el depósito en caliente. Si está por debajo de MIN puede haber fuga: al taller. No mezclar con refrigerantes no aprobados"
+        ],
+        [
+         "Líquido de frenos",
+         "Entre MIN y MAX. Baja un poco con el desgaste de pastillas, es normal; si baja rápido o hay que rellenar a menudo, hay fuga. Es tóxico, daña la pintura y absorbe humedad: <b>se cambia cada 2 años o 40.000 km</b>"
+        ],
+        [
+         "Lavaparabrisas",
+         "Bajo el capó. Sin aditivos, sin agua jabonosa ni anticongelante de motor, y sin mezclar productos: atasca los difusores"
+        ],
+        [
+         "Presión y dibujo",
+         "En frío (3 horas parado). Buscar cortes, bultos, grietas o desgaste irregular"
+        ],
+        [
+         "Luces, claxon, escobillas",
+         "Que funcionen todas, que los faros estén a la altura correcta y que las escobillas no dejen marcas"
+        ],
+        [
+         "Cinturones, asientos y volante",
+         "Que funcionen suaves y sin daños; botones del volante operativos; pantallas sin grietas"
+        ],
+        [
+         "Filtro del habitáculo",
+         "Bajo la consola central. Para acceder hay que desmontar un embellecedor: el manual recomienda que lo haga el taller"
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "<b>Prueba tras arrancar:</b> comprueba que se encienden y apagan correctamente los testigos, que el pedal de freno tiene tacto y recorrido normales y que no hay ruidos o vibraciones raras en los primeros metros."
+      }
+     ]
+    },
+    {
+     "id": "b6-2",
+     "title": "Neumáticos",
+     "marker": "2",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Dato",
+        "Valor"
+       ],
+       "rows": [
+        [
+         "Medida (delante y detrás)",
+         "215/50 R18"
+        ],
+        [
+         "Presión en vacío",
+         "<b>2,5 bar</b> (250 kPa) delante y detrás"
+        ],
+        [
+         "Presión a plena carga",
+         "<b>2,7 bar</b> (270 kPa) delante y detrás"
+        ],
+        [
+         "Rotación",
+         "Cada 10.000 km"
+        ],
+        [
+         "Sustitución",
+         "A los 3 años o 40.000 km, cuando el dibujo llegue al testigo de desgaste (1,6 mm) o si hay cortes o bultos"
+        ]
+       ]
+      },
+      {
+       "t": "list",
+       "items": [
+        "Los testigos de desgaste están en el fondo del dibujo, señalados con un triángulo en el flanco.",
+        "Cámbialos por parejas, de la medida y tipo recomendados por Leapmotor, sin mezclar marcas o dibujos distintos.",
+        "Presión baja: más consumo, más desgaste, peor frenada y riesgo de reventón. Presión alta: menos agarre y más desgaste en el centro.",
+        "Si notas que el coche tira hacia un lado o hay desgaste irregular, revisa la alineación.",
+        "Tras inflar o cambiar ruedas, recalibra el control de presiones (bloque 5)."
+       ]
+      }
+     ],
+     "keywords": "presión presion ruedas rueda bar inflar"
+    },
+    {
+     "id": "b6-3",
+     "title": "Lavado y cuidado",
+     "marker": "3",
+     "content": [
+      {
+       "t": "p",
+       "html": "Lavar cuanto antes si hay excrementos de ave, resina, alquitrán, insectos, sal o barro: atacan la pintura."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Sí",
+        "No"
+       ],
+       "rows": [
+        [
+         "Con el coche frío y a la sombra",
+         "Al sol directo ni con la carrocería caliente"
+        ],
+        [
+         "Primero bajos y pasos de rueda, luego de arriba abajo",
+         "Mientras está cargando"
+        ],
+        [
+         "Champú neutro y esponja suave; aclarar bien y secar con toalla absorbente en líneas rectas",
+         "Detergentes alcalinos, jabón de fregar, desengrasantes o esponjas ásperas; frotar en círculos"
+        ],
+        [
+         "Encerar más o menos una vez al mes o cuando el agua ya no forme gotas; también los cromados",
+         "Hidrolimpiadora dirigida a componentes de alta tensión, toma de carga o sensores; agua a más de 60 &deg;C"
+        ],
+        [
+         "Avisar en el túnel de lavado de que no usen productos que quiten la cera",
+         "Encerar o limpiar en seco los faros y pilotos, ni usar disolventes en ellos"
+        ],
+        [
+         "Rascador de plástico para el hielo",
+         "Agua caliente sobre el cristal helado, ni quitar nieve con las escobillas"
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "<b>Interior:</b> aspirar a menudo, limpiar con paño húmedo bien escurrido, sin mojar el salpicadero ni la zona de airbags y sin productos agresivos. La polipiel se limpia con agua o jabón neutro diluido y se seca al aire, sin secador cerca. Las alfombrillas, con espuma limpiadora específica, no con agua abundante. Tapa los asientos del sol con parasol. <b>Pintura:</b> un rayón o desconchón se repara pronto para evitar óxido; no rascar con cuchillas."
+      },
+      {
+       "t": "p",
+       "html": "<b>Aparcado mucho tiempo:</b> en lugar ventilado, batería entre el 50 % y el 80 % con el ciclo mensual de carga completa y bajada al 80 % (bloque 1)."
+      }
+     ]
+    },
+    {
+     "id": "b6-4",
+     "title": "Batería de 12 V, fusibles y escobillas",
+     "marker": "4",
+     "content": [
+      {
+       "t": "h3",
+       "html": "Batería de 12 V"
+      },
+      {
+       "t": "p",
+       "html": "Está <b>bajo el capó delantero</b>. Nunca conectes ni desconectes sus bornes con el coche encendido, y mantén chispas y llamas lejos. Al montarla, la brida de sujeción y los terminales deben quedar bien apretados."
+      },
+      {
+       "t": "h3",
+       "html": "Fusibles"
+      },
+      {
+       "t": "p",
+       "html": "Hay tres cajas: bajo el capó delantero, junto al borne positivo de la batería y en el salpicadero, lado del conductor (hay que quitar la tapa lateral y el embellecedor inferior izquierdo). El manual incluye el mapa detallado de cada caja."
+      },
+      {
+       "t": "list",
+       "items": [
+        "Antes de tocar fusibles, desconecta el borne negativo de la batería de 12 V.",
+        "Se sacan con la pinza. Si no sabes si uno está fundido, cámbialo por uno bueno de repuesto.",
+        "<b>Siempre del mismo amperaje</b>. Nunca uno mayor ni un puente: riesgo de incendio.",
+        "Si el nuevo se vuelve a fundir enseguida, hay una avería eléctrica: al taller."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Cambiar las escobillas"
+      },
+      {
+       "t": "steps",
+       "items": [
+        "Con el coche apagado, activa el <b>modo mantenimiento del limpiaparabrisas</b> en Ajustes &gt; Sistema &gt; Mantenimiento. El brazo se coloca a media altura del parabrisas.",
+        "Levanta el brazo, suelta la escobilla vieja y encaja la nueva empujando hasta oír el clic.",
+        "Baja el brazo al cristal.",
+        "Desactiva el modo mantenimiento: el limpiaparabrisas vuelve a su posición."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b6-5",
+     "title": "Plan de mantenimiento",
+     "marker": "5",
+     "content": [
+      {
+       "t": "p",
+       "html": "Revisión en taller autorizado <b>cada 12 meses o 20.000 km</b>. En cada una se inspeccionan, entre otros: la caja de la batería de tracción (conectores de alta y baja tensión, tornillos, válvula de equilibrado de presión, conductos de refrigerante, placa y etiquetas), frenos, neumáticos, suspensión, motor eléctrico y climatización."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Elemento",
+        "Sustitución"
+       ],
+       "rows": [
+        [
+         "Líquido de frenos (DOT 4)",
+         "Cada 2 años o 40.000 km"
+        ],
+        [
+         "Filtro de habitáculo",
+         "Obligatorio cada 2 años; recomendado <b>cada año</b>"
+        ],
+        [
+         "Rotación de neumáticos",
+         "Cada 10.000 km"
+        ],
+        [
+         "Neumáticos",
+         "3 años o 40.000 km, o al llegar al testigo de desgaste"
+        ],
+        [
+         "Pastillas de freno",
+         "Recomendado por debajo de 2 mm de material de fricción"
+        ],
+        [
+         "Aceite del reductor",
+         "Cada 4 años o 100.000 km"
+        ],
+        [
+         "Filtro del reductor",
+         "Cada 4 años o 100.000 km"
+        ],
+        [
+         "Refrigerante",
+         "Cada 5 años o 100.000 km"
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "En condiciones duras (mucho polvo, clima extremo, trayectos cortos constantes, remolcado frecuente) algunos plazos se acortan: conviene consultarlo en el concesionario. Mantener las revisiones al día es condición de la garantía."
+      }
+     ]
+    },
+    {
+     "id": "b6-6",
+     "title": "Emergencias en carretera",
+     "marker": "6",
+     "content": [
+      {
+       "t": "h3",
+       "html": "Equipo que lleva el coche"
+      },
+      {
+       "t": "p",
+       "html": "En el maletero: <b>triángulo, chaleco reflectante, argolla de remolque</b>, compresor con kit antipinchazos y, según acabado, una pinza para quitar los embellecedores de las tuercas. Bajo el asiento delantero izquierdo hay un <b>martillo rompecristales</b>."
+      },
+      {
+       "t": "h3",
+       "html": "Avería o accidente"
+      },
+      {
+       "t": "steps",
+       "items": [
+        "Enciende las luces de emergencia (botón con fondo rojo). Si no funcionan, señaliza de otra forma.",
+        "Aparta el coche a un lugar seguro si puedes y ponte el chaleco antes de salir.",
+        "Coloca el triángulo a <b>50 m de día y 80 m de noche</b> (más lejos en autopista, según la normativa)."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "eCall (según acabado)"
+      },
+      {
+       "t": "p",
+       "html": "Llama automáticamente a emergencias si <b>salta un airbag o el coche vuelca</b>. Para lanzarla a mano, mantén pulsado <b>2 segundos el botón SOS del techo</b>. Necesita cobertura móvil."
+      },
+      {
+       "t": "h3",
+       "html": "Martillo rompecristales"
+      },
+      {
+       "t": "p",
+       "html": "Si no puedes salir y las ventanillas no bajan: golpea en una esquina o borde del cristal lateral (no en el centro ni en el parabrisas), repitiendo hasta que se rompa, y protégete de los cristales."
+      },
+      {
+       "t": "h3",
+       "html": "Pinchazo: dos opciones"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Solo falta aire (sin corte)",
+        "Pinchazo pequeño (kit con sellante)"
+       ],
+       "rows": [
+        [
+         "1. Saca el compresor del maletero.",
+         "1. Saca compresor y bote de sellante; conéctalos."
+        ],
+        [
+         "2. Quita el tapón de la válvula y enrosca el tubo del compresor.",
+         "2. Enrosca el tubo del bote a la válvula."
+        ],
+        [
+         "3. Enchufa el compresor a la toma de 12 V del maletero y arranca el coche.",
+         "3. Conéctalo a la toma de 12 V y arranca el coche."
+        ],
+        [
+         "4. Infla hasta la presión recomendada, apaga y desconecta.",
+         "4. Infla hasta la presión recomendada, apaga, desconecta y pon el tapón."
+        ],
+        [
+         "5. Circula 3-5 km a unos 30 km/h.",
+         "5. Circula 5 km a unos 30 km/h para que el sellante se reparta."
+        ],
+        [
+         "6. Para y vuelve a comprobar la presión. Si baja otra vez, no sigas.",
+         "6. Para y comprueba la presión; corrígela."
+        ]
+       ]
+      },
+      {
+       "t": "warn",
+       "html": "<b>Importante.</b> Tras usar el sellante, <b>no pases de 80 km/h</b> y lleva el neumático a reparar o sustituir cuanto antes. El kit no sirve para cortes grandes, daños en el flanco o llanta dañada: en ese caso, grúa."
+      },
+      {
+       "t": "h3",
+       "html": "Coche atascado en arena, barro o nieve"
+      },
+      {
+       "t": "p",
+       "html": "Gira el volante a ambos lados para despejar alrededor de las ruedas, pon tablas, piedras u otro material bajo ellas y acelera con mucha suavidad. No aceleres a fondo: las ruedas cavan más."
+      },
+      {
+       "t": "h3",
+       "html": "Arranque con pinzas (batería de 12 V descargada)"
+      },
+      {
+       "t": "steps",
+       "items": [
+        "Localiza la batería bajo el capó y limpia los bornes.",
+        "<b>Cable rojo:</b> un extremo al positivo (+) de tu batería y el otro al positivo de la batería de ayuda.",
+        "<b>Cable negro:</b> un extremo al negativo (&minus;) de la batería de ayuda y el otro a un punto metálico sin pintar de tu coche, lejos de la batería.",
+        "Arranca el coche que presta la corriente y después enciende el tuyo. Cuando esté encendido con normalidad, retira los cables en orden inverso."
+       ]
+      },
+      {
+       "t": "small",
+       "html": "La batería de ayuda debe ser de 12 V y de capacidad parecida. Los coches no deben tocarse, las pinzas positivas no deben tocar ningún metal, y conviene apagar ventilador y multimedia antes."
+      },
+      {
+       "t": "h3",
+       "html": "Incendio"
+      },
+      {
+       "t": "p",
+       "html": "Detente de inmediato, apaga el coche y sal todos. Si es un fuego pequeño y seguro de atacar, apunta el extintor a la base de las llamas. Si afecta a la batería de tracción o crece, aléjate y llama a emergencias avisando de que es un eléctrico."
+      },
+      {
+       "t": "h3",
+       "html": "Después de circular por agua"
+      },
+      {
+       "t": "list",
+       "items": [
+        "La profundidad nunca debe superar el <b>borde inferior de la carrocería</b>.",
+        "Al salir: frena suave varias veces para secar los frenos y comprueba claxon, dirección y luces.",
+        "Si el coche se ha quedado en el agua, sal, desconecta si es posible el negativo de la batería de 12 V y no intentes arrancarlo. Si ha quedado sumergido, que lo revise un taller antes de volver a usarlo.",
+        "Si la toma de carga se ha mojado, no cargues hasta que la revisen."
+       ]
+      }
+     ],
+     "keywords": "pinchazo rueda averia accidente triangulo sos ecall pinzas bateria descargada"
+    },
+    {
+     "id": "b6-7",
+     "title": "Desbloqueos de emergencia",
+     "marker": "7",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Problema",
+        "Solución"
+       ],
+       "rows": [
+        [
+         "<b>La manguera de carga no sale</b> tras varios intentos de desbloqueo",
+         "Abre el capó delantero, localiza el <b>cable de desbloqueo mecánico</b> del conector de carga, tira de él y saca la manguera. Si estás en un cargador rápido, antes pulsa su paro de emergencia"
+        ],
+        [
+         "<b>El portón no abre</b>",
+         "Desde dentro: abate el respaldo trasero y pasa al maletero. Quita el embellecedor del interruptor de emergencia en la parte alta del portón, gira el interruptor en sentido horario y empuja el portón hacia fuera"
+        ],
+        [
+         "<b>No abre con tarjeta ni con el móvil</b>",
+         "Tira de la maneta del conductor hasta que asome el bombín, mete la llave mecánica y gírala en sentido <b>antihorario</b> para abrir (horario para cerrar)"
+        ],
+        [
+         "Cerrar las otras puertas sin corriente",
+         "Con la puerta abierta, baja la pestaña del lateral de la cerradura y ciérrala"
+        ]
+       ]
+      },
+      {
+       "t": "list",
+       "items": [
+        "Si abres con la llave mecánica con la alarma armada, saltará. Se detiene cerrando con la llave (sentido horario) o abriendo con la tarjeta.",
+        "Con mucho frío, si la llave no vuelve a su posición, no la fuerces: taller."
+       ]
+      }
+     ],
+     "keywords": "manguera atascada no sale cable portón maletero llave mecánica abrir"
+    },
+    {
+     "id": "b6-8",
+     "title": "Remolcado",
+     "marker": "8",
+     "content": [
+      {
+       "t": "p",
+       "html": "Lo ideal es <b>grúa de plataforma</b>: si las ruedas tocan el suelo al remolcar, pueden dañarse componentes de alta tensión. Que lo haga el servicio de Leapmotor o una grúa profesional."
+      },
+      {
+       "t": "p",
+       "html": "Solo si no hay otra opción, se puede remolcar con cuerda o barra enganchada a la argolla, <b>despacio, en trayecto corto y por suelo firme y llano</b>."
+      },
+      {
+       "t": "steps",
+       "items": [
+        "Saca la argolla del maletero.",
+        "Delante: presiona el lado derecho de la tapa del parachoques delantero para abrirla. Detrás: el lado izquierdo de la tapa, abajo a la izquierda.",
+        "Enrosca la argolla en sentido horario hasta el tope: floja se puede soltar.",
+        "Alguien al volante, en punto muerto, controlando dirección y freno. Tiros suaves y en línea recta, nunca de lado. Si no se mueve, no forzar."
+       ]
+      },
+      {
+       "t": "p",
+       "html": "También hay un procedimiento para desconectar la alta tensión y un apartado para bomberos y servicios de rescate. Ante un accidente con daños en la batería, deja esa parte a los profesionales."
+      }
+     ]
+    },
+    {
+     "id": "b6-9",
+     "title": "Datos técnicos de nuestro B03X",
+     "marker": "9",
+     "content": [
+      {
+       "t": "p",
+       "html": "Solo la versión que tenemos: <b>Design Pro Max con batería de 53 kWh</b>."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Dato",
+        "Valor"
+       ],
+       "rows": [
+        [
+         "Largo / ancho / alto",
+         "4.270 / 1.810 / 1.635 mm"
+        ],
+        [
+         "Distancia entre ejes",
+         "2.605 mm"
+        ],
+        [
+         "Peso en vacío / masa máxima autorizada",
+         "1.550 kg / 2.020 kg"
+        ],
+        [
+         "Altura libre al suelo",
+         "175 mm"
+        ],
+        [
+         "Diámetro de giro",
+         "10,2 m"
+        ],
+        [
+         "Ángulo de ataque / salida",
+         "18&deg; / 24&deg;"
+        ],
+        [
+         "Velocidad máxima",
+         "160 km/h"
+        ],
+        [
+         "Pendiente máxima superable",
+         "30 % o más"
+        ],
+        [
+         "Tracción / plazas",
+         "Delantera / 5"
+        ],
+        [
+         "Autonomía / consumo WLTC",
+         "<b>401 km</b> / 15,3 kWh/100 km"
+        ],
+        [
+         "Batería de tracción",
+         "LFP (litio-ferrofosfato), 53 kWh, 363,4 V, 146 Ah, protección IP67"
+        ],
+        [
+         "Motor",
+         "Síncrono de imanes permanentes, <b>145 kW</b> (197 CV) y 200 Nm"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Ruedas y neumáticos"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Dato",
+        "Valor"
+       ],
+       "rows": [
+        [
+         "Medida de neumático (delante y detrás)",
+         "<b>215/50 R18</b>: 215 mm de ancho, perfil del 50 % (107,5 mm de flanco) y llanta de 18 pulgadas"
+        ],
+        [
+         "Diámetro total aproximado de la rueda",
+         "unos 672 mm (cálculo a partir de la medida)"
+        ],
+        [
+         "Equilibrado",
+         "Hasta 60 g por lado y diferencia entre lados de 8 g como máximo"
+        ],
+        [
+         "Convergencia delantera / trasera",
+         "6&prime; &plusmn; 5&prime; / 6&prime; &plusmn; 20&prime;"
+        ],
+        [
+         "Caída delantera / trasera",
+         "&minus;30&prime; &plusmn; 45&prime; / &minus;1,18&deg; &plusmn; 30&prime;"
+        ],
+        [
+         "Avance e inclinación del pivote delantero",
+         "3,1&deg; &plusmn; 45&prime; / 11,99&deg; &plusmn; 45&prime;"
+        ],
+        [
+         "Rueda de repuesto",
+         "No lleva: kit de compresor y sellante en el maletero"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Presión de inflado según el caso"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Caso",
+        "Delante",
+        "Detrás"
+       ],
+       "rows": [
+        [
+         "Uso normal: una o dos personas, poco equipaje",
+         "<b>2,5 bar</b> (250 kPa)",
+         "<b>2,5 bar</b>"
+        ],
+        [
+         "Coche cargado: cuatro o cinco personas o maletero lleno",
+         "<b>2,7 bar</b> (270 kPa)",
+         "<b>2,7 bar</b>"
+        ],
+        [
+         "Viaje largo cargado (por ejemplo, Andorra con equipaje de esquí)",
+         "2,7 bar",
+         "2,7 bar"
+        ],
+        [
+         "Antes de montar cadenas o fundas",
+         "Nunca por debajo de la presión recomendada",
+         "Igual"
+        ]
+       ]
+      },
+      {
+       "t": "small",
+       "html": "Se mide siempre en frío, con el coche parado al menos tres horas o tras rodar muy poco. Como regla general, la presión baja algo con el frío, así que en invierno conviene revisarla más a menudo. Después de inflar, recalibra el control de presiones en <i>Ajustes &gt; Sistema &gt; Mantenimiento</i>."
+      },
+      {
+       "t": "h3",
+       "html": "Cadenas y fundas textiles"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Dato",
+        "Valor"
+       ],
+       "rows": [
+        [
+         "Medida para comprarlas",
+         "<b>215/50 R18</b>. En la tienda se busca por esa medida exacta; cada fabricante tiene su propia referencia"
+        ],
+        [
+         "Dónde se montan",
+         "Por parejas en las <b>ruedas motrices</b>, que en el B03X son las <b>delanteras</b>"
+        ],
+        [
+         "Velocidad máxima",
+         "La que indique el fabricante de las cadenas y nunca más de <b>50 km/h</b>"
+        ],
+        [
+         "Presión",
+         "Nunca montarlas con los neumáticos bajos de presión"
+        ],
+        [
+         "Cuándo quitarlas",
+         "En cuanto el asfalto esté seco o sin nieve ni hielo"
+        ],
+        [
+         "Normativa",
+         "Cada país tiene sus reglas sobre cadenas: comprobarlas antes de viajar"
+        ]
+       ]
+      },
+      {
+       "t": "small",
+       "html": "Las cadenas no vienen con el coche. Unas cadenas inadecuadas pueden dañar neumáticos, llantas, suspensión, frenos y carrocería."
+      },
+      {
+       "t": "h3",
+       "html": "Frenos y fluidos"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Elemento",
+        "Dato"
+       ],
+       "rows": [
+        [
+         "Frenos",
+         "Disco en las cuatro ruedas, freno de estacionamiento eléctrico"
+        ],
+        [
+         "Discos: grosor nuevo / mínimo",
+         "Delante 24 / 22 mm; detrás 10 / 8 mm"
+        ],
+        [
+         "Pastillas: grosor nuevo / mínimo",
+         "Delante 8 / 2 mm; detrás 7 / 2 mm"
+        ],
+        [
+         "Refrigerante",
+         "OAT, protección hasta &minus;40 &deg;C, unos 6,5 litros"
+        ],
+        [
+         "Líquido de frenos",
+         "DOT 4, 820 ml"
+        ],
+        [
+         "Aceite del reductor",
+         "Idemitsu LI-004C, 1,45 litros"
+        ],
+        [
+         "Lavaparabrisas",
+         "Con etanol, protección hasta &minus;30 &deg;C, 1 litro"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Fusibles"
+      },
+      {
+       "t": "p",
+       "html": "Tres cajas: una bajo el capó delantero, otra junto al borne positivo de la batería de 12 V y otra en el lado del conductor del salpicadero. Son fusibles de cuchilla de distintos amperajes, desde 5 A para sensores y módulos pequeños hasta los de 60-250 A de la caja principal. Siempre se sustituyen por uno del <b>mismo amperaje</b>."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Fusible",
+        "Amperaje",
+        "Protege"
+       ],
+       "rows": [
+        [
+         "RF17",
+         "10 A",
+         "Tomas USB delanteras"
+        ],
+        [
+         "RF05",
+         "10 A",
+         "Módulo Bluetooth, USB traseros y carga inalámbrica del móvil"
+        ],
+        [
+         "RF19",
+         "5 A",
+         "Lector de la tarjeta NFC"
+        ],
+        [
+         "RF12",
+         "5 A",
+         "Sensor de lluvia y luz"
+        ],
+        [
+         "RF11",
+         "15 A",
+         "Toma de diagnóstico"
+        ],
+        [
+         "FF11",
+         "15 A",
+         "Claxon"
+        ],
+        [
+         "SF14",
+         "30 A",
+         "Luneta térmica"
+        ],
+        [
+         "SF07",
+         "40 A",
+         "Ventilador del climatizador"
+        ]
+       ]
+      },
+      {
+       "t": "small",
+       "html": "La lista completa, con la posición de cada fusible en su caja, está en el manual original."
+      },
+      {
+       "t": "h3",
+       "html": "Lo que el manual no detalla"
+      },
+      {
+       "t": "p",
+       "html": "La <b>medida de las escobillas</b> y las características de la <b>batería de 12 V</b> no aparecen en el manual. Para comprar escobillas, lo más fiable es medir las que lleva el coche o buscarlas por modelo en la tienda; para la batería de 12 V, preguntar en el concesionario."
+      },
+      {
+       "t": "p",
+       "html": "El número de bastidor (VIN) se puede ver en Ajustes &gt; Sistema &gt; General, además de en las placas del vehículo. Para cualquier dato que no aparezca aquí, el concesionario autorizado."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quick": [
+  {
+   "label": "Se ha encendido un testigo",
+   "icon": "alert-triangle",
+   "tone": "danger",
+   "section": "b3-2"
+  },
+  {
+   "label": "Pinchazo, avería o accidente",
+   "icon": "urgent",
+   "tone": "danger",
+   "section": "b6-6"
+  },
+  {
+   "label": "La manguera o el portón no se sueltan",
+   "icon": "lock-open",
+   "tone": "warning",
+   "section": "b6-7"
+  },
+  {
+   "label": "No abre con la tarjeta o el móvil",
+   "icon": "key",
+   "tone": "warning",
+   "section": "b1-6"
+  },
+  {
+   "label": "Cómo cargar paso a paso",
+   "icon": "plug-connected",
+   "tone": "note",
+   "section": "b1-1"
+  },
+  {
+   "label": "Dónde cargamos",
+   "icon": "map-pin",
+   "tone": "note",
+   "section": "b2-3"
+  },
+  {
+   "label": "Calendario de cargas",
+   "icon": "calendar-event",
+   "tone": "note",
+   "section": "b2-2"
+  },
+  {
+   "label": "Configuración inicial",
+   "icon": "adjustments-horizontal",
+   "tone": "success",
+   "section": "b4"
+  },
+  {
+   "label": "Ciudad, carretera y garaje",
+   "icon": "steering-wheel",
+   "tone": "success",
+   "section": "b4-3"
+  },
+  {
+   "label": "Crucero y centrado de carril",
+   "icon": "road",
+   "tone": "success",
+   "section": "b5-8"
+  },
+  {
+   "label": "Presión de neumáticos",
+   "icon": "gauge",
+   "tone": "note",
+   "section": "b6-2"
+  }
+ ],
+ "calendar": {
+  "section": "b2-2",
+  "hideFrom": "2027-01-01",
+  "entries": [
+   {
+    "date": "2026-09-24",
+    "end": null,
+    "kind": "CARGA 1",
+    "charge": true,
+    "text": "Entrega del coche. Llega ya cargado al 100 %: cuenta como la primera carga del rodaje",
+    "where": "Concesionario",
+    "battery": "100 %",
+    "cost": "0 €"
+   },
+   {
+    "date": "2026-09-26",
+    "end": null,
+    "kind": "PREPARAR",
+    "charge": false,
+    "text": "Configurar el coche y la app en los tres móviles",
+    "where": "Casa",
+    "battery": "99 %",
+    "cost": "0 €"
+   },
+   {
+    "date": "2026-10-03",
+    "end": null,
+    "kind": "NADA",
+    "charge": false,
+    "text": "",
+    "where": "—",
+    "battery": "96 %",
+    "cost": "0 €"
+   },
+   {
+    "date": "2026-10-08",
+    "end": null,
+    "kind": "CARGA 2",
+    "charge": true,
+    "text": "Segunda del rodaje. Hasta el 100 %. Unos 30 minutos, cabe en un recado",
+    "where": "CC Aqua",
+    "battery": "92 → 100 %",
+    "cost": "0 €"
+   },
+   {
+    "date": "2026-10-10",
+    "end": null,
+    "kind": "VIAJE",
+    "charge": false,
+    "text": "Al pueblo a comer, 100 km ida y vuelta. Sin cargar",
+    "where": "—",
+    "battery": "100 → 73 %",
+    "cost": "0 €"
+   },
+   {
+    "date": "2026-10-17",
+    "end": null,
+    "kind": "NADA",
+    "charge": false,
+    "text": "",
+    "where": "—",
+    "battery": "69 %",
+    "cost": "0 €"
+   },
+   {
+    "date": "2026-10-24",
+    "end": null,
+    "kind": "NADA",
+    "charge": false,
+    "text": "",
+    "where": "—",
+    "battery": "65 %",
+    "cost": "0 €"
+   },
+   {
+    "date": "2026-10-31",
+    "end": null,
+    "kind": "NADA",
+    "charge": false,
+    "text": "",
+    "where": "—",
+    "battery": "62 %",
+    "cost": "0 €"
+   },
+   {
+    "date": "2026-11-07",
+    "end": null,
+    "kind": "NADA",
+    "charge": false,
+    "text": "",
+    "where": "—",
+    "battery": "58 %",
+    "cost": "0 €"
+   },
+   {
+    "date": "2026-11-13",
+    "end": null,
+    "kind": "CARGA 3",
+    "charge": true,
+    "text": "Tercera del rodaje. 2 h 30. Se deja enchufado y se sube andando a la falla. Con esta acaba el rodaje: ya se puede usar carga rápida",
+    "where": "Mercado Central",
+    "battery": "54 → 100 %",
+    "cost": "~6 €"
+   },
+   {
+    "date": "2026-11-21",
+    "end": null,
+    "kind": "NADA",
+    "charge": false,
+    "text": "",
+    "where": "—",
+    "battery": "96 %",
+    "cost": "0 €"
+   },
+   {
+    "date": "2026-11-28",
+    "end": null,
+    "kind": "ENSAYO",
+    "charge": true,
+    "text": "Práctica de carga rápida con Jaime. 15 minutos, antes de su viaje",
+    "where": "La Fe",
+    "battery": "92 → 96 %",
+    "cost": "~2 €"
+   },
+   {
+    "date": "2026-12-05",
+    "end": null,
+    "kind": "NADA",
+    "charge": false,
+    "text": "",
+    "where": "—",
+    "battery": "88 %",
+    "cost": "0 €"
+   },
+   {
+    "date": "2026-12-12",
+    "end": null,
+    "kind": "PREPARAR",
+    "charge": false,
+    "text": "Revisión del viaje de Jaime: ruta, cadenas, seguro y apps",
+    "where": "Casa",
+    "battery": "84 %",
+    "cost": "0 €"
+   },
+   {
+    "date": "2026-12-16",
+    "end": null,
+    "kind": "CARGA",
+    "charge": true,
+    "text": "Carga completa antes del viaje. 50 minutos",
+    "where": "CC Aqua",
+    "battery": "83 → 100 %",
+    "cost": "0 €"
+   },
+   {
+    "date": "2026-12-18",
+    "end": null,
+    "kind": "VIAJE",
+    "charge": false,
+    "text": "Jaime sale hacia Andorra",
+    "where": "En ruta",
+    "battery": "—",
+    "cost": "~45 €"
+   },
+   {
+    "date": "2026-12-19",
+    "end": "2026-12-20",
+    "kind": "ESTANCIA",
+    "charge": false,
+    "text": "En Andorra",
+    "where": "Red FEDA",
+    "battery": "—",
+    "cost": "variable"
+   },
+   {
+    "date": "2026-12-21",
+    "end": null,
+    "kind": "VUELTA",
+    "charge": false,
+    "text": "Regreso. Llega con el 20-30 %",
+    "where": "En ruta",
+    "battery": "→ 25 %",
+    "cost": "~45 €"
+   },
+   {
+    "date": "2026-12-23",
+    "end": null,
+    "kind": "IMPORTANTE",
+    "charge": true,
+    "text": "Carga de recalibración hasta el 100 %. 3 h 45. El coche vuelve de varias cargas rápidas en frío y esta es la que le devuelve la medida correcta del porcentaje. No saltársela",
+    "where": "Mercado Central",
+    "battery": "25 → 100 %",
+    "cost": "~7 €"
+   },
+   {
+    "date": "2026-12-26",
+    "end": null,
+    "kind": "NADA",
+    "charge": false,
+    "text": "",
+    "where": "—",
+    "battery": "96 %",
+    "cost": "0 €"
+   },
+   {
+    "date": "2027-01-01",
+    "end": null,
+    "kind": "NADA",
+    "charge": false,
+    "text": "",
+    "where": "—",
+    "battery": "92 %",
+    "cost": "0 €"
+   }
+  ]
+ },
+ "glossary": [
+  {
+   "id": "ebd",
+   "label": "EBD (reparto de frenada)",
+   "pattern": "\\bEBD\\b|reparto de (?:la )?frenada",
+   "flags": "i",
+   "home": "b5-6",
+   "sections": [
+    "b3-2",
+    "b5-6"
+   ]
+  },
+  {
+   "id": "abs",
+   "label": "ABS",
+   "pattern": "\\bABS\\b",
+   "flags": "",
+   "home": "b5-6",
+   "sections": [
+    "b3-2",
+    "b5-6"
+   ]
+  },
+  {
+   "id": "esp",
+   "label": "ESP",
+   "pattern": "\\bESP\\b",
+   "flags": "",
+   "home": "b5-6",
+   "sections": [
+    "b3-2",
+    "b3-4",
+    "b5-3",
+    "b5-6"
+   ]
+  },
+  {
+   "id": "hdc",
+   "label": "HDC",
+   "pattern": "\\bHDC\\b",
+   "flags": "",
+   "home": "b5-6",
+   "sections": [
+    "b3-2",
+    "b3-4",
+    "b4-3",
+    "b5-6"
+   ]
+  },
+  {
+   "id": "autohold",
+   "label": "Auto Hold",
+   "pattern": "\\bAuto ?Hold\\b",
+   "flags": "i",
+   "home": "b5-6",
+   "sections": [
+    "b3-2",
+    "b3-4",
+    "b4-3",
+    "b4-8",
+    "b5-6"
+   ]
+  },
+  {
+   "id": "epb",
+   "label": "Freno de estacionamiento",
+   "pattern": "freno de estacionamiento|\\bEPB\\b",
+   "flags": "i",
+   "home": "b5-2",
+   "sections": [
+    "b1-1",
+    "b3-2",
+    "b5-2",
+    "b5-6",
+    "b6-9"
+   ]
+  },
+  {
+   "id": "aeb",
+   "label": "Frenada automática (AEB)",
+   "pattern": "\\bAEB\\b",
+   "flags": "",
+   "home": "b5-7",
+   "sections": [
+    "b3-2",
+    "b5-3",
+    "b5-7"
+   ]
+  },
+  {
+   "id": "acc",
+   "label": "Crucero adaptativo",
+   "pattern": "\\bACC\\b|crucero adaptativo",
+   "flags": "i",
+   "home": "b5-8",
+   "sections": [
+    "b3-2",
+    "b5-8"
+   ]
+  },
+  {
+   "id": "lcc",
+   "label": "Centrado de carril",
+   "pattern": "\\bLCC\\b|centrado de carril",
+   "flags": "i",
+   "home": "b5-8",
+   "sections": [
+    "b3-2",
+    "b4-3",
+    "b5-8"
+   ]
+  },
+  {
+   "id": "alc",
+   "label": "Cambio de carril asistido",
+   "pattern": "\\bALC\\b|cambio de carril",
+   "flags": "i",
+   "home": "b5-8",
+   "sections": [
+    "b4-3",
+    "b5-8"
+   ]
+  },
+  {
+   "id": "lane",
+   "label": "Aviso y mantenimiento de carril",
+   "pattern": "\\bLDW\\b|\\bLKA\\b|salida de carril|mantenimiento de carril",
+   "flags": "i",
+   "home": "b5-7",
+   "sections": [
+    "b3-2",
+    "b4-3",
+    "b4-4",
+    "b5-7"
+   ]
+  },
+  {
+   "id": "bsd",
+   "label": "Ángulo muerto",
+   "pattern": "ángulo muerto|\\bBSD\\b",
+   "flags": "i",
+   "home": "b5-7",
+   "sections": [
+    "b4-4",
+    "b5-7"
+   ]
+  },
+  {
+   "id": "lpedal",
+   "label": "L-pedal (un pedal)",
+   "pattern": "\\bL-pedal\\b|un pedal",
+   "flags": "i",
+   "home": "b5-3",
+   "sections": [
+    "b3-4",
+    "b4-3",
+    "b4-8",
+    "b5-3"
+   ]
+  },
+  {
+   "id": "creep",
+   "label": "Creep",
+   "pattern": "\\bcreep\\b",
+   "flags": "i",
+   "home": "b5-3",
+   "sections": [
+    "b3-4",
+    "b4-3",
+    "b4-8",
+    "b5-2",
+    "b5-3"
+   ]
+  },
+  {
+   "id": "regen",
+   "label": "Recuperación de energía",
+   "pattern": "recuperación de energía",
+   "flags": "i",
+   "home": "b5-3",
+   "sections": [
+    "b4-3",
+    "b5-3"
+   ]
+  },
+  {
+   "id": "wet",
+   "label": "Modo mojado",
+   "pattern": "modo mojado",
+   "flags": "i",
+   "home": "b5-3",
+   "sections": [
+    "b3-4",
+    "b4-3"
+   ]
+  },
+  {
+   "id": "saver",
+   "label": "Súper ahorro",
+   "pattern": "súper ahorro",
+   "flags": "i",
+   "home": "b5-3",
+   "sections": [
+    "b3-4",
+    "b5-3"
+   ]
+  },
+  {
+   "id": "v2l",
+   "label": "Descarga V2L",
+   "pattern": "\\bV2L\\b",
+   "flags": "",
+   "home": "b1-2",
+   "sections": [
+    "b3-2",
+    "b4-8"
+   ]
+  },
+  {
+   "id": "ota",
+   "label": "Actualización OTA",
+   "pattern": "\\bOTA\\b",
+   "flags": "",
+   "home": "b3-5",
+   "sections": [
+    "b3-5",
+    "b4-1"
+   ]
+  },
+  {
+   "id": "nfc",
+   "label": "Tarjeta NFC",
+   "pattern": "tarjeta NFC|\\bNFC\\b",
+   "flags": "",
+   "home": "b1-6",
+   "sections": [
+    "b1-6",
+    "b3-8",
+    "b4-1",
+    "b4-2",
+    "b4-7",
+    "b4-8",
+    "b5-1",
+    "b6-9"
+   ]
+  },
+  {
+   "id": "mechkey",
+   "label": "Llave mecánica",
+   "pattern": "llave mecánica",
+   "flags": "i",
+   "home": "b1-6",
+   "sections": [
+    "b1-6",
+    "b1-7",
+    "b4-1",
+    "b4-2",
+    "b4-8",
+    "b6-7"
+   ]
+  },
+  {
+   "id": "btkey",
+   "label": "Llave Bluetooth",
+   "pattern": "llave Bluetooth",
+   "flags": "i",
+   "home": "b1-6",
+   "sections": [
+    "b1-6",
+    "b4-2",
+    "b5-1"
+   ]
+  },
+  {
+   "id": "cam360",
+   "label": "Vista 360°",
+   "pattern": "360°",
+   "flags": "",
+   "home": "b5-9",
+   "sections": [
+    "b3-4",
+    "b4-3",
+    "b5-9"
+   ]
+  },
+  {
+   "id": "tpms",
+   "label": "Control de presiones",
+   "pattern": "control de presiones|presión de (?:los )?neumáticos",
+   "flags": "i",
+   "home": "b6-2",
+   "sections": [
+    "b3-2",
+    "b5-4",
+    "b5-5",
+    "b6-2",
+    "b6-9"
+   ]
+  },
+  {
+   "id": "battery12",
+   "label": "Batería de 12 V",
+   "pattern": "batería de 12 ?V",
+   "flags": "i",
+   "home": "b6-4",
+   "sections": [
+    "b5-1",
+    "b6-4",
+    "b6-6",
+    "b6-9"
+   ]
+  },
+  {
+   "id": "life",
+   "label": "Detección de vida",
+   "pattern": "detección de vida|ocupantes olvidados",
+   "flags": "i",
+   "home": "b5-7",
+   "sections": [
+    "b3-4",
+    "b4-2",
+    "b5-7"
+   ]
+  },
+  {
+   "id": "password",
+   "label": "Arranque con contraseña",
+   "pattern": "arranque con contraseña",
+   "flags": "i",
+   "home": "b5-1",
+   "sections": [
+    "b3-4",
+    "b4-2"
+   ]
+  },
+  {
+   "id": "pairbag",
+   "label": "Airbag del acompañante",
+   "pattern": "airbag del acompañante",
+   "flags": "i",
+   "home": "b1-5",
+   "sections": [
+    "b1-5",
+    "b3-4"
+   ]
+  },
+  {
+   "id": "scene",
+   "label": "Modo escena",
+   "pattern": "modo escena|modo guardián|modo camping",
+   "flags": "i",
+   "home": "b3-4",
+   "sections": [
+    "b1-2",
+    "b3-4",
+    "b4-5",
+    "b4-8"
+   ]
+  },
+  {
+   "id": "zms",
+   "label": "Zero Motion Space",
+   "pattern": "Zero Motion Space",
+   "flags": "i",
+   "home": "b3-4",
+   "sections": [
+    "b3-4",
+    "b4-5",
+    "b4-7",
+    "b4-8"
+   ]
+  },
+  {
+   "id": "quickactions",
+   "label": "Acciones rápidas",
+   "pattern": "acciones rápidas",
+   "flags": "i",
+   "home": "b3-4",
+   "sections": [
+    "b3-4",
+    "b3-5",
+    "b4-2",
+    "b4-7",
+    "b5-6"
+   ]
+  },
+  {
+   "id": "custombtn",
+   "label": "Botón personalizado del volante",
+   "pattern": "botón personalizado",
+   "flags": "i",
+   "home": "b3-3",
+   "sections": [
+    "b3-3",
+    "b4-3",
+    "b5-9"
+   ]
+  },
+  {
+   "id": "scheduled",
+   "label": "Carga programada",
+   "pattern": "carga programada",
+   "flags": "i",
+   "home": "b1-1",
+   "sections": [
+    "b1-1",
+    "b3-2",
+    "b4-6",
+    "b4-8"
+   ]
+  },
+  {
+   "id": "chargelimit",
+   "label": "Límite de carga",
+   "pattern": "límite de carga",
+   "flags": "i",
+   "home": "b1-1",
+   "sections": [
+    "b1-1",
+    "b4-6"
+   ]
+  },
+  {
+   "id": "currentlimit",
+   "label": "Límite de corriente de seguridad",
+   "pattern": "(?:límite|limitador) de corriente",
+   "flags": "i",
+   "home": "b1-1",
+   "sections": [
+    "b1-1",
+    "b4-6"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1D2733">
+  <meta name="description" content="Manual de casa del Leapmotor B03X en castellano: carga, testigos, configuración, conducción y emergencias.">
+  <title>B03X · Manual de casa</title>
+  <link rel="icon" href="icons/app/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/app/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="B03X">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="vendor/fonts.css">
+  <link rel="stylesheet" href="vendor/icons.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/pwa.css">
+  <script src="version.js"></script>
+  <script src="js/pwa.js" defer></script>
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Saltar al contenido</a>
+
+  <div class="app">
+    <aside class="sidebar" aria-label="Índice del manual">
+      <div class="sidebar__brand">
+        <a href="#/" class="brand" data-nav>
+          <span class="brand__mark"><i class="ti ti-steering-wheel"></i></span>
+          <span class="brand__text"><strong>B03X</strong><span>Manual de casa</span></span>
+        </a>
+      </div>
+      <nav class="tree" id="tree-desktop"></nav>
+      <div class="sidebar__footer">
+        <button class="install-btn" data-install hidden><i class="ti ti-download"></i> Instalar la app</button>
+        <a class="pdf-link" href="docs/B03X_guia_completa_castellano.pdf" target="_blank" rel="noopener">
+          <i class="ti ti-file-type-pdf"></i> Abrir el PDF completo
+        </a>
+        <div class="credits" data-credits></div>
+      </div>
+    </aside>
+
+    <div class="main">
+      <header class="topbar">
+        <button class="icon-btn menu-btn" id="menu-open" aria-label="Abrir el índice"><i class="ti ti-menu-2"></i></button>
+        <nav class="crumbs" id="crumbs" aria-label="Estás aquí"></nav>
+        <button class="search-trigger" id="search-open" aria-label="Buscar en el manual">
+          <i class="ti ti-search"></i><span>Buscar</span><kbd>/</kbd>
+        </button>
+        <span class="offline-badge" id="offline-badge" hidden><i class="ti ti-cloud-off"></i><span>Sin conexión</span></span>
+        <button class="icon-btn" id="theme-toggle" aria-label="Cambiar tema" title="Cambiar tema claro u oscuro"><i class="ti ti-moon"></i></button>
+      </header>
+
+      <main id="content" class="content" tabindex="-1"></main>
+    </div>
+  </div>
+
+  <div class="drawer" id="drawer" hidden>
+    <div class="drawer__backdrop" data-drawer-close></div>
+    <div class="drawer__panel" role="dialog" aria-modal="true" aria-label="Índice">
+      <div class="drawer__head">
+        <a href="#/" class="brand"><span class="brand__mark"><i class="ti ti-steering-wheel"></i></span>
+          <span class="brand__text"><strong>B03X</strong><span>Manual de casa</span></span></a>
+        <button class="icon-btn" data-drawer-close aria-label="Cerrar el índice"><i class="ti ti-x"></i></button>
+      </div>
+      <nav class="tree tree--drawer" id="tree-mobile"></nav>
+      <div class="drawer__foot">
+        <button class="install-btn" data-install hidden><i class="ti ti-download"></i> Instalar la app</button>
+        <a class="pdf-link" href="docs/B03X_guia_completa_castellano.pdf" target="_blank" rel="noopener">
+          <i class="ti ti-file-type-pdf"></i> Abrir el PDF completo
+        </a>
+        <div class="credits" data-credits></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <div class="sheet" id="install-sheet" hidden>
+    <div class="sheet__backdrop" data-sheet-close></div>
+    <div class="sheet__panel" role="dialog" aria-modal="true" aria-label="Cómo instalar la app">
+      <button class="icon-btn sheet__close" data-sheet-close aria-label="Cerrar"><i class="ti ti-x"></i></button>
+      <h2>Instalar en el iPhone</h2>
+      <p>Hay que hacerlo desde <b>Safari</b>. Son tres toques:</p>
+      <ol class="steps">
+        <li>Pulsa el botón <b>Compartir</b> <i class="ti ti-share-2"></i> de la barra de Safari.</li>
+        <li>Baja por la lista y elige <b>Añadir a pantalla de inicio</b> <i class="ti ti-square-plus"></i>.</li>
+        <li>Deja el nombre «B03X» y pulsa <b>Añadir</b>. El icono aparece en tu pantalla de inicio.</li>
+      </ol>
+      <p>Ábrela siempre desde ese icono: así funciona a pantalla completa y sin conexión.</p>
+    </div>
+  </div>
+
+  <div class="search" id="search" hidden>
+    <div class="search__backdrop" data-close></div>
+    <div class="search__panel" role="dialog" aria-modal="true" aria-label="Buscar en el manual">
+      <div class="search__field">
+        <i class="ti ti-search"></i>
+        <input id="search-input" type="search" placeholder="Qué necesitas: pinchazo, testigo, cargar, presión…" autocomplete="off" enterkeyhint="go">
+        <button class="icon-btn" data-close aria-label="Cerrar la búsqueda"><i class="ti ti-x"></i></button>
+      </div>
+      <ol class="search__results" id="search-results"></ol>
+      <p class="search__hint"><kbd>↑</kbd><kbd>↓</kbd> para moverte, <kbd>Intro</kbd> para abrir, <kbd>Esc</kbd> para cerrar</p>
+    </div>
+  </div>
+
+  <button class="to-top" id="to-top" aria-label="Volver arriba"><i class="ti ti-arrow-up"></i></button>
+
+</body>
+</html>

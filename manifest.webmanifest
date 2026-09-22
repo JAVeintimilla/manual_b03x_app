@@ -1,0 +1,55 @@
+{
+ "name": "Leapmotor B03X · Manual de casa",
+ "short_name": "B03X",
+ "description": "Manual del B03X en castellano, disponible sin conexión.",
+ "lang": "es",
+ "start_url": "./",
+ "scope": "./",
+ "id": "./",
+ "display": "standalone",
+ "orientation": "any",
+ "background_color": "#F5F6F3",
+ "theme_color": "#1D2733",
+ "icons": [
+  {
+   "src": "icons/app/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icons/app/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icons/app/icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "Testigos del cuadro",
+   "short_name": "Testigos",
+   "url": "./#/b3-2"
+  },
+  {
+   "name": "Emergencias en carretera",
+   "short_name": "Emergencias",
+   "url": "./#/b6-6"
+  },
+  {
+   "name": "Calendario de cargas",
+   "short_name": "Calendario",
+   "url": "./#/b2-2"
+  },
+  {
+   "name": "Buscar en el manual",
+   "short_name": "Buscar",
+   "url": "./?buscar=1#/"
+  }
+ ]
+}
