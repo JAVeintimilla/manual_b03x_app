@@ -121,21 +121,45 @@ function formatLongDate(isoDate) {
 
 // ---------------------------------------------------------------- tema
 
-function applyTheme(theme) {
-  const isDark = theme === "dark";
-  document.documentElement.dataset.theme = theme;
+const systemDarkQuery = window.matchMedia("(prefers-color-scheme: dark)");
+
+/** Cada modo tiene su icono y su etiqueta; el ciclo es automático, claro, oscuro. */
+const THEME_MODES = {
+  auto: { icon: "ti-circle-half-2", label: "Tema automático (según el sistema)", next: "light" },
+  light: { icon: "ti-sun", label: "Tema claro", next: "dark" },
+  dark: { icon: "ti-moon", label: "Tema oscuro", next: "auto" },
+};
+
+/** @returns {"auto"|"light"|"dark"} */
+function getThemeMode() {
+  const saved = localStorage.getItem(THEME_KEY);
+  return saved === "light" || saved === "dark" ? saved : "auto";
+}
+
+/** Aplico el modo elegido; en automático sigo el tema del sistema. */
+function applyTheme(mode) {
+  const resolved = mode === "auto" ? (systemDarkQuery.matches ? "dark" : "light") : mode;
+  const isDark = resolved === "dark";
+  const { icon, label } = THEME_MODES[mode];
+  document.documentElement.dataset.theme = resolved;
   document.documentElement.classList.toggle("sl-theme-dark", isDark);
-  themeButton.innerHTML = `<i class="ti ti-${isDark ? "sun" : "moon"}"></i>`;
+  themeButton.innerHTML = `<i class="ti ${icon}"></i>`;
+  themeButton.title = `${label}. Toca para cambiar`;
+  themeButton.setAttribute("aria-label", `${label}. Cambiar tema`);
   document.querySelector('meta[name="theme-color"]')?.setAttribute("content", isDark ? "#12181F" : "#1D2733");
 }
 
 function initTheme() {
-  // Arranco siempre en claro salvo que el usuario haya elegido otro tema en este dispositivo
-  applyTheme(localStorage.getItem(THEME_KEY) ?? "light");
+  applyTheme(getThemeMode());
   themeButton.addEventListener("click", () => {
-    const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
-    localStorage.setItem(THEME_KEY, next);
+    const next = THEME_MODES[getThemeMode()].next;
+    if (next === "auto") localStorage.removeItem(THEME_KEY);
+    else localStorage.setItem(THEME_KEY, next);
     withTransition(() => applyTheme(next));
+  });
+  // Si el sistema cambia de claro a oscuro (por ejemplo al anochecer) y estoy en automático, lo sigo al momento
+  systemDarkQuery.addEventListener("change", () => {
+    if (getThemeMode() === "auto") withTransition(() => applyTheme("auto"));
   });
 }
 
