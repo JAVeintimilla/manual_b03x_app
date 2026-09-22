@@ -78,7 +78,7 @@ function watchForUpdates(registration) {
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", async () => {
     try {
-      const registration = await navigator.serviceWorker.register("sw.js");
+      const registration = await navigator.serviceWorker.register("sw.js", { updateViaCache: "none" });
       watchForUpdates(registration);
     } catch (error) {
       console.warn("No he podido registrar el service worker", error);
