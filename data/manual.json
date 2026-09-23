@@ -2581,32 +2581,146 @@
       },
       {
        "t": "h3",
-       "html": "Las tres configuraciones que voy a usar"
-      },
-      {
-       "t": "columns",
-       "items": [
-        {
-         "title": "<b>Ciudad</b><br/>primeras semanas",
-         "html": "<b>Aceleración:</b> Confort<br/><b>Recuperación:</b> Fuerte (o L-pedal, sabiendo que anula la selección de recuperación)<br/><b>Dirección:</b> Confort<br/><b>Creep:</b> activado<br/><b>Auto Hold:</b> activado, con aviso acústico<br/><b>Aviso de exceso de velocidad:</b> activado, sonido a tu gusto<br/><b>Aviso al abrir puerta:</b> activado"
-        },
-        {
-         "title": "<b>Carretera</b><br/>viajes de 100-200 km",
-         "html": "<b>Aceleración:</b> Estándar (Sport solo si se quiere respuesta inmediata)<br/><b>Recuperación:</b> Débil o Media, con L-pedal desactivado para poder elegirla<br/><b>Dirección:</b> Sport<br/><b>Centrado de carril:</b> activado (si corrige de más, bajar el aviso de salida de carril a solo aviso)<br/><b>Distancia de seguimiento:</b> ruleta izquierda del volante<br/><b>Cambio de carril automático:</b> con centrado activado, se dispara con el intermitente<br/><b>Aviso de arranque del de delante:</b> útil en retenciones"
-        },
-        {
-         "title": "<b>Garaje</b><br/>rampa y sótano &minus;2",
-         "html": "<b>Aceleración:</b> Confort<br/><b>Recuperación:</b> Media, L-pedal desactivado (el un pedal frena de golpe al soltar y descoloca la maniobra)<br/><b>Dirección:</b> Confort<br/><b>Creep:</b> activado (se controla la rampa con el freno)<br/><b>Auto Hold:</b> activado (si se para a media rampa, no rueda hacia atrás)<br/><b>HDC:</b> activado para la bajada al &minus;2<br/><b>Espejos:</b> plegado automático al cerrar<br/><b>Silencio en marcha atrás:</b> <i>Ajustes &gt; Sonido</i>"
-        }
-       ]
-      },
-      {
-       "t": "note",
-       "html": "<b>El hallazgo más útil para el garaje:</b> en <i>Conducción inteligente &gt; Imagen asistida</i> hay cuatro activaciones automáticas de la cámara 360&deg;: al detectar una rampa, en calle estrecha, al pasar de P a D y al poner el intermitente. Con las cuatro activadas, y sumando que el 360&deg; se abre solo al meter marcha atrás y por debajo de 30 km/h, entrar al garaje no requiere tocar nada de cámara a mano."
+       "html": "Nuestros tres modos y cómo se cambian"
       },
       {
        "t": "p",
-       "html": "<b>¿Se mantienen al apagar?</b> El manual no dice que aceleración, recuperación o dirección se reinicien. El único ajuste que confirma que vuelve a su valor por defecto en cada ciclo es el modo mojado. Lo previsible es que la configuración se mantenga y que el botón del volante sirva para alternar entre Ciudad y Carretera, no para «resetear». <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span> las primeras veces."
+       "html": "Tres configuraciones, una por situación. La del <b>garaje</b> es el estado por defecto, porque todos los trayectos empiezan y acaban allí; el botón del volante saca de ella, no mete en ella."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "",
+        "<b>Garaje</b><br/>por defecto, sin tocar nada",
+        "<b>Ciudad</b><br/>un clic",
+        "<b>Carretera</b><br/>doble clic"
+       ],
+       "rows": [
+        [
+         "Aceleración",
+         "Confort",
+         "Confort",
+         "Estándar"
+        ],
+        [
+         "Dirección",
+         "Confort",
+         "Confort",
+         "Sport"
+        ],
+        [
+         "Recuperación",
+         "Media",
+         "La gestiona el L-pedal",
+         "Débil o media"
+        ],
+        [
+         "<b>L-pedal (un pedal)</b>",
+         "<b>Desactivado</b>",
+         "<b>Activado</b>",
+         "<b>Desactivado</b>"
+        ],
+        [
+         "HDC",
+         "Activado siempre",
+         "Activado siempre",
+         "Activado siempre"
+        ],
+        [
+         "Creep y Auto Hold",
+         "Activados",
+         "Activados",
+         "Activados"
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "El <b>HDC</b> se deja activado siempre: solo actúa entre 8 y 35 km/h en pendientes pronunciadas, así que no estorba en ciudad ni en carretera y ahorra un gesto en cada entrada y salida del garaje."
+      },
+      {
+       "t": "h3",
+       "html": "Qué lleva el botón y qué no"
+      },
+      {
+       "t": "list",
+       "items": [
+        "<b>El botón del volante</b> se encarga de aceleración, dirección y recuperación, agrupadas en su <b>función combinada</b>. Un clic aplica ciudad y un doble clic, carretera.",
+        "<b>El L-pedal queda fuera</b>: el manual no lo cita entre lo que admite la función combinada, y además <b>solo se puede activar o desactivar con el coche parado</b>. Es el único gesto manual del esquema. <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span>",
+        "Si el L-pedal se pudiera añadir al panel de <b>Acciones rápidas</b>, sería un toque en pantalla en lugar de entrar en <i>Ajustes &gt; Conducción</i>. <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span>",
+        "Las <b>cámaras no necesitan botón</b>: se abren solas en rampa, en paso estrecho, al pasar de P a D, con el intermitente y al meter marcha atrás. A mano, el icono 360&deg; de la barra inferior, por debajo de 30 km/h."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Ejemplo 1: garaje, ciudad, carretera, aparcar, carretera, ciudad y garaje"
+      },
+      {
+       "t": "steps",
+       "items": [
+        "<b>Arrancas en el garaje.</b> No tocas nada: configuración de garaje, sin un pedal. El 360&deg; se abre solo en la rampa.",
+        "<b>Sales a la calle.</b> En el primer semáforo, <b>un clic</b> (ciudad) y activas el L-pedal en <i>Ajustes &gt; Conducción</i>, aprovechando que estás parado.",
+        "<b>Antes de la autovía</b>, parado, desactivas el L-pedal y das <b>doble clic</b> (carretera). Crucero con la palanca hacia abajo.",
+        "<b>Aparcas a comer.</b> Nada que tocar al apagar.",
+        "<b>Vuelves a arrancar.</b> La configuración de carretera debería mantenerse; si no, <b>doble clic</b> otra vez.",
+        "<b>Llegas a la ciudad.</b> En el primer semáforo, <b>un clic</b> y activas el L-pedal.",
+        "<b>Antes de la rampa del garaje</b>, paras y desactivas el L-pedal. Con eso ya estás en configuración de garaje: es lo único que las diferencia."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Ejemplo 2: garaje, ciudad, aparcar, ciudad y garaje"
+      },
+      {
+       "t": "steps",
+       "items": [
+        "<b>Arrancas en el garaje.</b> Nada que tocar.",
+        "<b>Primer semáforo:</b> <b>un clic</b> y L-pedal activado.",
+        "<b>Aparcas</b> para un recado. Nada que tocar.",
+        "<b>Vuelves a arrancar.</b> Sigues en ciudad, con el un pedal puesto.",
+        "<b>Antes de la rampa:</b> paras y desactivas el L-pedal. Estás en garaje."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Plan de adaptación al un pedal (acordado)"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Cuándo",
+        "Cómo conducimos en ciudad",
+        "Por qué"
+       ],
+       "rows": [
+        [
+         "<b>Primera semana</b> (del 24 de septiembre al 1 de octubre)",
+         "<b>Sin L-pedal</b>, con la recuperación en <b>fuerte</b>. El freno se usa con normalidad",
+         "El un pedal del B10 es sensible y necesita unos días de adaptación. Con recuperación fuerte ya se nota buena retención al levantar el pie, pero sin cambiar la forma de conducir"
+        ],
+        [
+         "<b>A partir de la segunda semana</b>",
+         "<b>L-pedal activado</b> en ciudad, y desactivado antes de la rampa del garaje",
+         "Cuando el pedal resulta previsible, el un pedal es más cómodo en tráfico y recupera más energía"
+        ],
+        [
+         "<b>Siempre</b>",
+         "Sin L-pedal en maniobras estrechas, rampas y aparcamiento",
+         "Frena de golpe al soltar y descoloca la maniobra. Es lo que recomiendan también los propietarios del B10"
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Si pasada la segunda semana el un pedal sigue sin convencer a alguno de los tres, no pasa nada por quedarse con recuperación fuerte: la diferencia de consumo es pequeña y lo importante es que el coche resulte previsible para quien conduce. Como el ajuste es por coche y no por conductor, si no hay acuerdo conviene dejarlo desactivado y que cada uno lo active si quiere, siempre con el coche parado."
+      },
+      {
+       "t": "p",
+       "html": "<b>¿Se mantiene al apagar?</b> El manual no dice que aceleración, recuperación o dirección se reinicien; el único ajuste que confirma que vuelve a su valor por defecto en cada ciclo es el modo mojado. En el C10, el un pedal se queda activado de un trayecto a otro. <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span> las primeras veces."
       }
      ]
     },
@@ -2713,6 +2827,57 @@
       {
        "t": "p",
        "html": "Además, la app del móvil tiene <b>Preparación con un botón</b>: destino enviado al navegador, clima, calefacción de asientos, volante y espejos, con programación horaria y repetición. Para las mañanas de invierno, más práctico que cualquier rutina de a bordo."
+      },
+      {
+       "t": "h3",
+       "html": "Ejemplo de escenario, solo para ver hasta dónde llega"
+      },
+      {
+       "t": "p",
+       "html": "No vamos a montar escenarios para los modos de conducción: cambiar la aceleración o la dirección de forma automática quita previsibilidad, y el L-pedal ni siquiera se puede tocar en marcha. Pero para el resto del coche, un escenario puede encadenar bastantes cosas. Este sería un «Llegada a casa» completo, a un toque al enfilar nuestra calle:"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Paso",
+        "Qué hace"
+       ],
+       "rows": [
+        [
+         "1",
+         "Cierra las cuatro ventanillas, por si alguna quedó en ventilación"
+        ],
+        [
+         "2",
+         "Apaga el climatizador y la recirculación, que ya no hacen falta"
+        ],
+        [
+         "3",
+         "Baja el volumen del multimedia, para oír los sensores en la rampa"
+        ],
+        [
+         "4",
+         "Abre la vista 360&deg; con el chasis transparente"
+        ],
+        [
+         "5",
+         "Enciende la luz ambiental en un tono suave"
+        ],
+        [
+         "6",
+         "Al aparcar y salir, plegado de espejos y bloqueo de ventanillas traseras"
+        ]
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Un segundo ejemplo, «Salida de viaje»: clima a 21&deg;C con la bomba de calor, calefacción del volante si hace frío, destino enviado desde la app al navegador, multimedia en la emisora de siempre y ventanillas cerradas."
+      },
+      {
+       "t": "small",
+       "html": "Son ejemplos: el manual no detalla qué funciones concretas admite cada escenario ni qué disparadores ofrece (manuales, por velocidad, por temperatura). <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span> al abrir la aplicación por primera vez."
       }
      ]
     },
@@ -5111,18 +5276,6 @@
    "home": "b5-8",
    "sections": [
     "b3-2",
-    "b4-3",
-    "b5-8"
-   ]
-  },
-  {
-   "id": "alc",
-   "label": "Cambio de carril asistido",
-   "pattern": "\\bALC\\b|cambio de carril",
-   "flags": "i",
-   "home": "b5-8",
-   "sections": [
-    "b4-3",
     "b5-8"
    ]
   },
@@ -5134,7 +5287,6 @@
    "home": "b5-7",
    "sections": [
     "b3-2",
-    "b4-3",
     "b4-4",
     "b4-7",
     "b5-7"
@@ -5161,6 +5313,7 @@
    "sections": [
     "b3-4",
     "b4-3",
+    "b4-5",
     "b4-9",
     "b5-3"
    ]
@@ -5288,6 +5441,7 @@
    "sections": [
     "b3-4",
     "b4-3",
+    "b4-5",
     "b4-7",
     "b5-9"
    ]
@@ -5390,6 +5544,7 @@
     "b3-4",
     "b3-5",
     "b4-2",
+    "b4-3",
     "b4-7",
     "b4-8",
     "b5-6"
