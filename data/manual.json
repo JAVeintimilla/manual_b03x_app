@@ -4824,6 +4824,353 @@
      ]
     }
    ]
+  },
+  {
+   "id": "b7",
+   "number": 7,
+   "title": "Seguro del coche",
+   "subtitle": "Qué cubre y qué no, asistencia en viaje, cobertura en el extranjero y qué hacer tras un siniestro",
+   "icon": "umbrella",
+   "intro": [
+    {
+     "t": "p",
+     "html": "Resumen del <b>documento de información del producto</b> de la póliza: Mutua Madrileña, <b>Todo Riesgo ECO</b>. Es un resumen explicado, no el contrato: lo que manda son las <b>Condiciones Particulares</b> y las Generales."
+    },
+    {
+     "t": "warn",
+     "html": "<b>Importante.</b> Muchos límites concretos (franquicia, cuantías de accidentes de ocupantes, días de vehículo de sustitución, si la asistencia es desde el kilómetro 0) <b>no están en este documento</b>: figuran en tus Condiciones Particulares. Conviene tenerlas a mano y contrastarlas con lo que sigue."
+    }
+   ],
+   "sections": [
+    {
+     "id": "b7-1",
+     "title": "Qué cubre",
+     "marker": "1",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Garantía",
+        "Qué incluye"
+       ],
+       "rows": [
+        [
+         "Responsabilidad civil obligatoria y voluntaria",
+         "Lesiones o daños causados a otros: hasta 70 millones de euros en daños personales y 15 millones en materiales, más 50 millones en exceso sobre los límites del seguro obligatorio"
+        ],
+        [
+         "Daños propios e incendio",
+         "Los daños que se produzcan en nuestro coche"
+        ],
+        [
+         "Robo",
+         "Del coche o de sus piezas fijas"
+        ],
+        [
+         "Accidentes individuales de ocupantes",
+         "Fallecimiento, invalidez permanente y asistencia sanitaria, con las cuantías de las Condiciones Particulares"
+        ],
+        [
+         "Defensa jurídica",
+         "Defensa en juicio por accidente de circulación: hasta 1.000 &euro; con abogado de libre elección, ilimitada con abogado de la Mutua"
+        ],
+        [
+         "Reclamación de daños",
+         "Reclamar al culpable: hasta 6.000 &euro; con abogado propio, ilimitada con abogado de la Mutua"
+        ],
+        [
+         "Asistencia en viaje al vehículo",
+         "Avería, accidente, falta de combustible, pérdida de llaves o pinchazo. Incluye reparación de emergencia, traslado y rescate del vehículo, gastos de abandono legal y envío de piezas"
+        ],
+        [
+         "Asistencia en viaje a los ocupantes",
+         "Para conductor y ocupantes por una incidencia del vehículo, un accidente o una enfermedad durante un viaje, con asistencia sanitaria en el extranjero"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Garantías opcionales: hay que comprobar cuáles tenemos"
+      },
+      {
+       "t": "list",
+       "items": [
+        "<b>Vehículo de sustitución.</b>",
+        "<b>Daños por atropello de animales</b> domésticos, de granja y cinegéticos. Interesa para las nacionales con curvas y para el viaje a Andorra.",
+        "<b>Batería del coche eléctrico.</b> En un eléctrico es la pieza más cara del vehículo: merece la pena confirmar si está contratada y con qué alcance."
+       ]
+      }
+     ],
+     "keywords": "seguro poliza mutua cobertura garantias todo riesgo"
+    },
+    {
+     "id": "b7-2",
+     "title": "Qué no cubre",
+     "marker": "2",
+     "content": [
+      {
+       "t": "p",
+       "html": "Nunca están cubiertos los daños causados de forma intencionada, ni los que asume el Consorcio de Compensación de Seguros, ni los derivados de guerra, manifestaciones, huelgas o catástrofes declaradas por el Gobierno. Y tampoco:"
+      },
+      {
+       "t": "list",
+       "items": [
+        "Conducir bajo los efectos del <b>alcohol</b> o de drogas, o <b>sin permiso de conducción</b> en vigor.",
+        "Condena por omisión del deber de socorro.",
+        "Incumplir los requisitos del transporte de personas y cosas, o las obligaciones técnicas de seguridad del vehículo (por ejemplo, circular con la <b>ITV</b> caducada o con neumáticos en mal estado).",
+        "Recintos restringidos de puertos y aeropuertos, apuestas y carreras.",
+        "<b>Reparaciones fuera de España</b> sin autorización previa de la Mutua.",
+        "Daños producidos con el <b>vehículo más de 30 días en el extranjero</b>.",
+        "Objetos transportados y bienes del asegurado o del conductor.",
+        "Equipamiento no declarado en las Condiciones Particulares.",
+        "Circular por <b>vías no aptas</b> para la circulación (pistas, caminos no señalizados).",
+        "Reclamaciones de daños inferiores a <b>300 &euro;</b>."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b7-3",
+     "title": "Límites que conviene conocer",
+     "marker": "3",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Situación",
+        "Cómo se indemniza"
+       ],
+       "rows": [
+        [
+         "Pérdida total o robo",
+         "A valor de factura o a valor de venta anterior a la pérdida, según la antigüedad del coche y lo que digan las Condiciones Particulares"
+        ],
+        [
+         "Neumáticos",
+         "Solo se cubren en pérdida total, actos vandálicos y colisión con daños en la mecánica. Un pinchazo corriente no entra"
+        ],
+        [
+         "Piezas desgastadas",
+         "Si la pieza a sustituir está desgastada o tiene una vida útil menor que la del coche, se tasa por su valor en la fecha del accidente"
+        ],
+        [
+         "Robo de la batería o de los neumáticos",
+         "Se indemniza el <b>80 %</b> de su valor en la fecha del robo"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b7-4",
+     "title": "Asistencia en viaje: los números",
+     "marker": "4",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Concepto",
+        "Límite"
+       ],
+       "rows": [
+        [
+         "Traslado del vehículo",
+         "Cuando no es posible repararlo en el sitio"
+        ],
+        [
+         "Número de asistencias al año",
+         "7, <b>sin límite para vehículos con batería de tracción eléctrica</b>, que es nuestro caso"
+        ],
+        [
+         "Custodia y depósito del vehículo",
+         "Hasta 120 &euro;"
+        ],
+        [
+         "Asistencia a los ocupantes",
+         "A partir de <b>25 km</b> del domicilio declarado (10 km en islas)"
+        ],
+        [
+         "Hotel en España",
+         "60 &euro; por persona y día, máximo 3 días"
+        ],
+        [
+         "Hotel en el extranjero",
+         "60 &euro; por persona y día, máximo 10 días"
+        ],
+        [
+         "Gastos médicos en el extranjero",
+         "Desde 90 &euro; y hasta 6.000 &euro;; hasta 9.000 &euro; por accidente para todos los afectados"
+        ],
+        [
+         "Vehículo de sustitución",
+         "Si no pueden facilitarlo, indemnizan una cantidad diaria. Los supuestos cubiertos (avería, accidente, robo) están en las Condiciones Particulares"
+        ]
+       ]
+      },
+      {
+       "t": "note",
+       "html": "La asistencia desde el <b>kilómetro 0</b> y la asistencia a ocupantes solo se aplican <b>cuando así conste en las Condiciones Particulares</b>. Si no, la asistencia al vehículo empieza a partir de cierta distancia de casa. Es la primera cosa que yo comprobaría."
+      }
+     ]
+    },
+    {
+     "id": "b7-5",
+     "title": "Dónde estamos cubiertos",
+     "marker": "5",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Zona",
+        "Qué cubre"
+       ],
+       "rows": [
+        [
+         "España y países del Convenio Multilateral de Garantía (Unión Europea, Espacio Económico Europeo y otros adheridos)",
+         "La póliza completa, con todas las garantías contratadas"
+        ],
+        [
+         "Países del Convenio Inter-Bureaux, <b>con Carta Verde</b>",
+         "Solo responsabilidad civil obligatoria, defensa jurídica, reclamación de daños y asistencia en viaje"
+        ]
+       ]
+      },
+      {
+       "t": "warn",
+       "html": "<b>Importante.</b> <b>Antes del viaje de Jaime a Andorra (18-21 de diciembre).</b> Andorra no pertenece a la Unión Europea ni al Espacio Económico Europeo, así que hay que llamar a la Mutua y preguntar dos cosas: si hace falta la <b>Carta Verde</b> y si con ella quedan cubiertos los <b>daños propios</b> del coche. Por lo que dice este documento, con Carta Verde solo se atienden responsabilidad civil obligatoria, defensa jurídica, reclamación de daños y asistencia: un golpe propio en la nieve podría quedar fuera. También conviene confirmar la cobertura con <b>cadenas o fundas</b> montadas y en aparcamientos de estación."
+      }
+     ]
+    },
+    {
+     "id": "b7-6",
+     "title": "Nuestras obligaciones y plazos",
+     "marker": "6",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Obligación",
+        "Detalle"
+       ],
+       "rows": [
+        [
+         "Pagar el seguro",
+         "Anual o aplazado, según la normativa de suscripción. La cobertura exige tener el precio pagado"
+        ],
+        [
+         "Declarar con exactitud",
+         "También durante el contrato: cualquier circunstancia que influya en la valoración del riesgo (conductores habituales, uso del coche, garaje)"
+        ],
+        [
+         "Comunicar el siniestro",
+         "Plazo máximo de <b>7 días</b> desde que ocurre"
+        ],
+        [
+         "Colaborar con el perito",
+         "Durante toda la tramitación del expediente"
+        ],
+        [
+         "No renovar",
+         "Avisar por escrito con <b>un mes</b> de antelación a la fecha de fin del contrato"
+        ],
+        [
+         "Anular antes de tiempo",
+         "No se devuelve la parte del precio no consumida"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b7-7",
+     "title": "Si tenemos un accidente o una avería",
+     "marker": "7",
+     "content": [
+      {
+       "t": "steps",
+       "items": [
+        "<b>Seguridad primero</b>: luces de emergencia, chaleco antes de salir y triángulo a la distancia que marque la norma. Todo está en el bloque 6.",
+        "Si hay heridos, <b>112</b>. El coche llama solo a emergencias si salta un airbag o vuelca, y también se puede lanzar con el botón SOS del techo.",
+        "<b>Parte amistoso</b> con el otro conductor: datos de ambos, matrículas, aseguradoras y croquis. Fotos de los dos vehículos, de la posición final y de la señalización.",
+        "Llamar a la <b>asistencia en viaje</b> de la Mutua. Recuerda: con coche eléctrico no hay límite de asistencias al año.",
+        "Comunicar el siniestro a la aseguradora <b>antes de 7 días</b>.",
+        "<b>No repares nada fuera de España</b> sin autorización previa de la Mutua."
+       ]
+      },
+      {
+       "t": "p",
+       "html": "Para daños pequeños, ten en cuenta el mínimo: las reclamaciones por debajo de 300 &euro; no se atienden. Y antes de dar un parte por un roce, valora el efecto que tiene sobre la bonificación del año siguiente."
+      }
+     ],
+     "keywords": "siniestro parte amistoso grua asistencia averia accidente telefono mutua"
+    },
+    {
+     "id": "b7-8",
+     "title": "Lo que hay que comprobar en las Condiciones Particulares",
+     "marker": "8",
+     "content": [
+      {
+       "t": "checklist",
+       "items": [
+        {
+         "title": "Franquicia",
+         "html": "Si la hay y de cuánto es en daños propios."
+        },
+        {
+         "title": "Asistencia desde el km 0",
+         "html": "Si consta expresamente, y si cubre también a los ocupantes."
+        },
+        {
+         "title": "Batería del coche eléctrico",
+         "html": "Si está contratada la garantía opcional y qué incluye: daño, robo, degradación, cargador."
+        },
+        {
+         "title": "Vehículo de sustitución",
+         "html": "Si está contratado, cuántos días y en qué supuestos (avería, accidente, robo)."
+        },
+        {
+         "title": "Atropello de animales",
+         "html": "Si está contratado."
+        },
+        {
+         "title": "Accidentes de ocupantes",
+         "html": "Las cuantías concretas de fallecimiento, invalidez y asistencia sanitaria."
+        },
+        {
+         "title": "Conductores",
+         "html": "Que estén declarados los tres, con la edad y la antigüedad de carné correctas."
+        },
+        {
+         "title": "Uso y aparcamiento",
+         "html": "Que conste el garaje y el uso particular, si eso mejora la prima."
+        },
+        {
+         "title": "Fechas",
+         "html": "Inicio y fin de la cobertura, y el mes de antelación para no renovar."
+        },
+        {
+         "title": "Carga pública",
+         "html": "Preguntar si un incidente cargando en un poste público (daño al cable o al conector) está cubierto."
+        }
+       ]
+      },
+      {
+       "t": "small",
+       "html": "Resumen elaborado a partir del documento de información del producto de seguro (IPID) de Mutua Madrileña, Todo Riesgo ECO. No sustituye a la póliza ni a sus condiciones, y no soy asesor de seguros: ante cualquier duda, la Mutua."
+      }
+     ]
+    }
+   ]
   }
  ],
  "quick": [
@@ -4874,6 +5221,12 @@
    "icon": "adjustments-horizontal",
    "tone": "success",
    "section": "b4"
+  },
+  {
+   "label": "Accidente o avería: qué hacer",
+   "icon": "umbrella",
+   "tone": "danger",
+   "section": "b7-7"
   },
   {
    "label": "Quitar pitidos y avisos",
@@ -5430,6 +5783,17 @@
     "b1-6",
     "b4-2",
     "b5-1"
+   ]
+  },
+  {
+   "id": "ecall",
+   "label": "eCall y botón SOS",
+   "pattern": "\\beCall\\b|botón SOS",
+   "flags": "i",
+   "home": "b6-6",
+   "sections": [
+    "b6-6",
+    "b7-7"
    ]
   },
   {
