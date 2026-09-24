@@ -1,2 +1,2 @@
 // Única fuente de la versión de la app: cámbiala aquí en cada actualización
-self.APP_VERSION_INFO = { version: "1.7.1", date: "2026-09-23" };
+self.APP_VERSION_INFO = { version: "1.7.2", date: "2026-09-24" };
