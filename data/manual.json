@@ -4936,17 +4936,17 @@
    "intro": [
     {
      "t": "p",
-     "html": "Resumen del <b>documento de información del producto</b> de la póliza: Mutua Madrileña, <b>Todo Riesgo ECO</b>. Es un resumen explicado, no el contrato: lo que manda son las <b>Condiciones Particulares</b> y las Generales."
+     "html": "Resumen de nuestro seguro para consultarlo rápido: teléfonos, qué cubre, qué no, qué hacer tras un accidente o una avería y qué mirar en las Condiciones Particulares."
     },
     {
-     "t": "warn",
-     "html": "<b>Importante.</b> Muchos límites concretos (franquicia, cuantías de accidentes de ocupantes, días de vehículo de sustitución, si la asistencia es desde el kilómetro 0) <b>no están en este documento</b>: figuran en tus Condiciones Particulares. Conviene tenerlas a mano y contrastarlas con lo que sigue."
+     "t": "note",
+     "html": "<b>Resumen de las Condiciones Generales</b> (Todo Riesgo ECO, condicionado 2605TRE). Las cifras y coberturas que dependen de nuestra póliza concreta están en las <b>Condiciones Particulares</b>: esas van marcadas con <b>[CP]</b>."
     }
    ],
    "sections": [
     {
      "id": "b7-1",
-     "title": "Qué cubre",
+     "title": "Teléfonos y datos a mano",
      "marker": "1",
      "content": [
       {
@@ -4954,177 +4954,311 @@
        "tone": "note",
        "icons": false,
        "head": [
-        "Garantía",
-        "Qué incluye"
+        "Para qué",
+        "Contacto"
        ],
        "rows": [
         [
-         "Responsabilidad civil obligatoria y voluntaria",
-         "Lesiones o daños causados a otros: hasta 70 millones de euros en daños personales y 15 millones en materiales, más 50 millones en exceso sobre los límites del seguro obligatorio"
+         "<b>Asistencia en viaje desde España</b> (grúa, avería, pinchazo, accidente)",
+         "<b><a href=\"tel:+34915555555\">91 555 55 55</a></b>"
         ],
         [
-         "Daños propios e incendio",
-         "Los daños que se produzcan en nuestro coche"
+         "<b>Asistencia desde el extranjero</b>",
+         "<b><a href=\"tel:+34915578205\">+34 915 578 205</a></b>"
         ],
         [
-         "Robo",
-         "Del coche o de sus piezas fijas"
+         "Quejas y reclamaciones",
+         "91 555 55 55 o 900 555 555, reclamaciones@mutua.es, o el Área Personal de mutua.es"
         ],
         [
-         "Accidentes individuales de ocupantes",
-         "Fallecimiento, invalidez permanente y asistencia sanitaria, con las cuantías de las Condiciones Particulares"
+         "Consorcio de Compensación de Seguros (inundaciones, catástrofes)",
+         "900 222 665 o 952 367 042, consorseguros.es"
         ],
         [
-         "Defensa jurídica",
-         "Defensa en juicio por accidente de circulación: hasta 1.000 &euro; con abogado de libre elección, ilimitada con abogado de la Mutua"
-        ],
-        [
-         "Reclamación de daños",
-         "Reclamar al culpable: hasta 6.000 &euro; con abogado propio, ilimitada con abogado de la Mutua"
-        ],
-        [
-         "Asistencia en viaje al vehículo",
-         "Avería, accidente, falta de combustible, pérdida de llaves o pinchazo. Incluye reparación de emergencia, traslado y rescate del vehículo, gastos de abandono legal y envío de piezas"
-        ],
-        [
-         "Asistencia en viaje a los ocupantes",
-         "Para conductor y ocupantes por una incidencia del vehículo, un accidente o una enfermedad durante un viaje, con asistencia sanitaria en el extranjero"
+         "Número de póliza",
+         "[CP] guárdalo en los móviles de los tres conductores"
         ]
        ]
       },
       {
-       "t": "h3",
-       "html": "Garantías opcionales: hay que comprobar cuáles tenemos"
-      },
+       "t": "warn",
+       "html": "<b>Importante.</b> <b>La asistencia hay que pedirla siempre a la compañía por teléfono.</b> Una grúa o un servicio contratado por tu cuenta no se paga, salvo fuerza mayor demostrada."
+      }
+     ],
+     "keywords": "telefono grua asistencia mutua 91 555 numero"
+    },
+    {
+     "id": "b7-2",
+     "title": "Qué cubre, de un vistazo",
+     "marker": "2",
+     "content": [
       {
-       "t": "list",
-       "items": [
-        "<b>Vehículo de sustitución.</b>",
-        "<b>Daños por atropello de animales</b> domésticos, de granja y cinegéticos. Interesa para las nacionales con curvas y para el viaje a Andorra.",
-        "<b>Batería del coche eléctrico.</b> En un eléctrico es la pieza más cara del vehículo: merece la pena confirmar si está contratada y con qué alcance."
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Cobertura",
+        "Qué cubre",
+        "Límites"
+       ],
+       "rows": [
+        [
+         "Responsabilidad civil obligatoria y voluntaria",
+         "Daños y lesiones que causemos a otros circulando",
+         "70 millones de euros en daños personales, 15 en materiales, más 50 en exceso"
+        ],
+        [
+         "Daños propios e incendio",
+         "Daños en nuestro coche por accidente, incendio o explosión, con sus accesorios [CP]",
+         "Reparación urgente sin esperar al perito: hasta 180 &euro;. Siniestro total: valor de compra o valor venal según antigüedad [CP]"
+        ],
+        [
+         "Robo",
+         "Robo del coche o de piezas fijas, daños durante el robo o en el intento. <b>También hurto y apropiación indebida</b>",
+         "Coche no recuperado en 30 días. Neumáticos y batería al 80 % de su valor"
+        ],
+        [
+         "Accidentes de ocupantes",
+         "Fallecimiento, invalidez permanente y gastos sanitarios",
+         "Capitales y ocupantes cubiertos [CP]"
+        ],
+        [
+         "Defensa jurídica",
+         "Defensa del conductor en procedimientos por accidente, fianzas y costas",
+         "Abogado de la compañía: ilimitado. De libre elección: hasta [CP]. Fianzas penales: 6.000 &euro;"
+        ],
+        [
+         "Reclamación de daños",
+         "Reclamar al culpable nuestros daños y lesiones",
+         "Abogado de la compañía: ilimitado. De libre elección: hasta [CP]. Nunca por debajo de 300 &euro;"
+        ],
+        [
+         "Asistencia en viaje",
+         "Al coche <b>desde el kilómetro 0</b> y a los ocupantes",
+         "Detalle en la sección 3"
+        ]
        ]
       }
      ],
      "keywords": "seguro poliza mutua cobertura garantias todo riesgo"
     },
     {
-     "id": "b7-2",
-     "title": "Qué no cubre",
-     "marker": "2",
-     "content": [
-      {
-       "t": "p",
-       "html": "Nunca están cubiertos los daños causados de forma intencionada, ni los que asume el Consorcio de Compensación de Seguros, ni los derivados de guerra, manifestaciones, huelgas o catástrofes declaradas por el Gobierno. Y tampoco:"
-      },
-      {
-       "t": "list",
-       "items": [
-        "Conducir bajo los efectos del <b>alcohol</b> o de drogas, o <b>sin permiso de conducción</b> en vigor.",
-        "Condena por omisión del deber de socorro.",
-        "Incumplir los requisitos del transporte de personas y cosas, o las obligaciones técnicas de seguridad del vehículo (por ejemplo, circular con la <b>ITV</b> caducada o con neumáticos en mal estado).",
-        "Recintos restringidos de puertos y aeropuertos, apuestas y carreras.",
-        "<b>Reparaciones fuera de España</b> sin autorización previa de la Mutua.",
-        "Daños producidos con el <b>vehículo más de 30 días en el extranjero</b>.",
-        "Objetos transportados y bienes del asegurado o del conductor.",
-        "Equipamiento no declarado en las Condiciones Particulares.",
-        "Circular por <b>vías no aptas</b> para la circulación (pistas, caminos no señalizados).",
-        "Reclamaciones de daños inferiores a <b>300 &euro;</b>."
-       ]
-      }
-     ]
-    },
-    {
      "id": "b7-3",
-     "title": "Límites que conviene conocer",
+     "title": "Asistencia en viaje, en detalle",
      "marker": "3",
      "content": [
+      {
+       "t": "h3",
+       "html": "Al coche: avería, accidente, pinchazo, pérdida de llaves o sin batería"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Servicio",
+        "Cómo funciona"
+       ],
+       "rows": [
+        [
+         "Reparación in situ",
+         "Si se puede arreglar en menos de 30 minutos, allí mismo"
+        ],
+        [
+         "Grúa a menos de 100 km de casa",
+         "Tú eliges: al taller más cercano, o a un taller concertado o de tu elección a <b>menos de 25 km de casa</b>"
+        ],
+        [
+         "Grúa a más de 100 km de casa",
+         "Al taller más próximo. Si la reparación supera 72 horas de inmovilización y 8 de mano de obra, se puede pedir el traslado a un taller cercano a casa"
+        ],
+        [
+         "Custodia y depósito",
+         "Hasta 120 &euro;"
+        ],
+        [
+         "Rescate",
+         "Si el coche vuelca o cae a un desnivel en una vía apta"
+        ],
+        [
+         "Número de asistencias",
+         "<b>Sin límite para coches eléctricos</b> (para el resto, 7 al año)"
+        ],
+        [
+         "No incluye",
+         "Las piezas, la reparación ni el coste del material usado en la asistencia"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "A los ocupantes: si el coche queda inmovilizado a más de 25 km de casa"
+      },
       {
        "t": "table",
        "tone": "note",
        "icons": false,
        "head": [
         "Situación",
-        "Cómo se indemniza"
+        "Qué cubre"
        ],
        "rows": [
         [
-         "Pérdida total o robo",
-         "A valor de factura o a valor de venta anterior a la pérdida, según la antigüedad del coche y lo que digan las Condiciones Particulares"
+         "Se repara en el día",
+         "Traslado hasta el taller"
         ],
         [
-         "Neumáticos",
-         "Solo se cubren en pérdida total, actos vandálicos y colisión con daños en la mecánica. Un pinchazo corriente no entra"
+         "No se repara en el día",
+         "A elegir: <b>hotel</b> (60 &euro; por persona y día, 3 días en España o 10 en el extranjero) o <b>transporte a casa</b> o al destino. También las mascotas"
         ],
         [
-         "Piezas desgastadas",
-         "Si la pieza a sustituir está desgastada o tiene una vida útil menor que la del coche, se tasa por su valor en la fecha del accidente"
+         "Coche reparado",
+         "Viaje para recogerlo o, si no puedes, te lo llevan a casa en un máximo de 7 días"
         ],
         [
-         "Robo de la batería o de los neumáticos",
-         "Se indemniza el <b>80 %</b> de su valor en la fecha del robo"
+         "Conductor que no puede seguir",
+         "Conductor profesional hasta casa o destino"
+        ],
+        [
+         "Accidente o enfermedad en viaje",
+         "Traslado sanitario, traslado del resto de ocupantes y acompañante para menores de 15 años"
+        ],
+        [
+         "Hospitalización de más de 5 días",
+         "Billete de ida y vuelta para un acompañante"
+        ],
+        [
+         "Familiar fallecido u hospitalizado más de 5 días",
+         "Regreso anticipado"
+        ],
+        [
+         "En el extranjero",
+         "Gastos médicos a partir de 90 &euro; y hasta 6.000 &euro;, con un tope de 9.000 &euro; por siniestro para todos"
         ]
        ]
+      },
+      {
+       "t": "warn",
+       "html": "<b>Importante.</b> <b>La asistencia a los ocupantes no cubre los accidentes por deportes de riesgo, y el esquí figura expresamente.</b> Para el viaje de Jaime a Andorra, una lesión esquiando no la cubre el seguro del coche: necesita un seguro de esquí o de viaje aparte. Tampoco cubre rescates en montaña ni viajes al extranjero de más de 30 días."
       }
      ]
     },
     {
      "id": "b7-4",
-     "title": "Asistencia en viaje: los números",
+     "title": "Coberturas opcionales: ¿las tenemos? [CP]",
      "marker": "4",
      "content": [
+      {
+       "t": "h3",
+       "html": "Batería del coche eléctrico"
+      },
+      {
+       "t": "p",
+       "html": "Cubre las <b>averías de la batería de tracción</b> por cortocircuito o sobrecarga, fallo de refrigeración, fallo del sistema de gestión, humedad (incluido el lavado a presión), temperaturas extremas puntuales y fallos de cargadores homologados. Si hay que sustituirla, <b>sin descontar desgaste</b>. Y en un accidente o robo cubiertos, la batería tampoco sufre la depreciación que se aplica a otras piezas."
+      },
       {
        "t": "table",
        "tone": "note",
        "icons": false,
        "head": [
-        "Concepto",
-        "Límite"
+        "No la cubre si...",
+        "Qué significa para nosotros"
        ],
        "rows": [
         [
-         "Traslado del vehículo",
-         "Cuando no es posible repararlo en el sitio"
+         "Se carga con un cargador incompatible o un adaptador no homologado",
+         "Solo postes homologados y el cable tipo 2 original. Nada de adaptadores de dudosa procedencia"
         ],
         [
-         "Número de asistencias al año",
-         "7, <b>sin límite para vehículos con batería de tracción eléctrica</b>, que es nuestro caso"
+         "Hay una descarga profunda fuera de lo recomendado",
+         "La norma de casa de no bajar del 20 % y cargar antes de 72 horas ya lo cumple"
         ],
         [
-         "Custodia y depósito del vehículo",
-         "Hasta 120 &euro;"
+         "No se han hecho las revisiones del plan de mantenimiento, <b>incluidas las actualizaciones recomendadas</b>",
+         "Revisión cada 12 meses o 20.000 km y <b>no ignorar las OTA</b>. Guardar los justificantes"
         ],
         [
-         "Asistencia a los ocupantes",
-         "A partir de <b>25 km</b> del domicilio declarado (10 km en islas)"
+         "El coche tiene más de 10 años o 200.000 km",
+         "Muy lejos para nosotros"
         ],
         [
-         "Hotel en España",
-         "60 &euro; por persona y día, máximo 3 días"
+         "Es la pérdida normal de capacidad con el uso y el tiempo",
+         "La degradación habitual no es una avería"
         ],
         [
-         "Hotel en el extranjero",
-         "60 &euro; por persona y día, máximo 10 días"
+         "Ya hubo una avería ese año, o se reemplazó la batería",
+         "Una avería al año. Tras un reemplazo, la cobertura se extingue"
         ],
         [
-         "Gastos médicos en el extranjero",
-         "Desde 90 &euro; y hasta 6.000 &euro;; hasta 9.000 &euro; por accidente para todos los afectados"
-        ],
-        [
-         "Vehículo de sustitución",
-         "Si no pueden facilitarlo, indemnizan una cantidad diaria. Los supuestos cubiertos (avería, accidente, robo) están en las Condiciones Particulares"
+         "Se modificó el software o se montaron accesorios no homologados en alta tensión",
+         "No tocar nada de alta tensión fuera del concesionario"
         ]
        ]
       },
       {
-       "t": "note",
-       "html": "La asistencia desde el <b>kilómetro 0</b> y la asistencia a ocupantes solo se aplican <b>cuando así conste en las Condiciones Particulares</b>. Si no, la asistencia al vehículo empieza a partir de cierta distancia de casa. Es la primera cosa que yo comprobaría."
+       "t": "h3",
+       "html": "Vehículo de sustitución"
+      },
+      {
+       "t": "p",
+       "html": "Coche de alquiler si la reparación supera 2 horas de mano de obra, o a los 3 días de un robo. No vale fuera de España ni más de 3 veces al año. Al recogerlo hay que aceptar las condiciones de la empresa de alquiler y dejar una tarjeta de crédito. Tipo de coche y días, en las [CP]."
+      },
+      {
+       "t": "h3",
+       "html": "Otras opcionales"
+      },
+      {
+       "t": "list",
+       "items": [
+        "<b>Atropello de animales</b> domésticos, de granja o de caza mayor: exige restos o pruebas del animal en el coche, y no cubre los retrovisores.",
+        "<b>Paquete Plus</b>: amplía el periodo de valor de nuevo, mejora la asistencia (taller a elegir si la inmovilización pasa de 24 horas) y extiende la asistencia sanitaria a la familia en cualquier viaje.",
+        "<b>Gran Reparación</b> (motor y caja de cambios) y <b>pedrisco y nieve</b> (solo colectivos): no aplican a nuestro caso."
+       ]
       }
      ]
     },
     {
      "id": "b7-5",
-     "title": "Dónde estamos cubiertos",
+     "title": "Qué no cubre nunca",
      "marker": "5",
+     "content": [
+      {
+       "t": "list",
+       "items": [
+        "Daños intencionados, guerra, terrorismo, manifestaciones o catástrofes naturales (de estas se encarga el Consorcio, sección 8).",
+        "Conducir <b>bebido, drogado</b>, sin permiso o con el permiso retirado. Con tres conductores, cada uno responde de lo suyo.",
+        "Condena por omisión del deber de socorro.",
+        "Llevar más personas de las permitidas o la carga mal colocada o con exceso de peso o medida.",
+        "Incumplir las obligaciones técnicas de seguridad del coche (ITV, neumáticos fuera de norma).",
+        "Carreras, apuestas, recintos restringidos de puertos o aeropuertos, y vías no aptas para circular.",
+        "Reparar fuera de España sin autorización, o tener el coche en el extranjero más de 30 días.",
+        "En daños propios: depreciación tras la reparación, averías por seguir circulando después del accidente, quemaduras de cigarrillo y daños causados por lo que se transporta.",
+        "En robo: el robo solo de las llaves, la negligencia grave y los robos cometidos por familiares o empleados.",
+        "Los neumáticos, salvo pérdida total, vandalismo o colisión (con vehículo identificado, o con daños mecánicos si no lo está)."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b7-6",
+     "title": "Cómo se valoran los daños",
+     "marker": "6",
+     "content": [
+      {
+       "t": "list",
+       "items": [
+        "<b>Pérdida total</b>: cuando reparar cuesta más que el valor venal del coche. Se paga el <b>valor de nuevo</b> dentro del periodo que fijan las [CP] y el valor venal después, descontando los restos.",
+        "<b>Piezas con desgaste</b> o de vida útil más corta que el coche (iluminación, tapicerías…): a su valor venal.",
+        "<b>Taller concertado</b>: la compañía se encarga de todo. <b>Taller libre</b>: hay que pedir presupuesto, enviarlo y esperar al perito. Si no hay acuerdo, se puede aceptar la indemnización del perito, llevarlo a un concertado o pedir un perito por cada parte.",
+        "Hay que <b>conservar el coche y las piezas dañadas</b> hasta que las vea el perito, y los neumáticos o la batería dañados tienen que poder examinarse."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "b7-7",
+     "title": "Dónde estamos cubiertos",
+     "marker": "7",
      "content": [
       {
        "t": "table",
@@ -5136,139 +5270,183 @@
        ],
        "rows": [
         [
-         "España y países del Convenio Multilateral de Garantía (Unión Europea, Espacio Económico Europeo y otros adheridos)",
-         "La póliza completa, con todas las garantías contratadas"
+         "España y países del Convenio Multilateral de Garantía (Unión Europea, Espacio Económico Europeo y otros adheridos, lista en mutua.es)",
+         "Todo lo contratado"
         ],
         [
-         "Países del Convenio Inter-Bureaux, <b>con Carta Verde</b>",
+         "Países del Convenio Inter-Bureaux, solo con <b>Carta Verde</b>",
          "Solo responsabilidad civil obligatoria, defensa jurídica, reclamación de daños y asistencia en viaje"
         ]
        ]
       },
       {
-       "t": "warn",
-       "html": "<b>Importante.</b> <b>Antes del viaje de Jaime a Andorra (18-21 de diciembre).</b> Andorra no pertenece a la Unión Europea ni al Espacio Económico Europeo, así que hay que llamar a la Mutua y preguntar dos cosas: si hace falta la <b>Carta Verde</b> y si con ella quedan cubiertos los <b>daños propios</b> del coche. Por lo que dice este documento, con Carta Verde solo se atienden responsabilidad civil obligatoria, defensa jurídica, reclamación de daños y asistencia: un golpe propio en la nieve podría quedar fuera. También conviene confirmar la cobertura con <b>cadenas o fundas</b> montadas y en aparcamientos de estación."
+       "t": "note",
+       "html": "<b>Andorra:</b> hay que comprobar en la lista de mutua.es en qué convenio figura antes del viaje de diciembre. Si estuviera en el Inter-Bureaux, los daños propios del coche no estarían cubiertos allí. Y recuerda que las lesiones esquiando no las cubre este seguro en ningún caso."
       }
      ]
     },
     {
-     "id": "b7-6",
-     "title": "Nuestras obligaciones y plazos",
-     "marker": "6",
+     "id": "b7-8",
+     "title": "Catástrofes naturales: el Consorcio",
+     "marker": "8",
+     "content": [
+      {
+       "t": "p",
+       "html": "Inundaciones extraordinarias, terremotos, vientos de más de 120 km/h, tornados, terrorismo o tumultos <b>no los paga la aseguradora sino el Consorcio de Compensación de Seguros</b>, que para eso cobra un recargo en cada recibo. En Valencia, con los episodios de lluvias torrenciales, es la cobertura que más conviene tener clara."
+      },
+      {
+       "t": "list",
+       "items": [
+        "Para coches con seguro de automóvil, el Consorcio <b>no aplica franquicia</b>.",
+        "Cubre el coche entero aunque la póliza solo lo cubriera parcialmente.",
+        "Se reclama directamente: 900 222 665 o consorseguros.es. Lo puede tramitar también la propia aseguradora.",
+        "Si el coche se inunda, no intentes arrancarlo ni cargarlo: grúa y parte al Consorcio."
+       ]
+      }
+     ],
+     "keywords": "inundacion dana riada catastrofe temporal consorcio"
+    },
+    {
+     "id": "b7-9",
+     "title": "Si tenemos un accidente o una avería",
+     "marker": "9",
+     "content": [
+      {
+       "t": "steps",
+       "items": [
+        "<b>Seguridad primero:</b> luces de emergencia, chaleco y triángulo (bloque 6).",
+        "Si hay heridos o no hay acuerdo sobre la culpa, <b>112</b> y atestado.",
+        "<b>Parte amistoso</b> con el otro conductor y fotos de todo: posición de los coches, daños, matrículas y señales.",
+        "Si el coche no puede circular: <b><a href=\"tel:+34915555555\">91 555 55 55</a></b> (desde el extranjero, <a href=\"tel:+34915578205\">+34 915 578 205</a>). Asistencia sin límite al ser eléctrico.",
+        "<b>No negociar, admitir ni rechazar</b> reclamaciones de terceros sin autorización de la compañía.",
+        "Comunicar el siniestro a la compañía <b>en 7 días como máximo</b> desde que se conoce.",
+        "En <b>robo o incendio</b>, denuncia ante Guardia Civil o Policía y copia a la compañía.",
+        "Guardar facturas: hotel, taxis, gastos médicos, y factura para que abonen el IVA.",
+        "Conservar el coche y las piezas dañadas hasta que las vea el perito."
+       ]
+      },
+      {
+       "t": "small",
+       "html": "La compañía debe comunicar un rechazo del siniestro en un máximo de 30 días desde que conoce la causa."
+      }
+     ],
+     "keywords": "siniestro parte amistoso grua asistencia averia accidente telefono mutua"
+    },
+    {
+     "id": "b7-10",
+     "title": "Pagos, renovación y otros trámites",
+     "marker": "10",
      "content": [
       {
        "t": "table",
        "tone": "note",
        "icons": false,
        "head": [
-        "Obligación",
-        "Detalle"
+        "Asunto",
+        "Qué dice el contrato"
        ],
        "rows": [
         [
-         "Pagar el seguro",
-         "Anual o aplazado, según la normativa de suscripción. La cobertura exige tener el precio pagado"
-        ],
-        [
-         "Declarar con exactitud",
-         "También durante el contrato: cualquier circunstancia que influya en la valoración del riesgo (conductores habituales, uso del coche, garaje)"
-        ],
-        [
-         "Comunicar el siniestro",
-         "Plazo máximo de <b>7 días</b> desde que ocurre"
-        ],
-        [
-         "Colaborar con el perito",
-         "Durante toda la tramitación del expediente"
+         "Duración",
+         "Anual, con prórroga automática"
         ],
         [
          "No renovar",
-         "Avisar por escrito con <b>un mes</b> de antelación a la fecha de fin del contrato"
+         "Por escrito, con <b>un mes</b> de antelación si somos nosotros (la compañía necesita dos)"
         ],
         [
-         "Anular antes de tiempo",
-         "No se devuelve la parte del precio no consumida"
+         "Impago del primer año",
+         "Sin cobertura mientras no se pague; si se paga sin haberse resuelto el contrato, vuelve a las 24 horas"
+        ],
+        [
+         "Impago en renovaciones",
+         "Hay un <b>mes de gracia</b> desde la fecha del recibo; después, sin cobertura"
+        ],
+        [
+         "Cambios que afectan al riesgo",
+         "Hay que comunicarlos: conductores, uso del coche, zona de circulación, domicilio"
+        ],
+        [
+         "Vender el coche o dejar de usarlo",
+         "Se puede suspender el contrato hasta 5 años y aprovechar la prima no consumida en otro coche"
+        ],
+        [
+         "Pasar el seguro a un familiar",
+         "Se puede ceder a padres, hijos, pareja o hermanos, previa petición"
         ]
        ]
       }
      ]
     },
     {
-     "id": "b7-7",
-     "title": "Si tenemos un accidente o una avería",
-     "marker": "7",
+     "id": "b7-11",
+     "title": "Si no estamos conformes con la compañía",
+     "marker": "11",
      "content": [
       {
        "t": "steps",
        "items": [
-        "<b>Seguridad primero</b>: luces de emergencia, chaleco antes de salir y triángulo a la distancia que marque la norma. Todo está en el bloque 6.",
-        "Si hay heridos, <b>112</b>. El coche llama solo a emergencias si salta un airbag o vuelca, y también se puede lanzar con el botón SOS del techo.",
-        "<b>Parte amistoso</b> con el otro conductor: datos de ambos, matrículas, aseguradoras y croquis. Fotos de los dos vehículos, de la posición final y de la señalización.",
-        "Llamar a la <b>asistencia en viaje</b> de la Mutua. Recuerda: con coche eléctrico no hay límite de asistencias al año.",
-        "Comunicar el siniestro a la aseguradora <b>antes de 7 días</b>.",
-        "<b>No repares nada fuera de España</b> sin autorización previa de la Mutua."
+        "Reclamar primero a la compañía: teléfono, reclamaciones@mutua.es, Área Personal u oficina.",
+        "Si la respuesta no convence, al Departamento de Atención al Mutualista (asinf@mutua.es), que resuelve en un mes.",
+        "Después, al Defensor del Mutualista (defensor@mutua.es), en dos meses.",
+        "En último término, al Servicio de Reclamaciones de la Dirección General de Seguros."
        ]
-      },
-      {
-       "t": "p",
-       "html": "Para daños pequeños, ten en cuenta el mínimo: las reclamaciones por debajo de 300 &euro; no se atienden. Y antes de dar un parte por un roce, valora el efecto que tiene sobre la bonificación del año siguiente."
       }
-     ],
-     "keywords": "siniestro parte amistoso grua asistencia averia accidente telefono mutua"
+     ]
     },
     {
-     "id": "b7-8",
-     "title": "Lo que hay que comprobar en las Condiciones Particulares",
-     "marker": "8",
+     "id": "b7-12",
+     "title": "Qué comprobar en las Condiciones Particulares [CP]",
+     "marker": "12",
      "content": [
       {
        "t": "checklist",
        "items": [
         {
-         "title": "Franquicia",
-         "html": "Si la hay y de cuánto es en daños propios."
-        },
-        {
-         "title": "Asistencia desde el km 0",
-         "html": "Si consta expresamente, y si cubre también a los ocupantes."
-        },
-        {
-         "title": "Batería del coche eléctrico",
-         "html": "Si está contratada la garantía opcional y qué incluye: daño, robo, degradación, cargador."
+         "title": "Batería de tracción",
+         "html": "¿Está contratada la cobertura opcional de la batería?"
         },
         {
          "title": "Vehículo de sustitución",
-         "html": "Si está contratado, cuántos días y en qué supuestos (avería, accidente, robo)."
+         "html": "¿Está contratado? Tipo de coche y número de días"
         },
         {
-         "title": "Atropello de animales",
-         "html": "Si está contratado."
+         "title": "Paquete Plus",
+         "html": "¿Lo tenemos? Periodo de valor de nuevo"
         },
         {
-         "title": "Accidentes de ocupantes",
-         "html": "Las cuantías concretas de fallecimiento, invalidez y asistencia sanitaria."
+         "title": "Periodo de valor de nuevo",
+         "html": "Hasta cuándo se paga el valor de factura en caso de siniestro total"
+        },
+        {
+         "title": "Franquicia",
+         "html": "¿Hay franquicia en daños propios y de cuánto?"
         },
         {
          "title": "Conductores",
-         "html": "Que estén declarados los tres, con la edad y la antigüedad de carné correctas."
+         "html": "Quién figura como conductor habitual y si Jaime está declarado"
         },
         {
-         "title": "Uso y aparcamiento",
-         "html": "Que conste el garaje y el uso particular, si eso mejora la prima."
+         "title": "Accidentes de ocupantes",
+         "html": "Capitales por fallecimiento, invalidez y asistencia sanitaria"
         },
         {
-         "title": "Fechas",
-         "html": "Inicio y fin de la cobertura, y el mes de antelación para no renovar."
+         "title": "Abogado de libre elección",
+         "html": "Límite en defensa jurídica y en reclamación de daños"
         },
         {
-         "title": "Carga pública",
-         "html": "Preguntar si un incidente cargando en un poste público (daño al cable o al conector) está cubierto."
+         "title": "Accesorios y equipamiento",
+         "html": "Qué accesorios están cubiertos y hasta qué importe"
+        },
+        {
+         "title": "Andorra",
+         "html": "En qué convenio figura, según la lista de mutua.es"
         }
        ]
       },
       {
        "t": "small",
-       "html": "Resumen elaborado a partir del documento de información del producto de seguro (IPID) de Mutua Madrileña, Todo Riesgo ECO. No sustituye a la póliza ni a sus condiciones, y no soy asesor de seguros: ante cualquier duda, la Mutua."
+       "html": "Fuente: Condiciones Generales Todo Riesgo ECO de Mutua Madrileña (condicionado 2605TRE) y documento de información del producto. Ante cualquier discrepancia, mandan las Condiciones Generales y las Particulares."
       }
      ]
     }
@@ -5328,7 +5506,7 @@
    "label": "Accidente o avería: qué hacer",
    "icon": "umbrella",
    "tone": "danger",
-   "section": "b7-7"
+   "section": "b7-9"
   },
   {
    "label": "Quitar pitidos y avisos",
@@ -5840,7 +6018,8 @@
    "home": "b3-5",
    "sections": [
     "b3-5",
-    "b4-1"
+    "b4-1",
+    "b7-4"
    ]
   },
   {
@@ -5886,17 +6065,6 @@
     "b4-2",
     "b4-3",
     "b5-1"
-   ]
-  },
-  {
-   "id": "ecall",
-   "label": "eCall y botón SOS",
-   "pattern": "\\beCall\\b|botón SOS",
-   "flags": "i",
-   "home": "b6-6",
-   "sections": [
-    "b6-6",
-    "b7-7"
    ]
   },
   {
