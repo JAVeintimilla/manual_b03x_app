@@ -2443,8 +2443,110 @@
     },
     {
      "id": "b4-2",
-     "title": "Cuentas, llaves y cómo nos organizamos",
+     "title": "Primera vinculación y usuarios invitados, paso a paso",
      "marker": "B",
+     "content": [
+      {
+       "t": "p",
+       "html": "El coche se vincula a <b>una sola cuenta de propietario</b> (la de Toni) y el resto de conductores entran como <b>invitados</b> desde la app. Mejor hacer la vinculación el día de la entrega, en el concesionario, por si algo falla."
+      },
+      {
+       "t": "h3",
+       "html": "Vincular el coche a la cuenta del propietario"
+      },
+      {
+       "t": "steps",
+       "items": [
+        "<b>Descargar la app Leapmotor</b>: en Android, desde Google Play; en iPhone, desde la App Store.",
+        "<b>Registrarse con el mismo correo que se dio al comprar el coche.</b> Es imprescindible: si no coincide, la vinculación por QR falla.",
+        "Seguir los pasos para poner la contraseña, el nombre de cuenta y las preferencias de privacidad.",
+        "<b>Verificar el correo</b> pulsando el enlace que llega por email, y volver a iniciar sesión en la app.",
+        "En la <b>pantalla del coche</b>: <i>Ajustes &gt; Sistema &gt; Seguridad &gt; Autenticación de vinculación del propietario</i>. Aparece un código QR.",
+        "En la <b>app</b>: <i>Centro personal &gt; Añadir vehículo &gt; Escanear código QR</i>, y escanear el QR de la pantalla.",
+        "Comprobar que la app ya muestra el coche: ubicación, kilometraje y estado.",
+        "<b>Activar la llave Bluetooth del móvil</b>: Bluetooth encendido, ubicación de la app en <b>Siempre</b>, y en Android además el <b>inicio automático</b> y los permisos en segundo plano. Después, en la pantalla <i>Mi coche</i> de la app, tocar el icono de llave Bluetooth.",
+        "Probarla: alejarse unos metros, volver y comprobar que abre al acercarse o al pulsar el botón de la maneta."
+       ]
+      },
+      {
+       "t": "small",
+       "html": "Para desvincular el coche (por ejemplo, si algún día se vende): <i>Centro personal &gt; Mis vehículos</i>."
+      },
+      {
+       "t": "h3",
+       "html": "Invitar a otro conductor: Jaime con su iPhone"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Quién",
+        "Paso",
+        "Qué hace"
+       ],
+       "rows": [
+        [
+         "Jaime",
+         "1",
+         "Instala la app Leapmotor desde la <b>App Store</b>"
+        ],
+        [
+         "Jaime",
+         "2",
+         "Se registra con <b>su propio correo</b> (el suyo no tiene que coincidir con el de la compra; solo el del propietario), verifica el enlace del email e inicia sesión"
+        ],
+        [
+         "Toni",
+         "3",
+         "En su app, entra en <b>Compartir vehículo</b> e introduce el <b>correo de Jaime</b>. <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span> el nombre exacto del menú"
+        ],
+        [
+         "Toni",
+         "4",
+         "Elige los <b>permisos</b> (ubicación, estado, control remoto, kilometraje y consumo) y la <b>duración</b>: 24 horas, una semana, un mes o permanente"
+        ],
+        [
+         "Jaime",
+         "5",
+         "Recibe la invitación y la <b>acepta</b>. Toni recibe un aviso en el centro de mensajes de la app y por correo"
+        ],
+        [
+         "Jaime",
+         "6",
+         "Activa la llave Bluetooth en el iPhone: Bluetooth, ubicación en <b>Siempre</b> y <b>ubicación precisa</b> activada"
+        ],
+        [
+         "Jaime",
+         "7",
+         "Prueba la llave junto al coche. Si no abre al acercarse, que use el <b>botón de la maneta</b>: la apertura sin contacto no funciona en todos los móviles, la de pulsación sí"
+        ],
+        [
+         "Jaime",
+         "8",
+         "En la pantalla del coche, desde el <b>Centro personal</b>, inicia sesión o cambia a su cuenta para tener su perfil. <span style=\"color:#C0504D\"><b>A VERIFICAR</b></span>"
+        ]
+       ]
+      },
+      {
+       "t": "list",
+       "items": [
+        "Se puede compartir con <b>hasta 8 personas</b>. Al llegar al límite, la app avisa.",
+        "Los permisos y la duración se pueden <b>cambiar o retirar</b> en cualquier momento desde la app del propietario. Si alguien pierde el móvil, se le quita el acceso a él solo.",
+        "Para tu mujer es el mismo proceso, con su correo y su móvil Android.",
+        "Para el viaje a Andorra, conviene que el permiso de Jaime sea <b>permanente</b> o que cubra al menos del 18 al 21 de diciembre, y comprobarlo antes de salir."
+       ]
+      },
+      {
+       "t": "note",
+       "html": "<b>Si la vinculación falla:</b> casi siempre es el correo. Comprueba que el de la cuenta es exactamente el que figura en la documentación de compra. Si no lo recuerdas, el concesionario lo tiene en el pedido."
+      }
+     ]
+    },
+    {
+     "id": "b4-3",
+     "title": "Cuentas, llaves y cómo nos organizamos",
+     "marker": "C",
      "content": [
       {
        "t": "p",
@@ -2523,9 +2625,9 @@
      ]
     },
     {
-     "id": "b4-3",
+     "id": "b4-4",
      "title": "Los tres modos de conducción",
-     "marker": "C",
+     "marker": "D",
      "content": [
       {
        "t": "p",
@@ -2725,9 +2827,9 @@
      ]
     },
     {
-     "id": "b4-4",
+     "id": "b4-5",
      "title": "Ayudas a la conducción",
-     "marker": "D",
+     "marker": "E",
      "content": [
       {
        "t": "p",
@@ -2798,9 +2900,9 @@
      ]
     },
     {
-     "id": "b4-5",
+     "id": "b4-6",
      "title": "Rutinas y modos con un toque",
-     "marker": "E",
+     "marker": "F",
      "content": [
       {
        "t": "table",
@@ -2882,9 +2984,9 @@
      ]
     },
     {
-     "id": "b4-6",
+     "id": "b4-7",
      "title": "Carga y batería, lo esencial",
-     "marker": "F",
+     "marker": "G",
      "content": [
       {
        "t": "list",
@@ -2898,9 +3000,9 @@
      ]
     },
     {
-     "id": "b4-7",
+     "id": "b4-8",
      "title": "Pitidos y avisos sonoros: cuáles se pueden quitar",
-     "marker": "G",
+     "marker": "H",
      "content": [
       {
        "t": "p",
@@ -3073,9 +3175,9 @@
      "keywords": "pitido pitidos sonido sonidos silenciar quitar avisos alarma beep molesta ruido"
     },
     {
-     "id": "b4-8",
+     "id": "b4-9",
      "title": "Lo que queda por verificar en pantalla",
-     "marker": "H",
+     "marker": "I",
      "content": [
       {
        "t": "table",
@@ -3130,9 +3232,9 @@
      ]
     },
     {
-     "id": "b4-9",
+     "id": "b4-10",
      "title": "Dónde mirar en el manual original (inglés)",
-     "marker": "I",
+     "marker": "J",
      "content": [
       {
        "t": "table",
@@ -5232,13 +5334,13 @@
    "label": "Quitar pitidos y avisos",
    "icon": "volume-off",
    "tone": "warning",
-   "section": "b4-7"
+   "section": "b4-8"
   },
   {
    "label": "Ciudad, carretera y garaje",
    "icon": "steering-wheel",
    "tone": "success",
-   "section": "b4-3"
+   "section": "b4-4"
   },
   {
    "label": "Crucero y centrado de carril",
@@ -5565,7 +5667,7 @@
    "sections": [
     "b3-2",
     "b3-4",
-    "b4-3",
+    "b4-4",
     "b5-6"
    ]
   },
@@ -5578,9 +5680,9 @@
    "sections": [
     "b3-2",
     "b3-4",
-    "b4-3",
-    "b4-7",
-    "b4-9",
+    "b4-4",
+    "b4-8",
+    "b4-10",
     "b5-6"
    ]
   },
@@ -5640,8 +5742,8 @@
    "home": "b5-7",
    "sections": [
     "b3-2",
-    "b4-4",
-    "b4-7",
+    "b4-5",
+    "b4-8",
     "b5-7"
    ]
   },
@@ -5652,8 +5754,8 @@
    "flags": "i",
    "home": "b5-7",
    "sections": [
-    "b4-4",
-    "b4-7",
+    "b4-5",
+    "b4-8",
     "b5-7"
    ]
   },
@@ -5665,9 +5767,9 @@
    "home": "b5-3",
    "sections": [
     "b3-4",
-    "b4-3",
-    "b4-5",
-    "b4-9",
+    "b4-4",
+    "b4-6",
+    "b4-10",
     "b5-3"
    ]
   },
@@ -5679,8 +5781,8 @@
    "home": "b5-3",
    "sections": [
     "b3-4",
-    "b4-3",
-    "b4-9",
+    "b4-4",
+    "b4-10",
     "b5-2",
     "b5-3"
    ]
@@ -5692,7 +5794,7 @@
    "flags": "i",
    "home": "b5-3",
    "sections": [
-    "b4-3",
+    "b4-4",
     "b5-3"
    ]
   },
@@ -5704,8 +5806,8 @@
    "home": "b5-3",
    "sections": [
     "b3-4",
-    "b4-3",
-    "b4-7"
+    "b4-4",
+    "b4-8"
    ]
   },
   {
@@ -5727,7 +5829,7 @@
    "home": "b1-2",
    "sections": [
     "b3-2",
-    "b4-9"
+    "b4-10"
    ]
   },
   {
@@ -5751,9 +5853,9 @@
     "b1-6",
     "b3-8",
     "b4-1",
-    "b4-2",
-    "b4-8",
+    "b4-3",
     "b4-9",
+    "b4-10",
     "b5-1",
     "b6-9"
    ]
@@ -5768,8 +5870,8 @@
     "b1-6",
     "b1-7",
     "b4-1",
-    "b4-2",
-    "b4-9",
+    "b4-3",
+    "b4-10",
     "b6-7"
    ]
   },
@@ -5782,6 +5884,7 @@
    "sections": [
     "b1-6",
     "b4-2",
+    "b4-3",
     "b5-1"
    ]
   },
@@ -5804,9 +5907,9 @@
    "home": "b5-9",
    "sections": [
     "b3-4",
-    "b4-3",
-    "b4-5",
-    "b4-7",
+    "b4-4",
+    "b4-6",
+    "b4-8",
     "b5-9"
    ]
   },
@@ -5845,8 +5948,8 @@
    "home": "b5-7",
    "sections": [
     "b3-4",
-    "b4-2",
-    "b4-7",
+    "b4-3",
+    "b4-8",
     "b5-7"
    ]
   },
@@ -5858,7 +5961,7 @@
    "home": "b5-1",
    "sections": [
     "b3-4",
-    "b4-2"
+    "b4-3"
    ]
   },
   {
@@ -5881,8 +5984,8 @@
    "sections": [
     "b1-2",
     "b3-4",
-    "b4-5",
-    "b4-9"
+    "b4-6",
+    "b4-10"
    ]
   },
   {
@@ -5893,9 +5996,9 @@
    "home": "b3-4",
    "sections": [
     "b3-4",
-    "b4-5",
-    "b4-8",
-    "b4-9"
+    "b4-6",
+    "b4-9",
+    "b4-10"
    ]
   },
   {
@@ -5907,10 +6010,10 @@
    "sections": [
     "b3-4",
     "b3-5",
-    "b4-2",
     "b4-3",
-    "b4-7",
+    "b4-4",
     "b4-8",
+    "b4-9",
     "b5-6"
    ]
   },
@@ -5922,8 +6025,8 @@
    "home": "b3-3",
    "sections": [
     "b3-3",
-    "b4-3",
-    "b4-7",
+    "b4-4",
+    "b4-8",
     "b5-9"
    ]
   },
@@ -5936,8 +6039,8 @@
    "sections": [
     "b1-1",
     "b3-2",
-    "b4-6",
-    "b4-9"
+    "b4-7",
+    "b4-10"
    ]
   },
   {
@@ -5948,7 +6051,7 @@
    "home": "b1-1",
    "sections": [
     "b1-1",
-    "b4-6"
+    "b4-7"
    ]
   },
   {
@@ -5959,7 +6062,7 @@
    "home": "b1-1",
    "sections": [
     "b1-1",
-    "b4-6"
+    "b4-7"
    ]
   }
  ]
