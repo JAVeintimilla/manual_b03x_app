@@ -780,7 +780,11 @@
        "rows": [
         [
          "Entrega",
-         "24 de septiembre"
+         "24 de septiembre, con el 80 %"
+        ],
+        [
+         "Primera carga del rodaje",
+         "25 de septiembre"
         ],
         [
          "Rodaje cerrado",
@@ -818,9 +822,16 @@
        "rows": [
         [
          "Jue 24",
-         "<span style=\"color:#1F4E79\"><b>CARGA 1</b></span><br/>Entrega del coche. Llega ya cargado al 100 %: cuenta como la primera carga del rodaje",
+         "<span style=\"color:#666666\"><b>PREPARAR</b></span><br/>Entrega del coche con el <b>80 %</b>. Primeras pruebas de conducción",
          "Concesionario",
-         "100 %",
+         "80 &rarr; 78 %",
+         "0 &euro;"
+        ],
+        [
+         "Vie 25",
+         "<span style=\"color:#1F4E79\"><b>CARGA 1</b></span><br/>Primera del rodaje, lenta y hasta el 100 %. <b>En uno de los dos sitios</b>, no en ambos. El coche carga en alterna a 11 kW: unos <b>1 h 15 min</b>",
+         "Mercadona Oltà o CC Aqua",
+         "78 &rarr; 100 %",
          "0 &euro;"
         ],
         [
@@ -834,6 +845,12 @@
        "calendar": [
         {
          "date": "2026-09-24",
+         "end": null,
+         "kind": "PREPARAR",
+         "charge": false
+        },
+        {
+         "date": "2026-09-25",
          "end": null,
          "kind": "CARGA 1",
          "charge": true
@@ -871,7 +888,7 @@
         ],
         [
          "Jue 8",
-         "<span style=\"color:#1F4E79\"><b>CARGA 2</b></span><br/>Segunda del rodaje. Hasta el 100 %. Unos 30 minutos, cabe en un recado",
+         "<span style=\"color:#1F4E79\"><b>CARGA 2</b></span><br/>Segunda del rodaje. Hasta el 100 %. Unos 25 minutos, cabe en un recado",
          "CC Aqua",
          "92 &rarr; 100 %",
          "0 &euro;"
@@ -969,7 +986,7 @@
         ],
         [
          "Vie 13",
-         "<span style=\"color:#1F4E79\"><b>CARGA 3</b></span><br/>Tercera del rodaje. 2 h 30. Se deja enchufado y se sube andando a la falla. Con esta acaba el rodaje: ya se puede usar carga rápida",
+         "<span style=\"color:#1F4E79\"><b>CARGA 3</b></span><br/>Tercera del rodaje. Unas 2 h 15. Se deja enchufado y se sube andando a la falla. Con esta acaba el rodaje: ya se puede usar carga rápida",
          "Mercado Central",
          "54 &rarr; 100 %",
          "~6 &euro;"
@@ -1190,7 +1207,7 @@
       },
       {
        "t": "p",
-       "html": "Sin el viaje a Andorra, los tres meses y medio costarían 8 &euro;. Prácticamente todo lo demás es gratis, porque usamos los cargadores libres de los centros comerciales."
+       "html": "Sin el viaje a Andorra, los tres meses y medio costarían unos 8 &euro;. Prácticamente todo lo demás es gratis, porque usamos los cargadores libres de los centros comerciales."
       }
      ]
     },
@@ -1199,6 +1216,10 @@
      "title": "Dónde cargamos",
      "marker": "3",
      "content": [
+      {
+       "t": "note",
+       "html": "<b>Velocidad de carga en alterna: 11 kW como máximo</b>, porque es el límite del cargador del propio coche. Un poste de 22 kW no carga más rápido. Con el cable tipo 2 trifásico que llevamos, en una hora se recuperan unos 10-11 kWh, un 20 % de batería. Del 78 % al 100 %, alrededor de 1 h 15 min; de casi vacío a lleno, unas 5 horas."
+      },
       {
        "t": "h3",
        "html": "Para llenar del todo (2-4 horas)"
@@ -1242,6 +1263,10 @@
         [
          "<b>CC Aqua</b><br/><a class=\"route-link\" href=\"https://www.google.com/maps/dir/?api=1&destination=Centro%20Comercial%20Aqua%2C%20Valencia&travelmode=driving\" target=\"_blank\" rel=\"noopener\">Cómo llegar</a>",
          "El sitio por defecto para cargas cortas. Gratis para clientes, con límite de tiempo. Cerca de casa."
+        ],
+        [
+         "<b>Mercadona Oltà</b><br/>C/ Oltà, 64<br/><a class=\"route-link\" href=\"https://www.google.com/maps/dir/?api=1&destination=Mercadona%2C%20Carrer%20d%27Olt%C3%A0%2064%2C%20Valencia&travelmode=driving\" target=\"_blank\" rel=\"noopener\">Cómo llegar</a>",
+         "Dos plazas con poste de 22 kW (el coche carga a 11 kW, su máximo en alterna). Solo en horario de la tienda, mientras se hace la compra. En 40 minutos sube un 12-13 % aproximadamente."
         ],
         [
          "<b>CC El Saler</b><br/><a class=\"route-link\" href=\"https://www.google.com/maps/dir/?api=1&destination=Centro%20Comercial%20El%20Saler%2C%20Valencia&travelmode=driving\" target=\"_blank\" rel=\"noopener\">Cómo llegar</a>",
@@ -5558,6 +5583,10 @@
    "name": "El Corte Inglés Avenida de Francia",
    "query": "El Corte Inglés Avenida de Francia, Valencia"
   },
+  "mercadona-olta": {
+   "name": "Mercadona Oltà",
+   "query": "Mercadona, Carrer d'Oltà 64, Valencia"
+  },
   "lafe": {
    "name": "Punto de recarga de La Fe",
    "query": "Avinguda de Fernando Abril Martorell, Hospital La Fe, Valencia"
@@ -5570,12 +5599,26 @@
    {
     "date": "2026-09-24",
     "end": null,
+    "kind": "PREPARAR",
+    "charge": false,
+    "place": null,
+    "text": "Entrega del coche con el 80 % . Primeras pruebas de conducción",
+    "where": "Concesionario",
+    "battery": "80 → 78 %",
+    "cost": "0 €"
+   },
+   {
+    "date": "2026-09-25",
+    "end": null,
     "kind": "CARGA 1",
     "charge": true,
-    "place": null,
-    "text": "Entrega del coche. Llega ya cargado al 100 %: cuenta como la primera carga del rodaje",
-    "where": "Concesionario",
-    "battery": "100 %",
+    "place": [
+     "mercadona-olta",
+     "aqua"
+    ],
+    "text": "Primera del rodaje, lenta y hasta el 100 %. En uno de los dos sitios , no en ambos. El coche carga en alterna a 11 kW: unos 1 h 15 min",
+    "where": "Mercadona Oltà o CC Aqua",
+    "battery": "78 → 100 %",
     "cost": "0 €"
    },
    {
@@ -5606,7 +5649,7 @@
     "kind": "CARGA 2",
     "charge": true,
     "place": "aqua",
-    "text": "Segunda del rodaje. Hasta el 100 %. Unos 30 minutos, cabe en un recado",
+    "text": "Segunda del rodaje. Hasta el 100 %. Unos 25 minutos, cabe en un recado",
     "where": "CC Aqua",
     "battery": "92 → 100 %",
     "cost": "0 €"
@@ -5672,7 +5715,7 @@
     "kind": "CARGA 3",
     "charge": true,
     "place": "mercado",
-    "text": "Tercera del rodaje. 2 h 30. Se deja enchufado y se sube andando a la falla. Con esta acaba el rodaje: ya se puede usar carga rápida",
+    "text": "Tercera del rodaje. Unas 2 h 15. Se deja enchufado y se sube andando a la falla. Con esta acaba el rodaje: ya se puede usar carga rápida",
     "where": "Mercado Central",
     "battery": "54 → 100 %",
     "cost": "~6 €"

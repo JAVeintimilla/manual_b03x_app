@@ -8,7 +8,7 @@
  * @typedef {{ id: string, number: number, title: string, subtitle: string, icon: string,
  *             intro: ContentNode[], sections: Section[] }} Block
  * @typedef {{ label: string, icon: string, tone: string, section: string }} QuickLink
- * @typedef {{ date: string, end: string|null, kind: string, charge: boolean, text?: string, where?: string, place?: string|null, battery?: string, cost?: string }} CalendarEntry
+ * @typedef {{ date: string, end: string|null, kind: string, charge: boolean, text?: string, where?: string, place?: string|string[]|null, battery?: string, cost?: string }} CalendarEntry
  * @typedef {{ id: string, label: string, pattern: string, flags: string, home: string, sections: string[] }} GlossaryTerm
  * @typedef {{ title: string, subtitle: string, blocks: Block[], quick: QuickLink[],
  *             calendar: { section: string, hideFrom: string, entries: CalendarEntry[] }, glossary: GlossaryTerm[],
@@ -132,7 +132,8 @@ function eventDetails(entry) {
 
 /** @param {CalendarEntry} entry */
 function eventLocation(entry) {
-  return entry.place ? manual?.places?.[entry.place]?.query ?? "" : "";
+  const keys = entry.place ? (Array.isArray(entry.place) ? entry.place : [entry.place]) : [];
+  return keys.map((key) => manual?.places?.[key]?.query ?? "").filter(Boolean).join(" / ");
 }
 
 /** Enlace que abre Google Calendar con el evento de día completo ya relleno. @param {CalendarEntry} entry */
@@ -636,7 +637,12 @@ function renderHome() {
     .join("");
 
   const charge = todaysChargeEntry();
-  const place = charge?.place ? manual.places?.[charge.place] : null;
+  // Una carga puede tener un sitio o varios alternativos: muestro una ruta por cada uno
+  const placeKeys = charge?.place ? (Array.isArray(charge.place) ? charge.place : [charge.place]) : [];
+  const places = placeKeys.map((key) => manual.places?.[key]).filter(Boolean);
+  const routeButtons = places.map((place) => `
+        <a class="route-btn" href="${routeUrl(place, isAppleDevice() ? "apple" : "google")}" target="_blank" rel="noopener">
+          <i class="ti ti-route"></i>${places.length > 1 ? place.name : "Cómo llegar"}</a>`).join("");
   const chargeBanner = charge ? `
     <div class="charge-alert">
       <a class="charge-alert__main" href="#/${manual.calendar.section}">
@@ -647,11 +653,7 @@ function renderHome() {
           ${charge.text ? `<small>${charge.text}</small>` : ""}
         </span>
       </a>
-      ${place ? `
-      <div class="charge-alert__routes">
-        <a class="route-btn" href="${routeUrl(place, "google")}" target="_blank" rel="noopener"><i class="ti ti-route"></i>Cómo llegar</a>
-        ${isAppleDevice() ? `<a class="route-btn route-btn--alt" href="${routeUrl(place, "apple")}" target="_blank" rel="noopener">Apple Mapas</a>` : ""}
-      </div>` : ""}
+      ${routeButtons ? `<div class="charge-alert__routes">${routeButtons}</div>` : ""}
     </div>` : "";
   view.innerHTML = `
     <section class="home-hero">
