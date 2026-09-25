@@ -522,7 +522,6 @@ td.icon-cell img { width: 36px; height: 36px; display: block; margin: auto; }
   animation: alert-in .6s var(--ease-spring) both .2s, alert-glow 2.4s ease-in-out infinite 1s;
 }
 .charge-alert__main { display: flex; align-items: center; gap: 14px; color: inherit; text-decoration: none; }
-.charge-alert__main:hover strong { text-decoration: underline; }
 .charge-alert__routes { display: flex; flex-wrap: wrap; gap: 8px; padding-left: 66px; }
 .route-btn {
   display: inline-flex; align-items: center; gap: 6px;
@@ -692,3 +691,40 @@ tr.is-today td:first-child { box-shadow: inset 5px 0 0 var(--lamp-green); }
 /* Evito que el azul de los enlaces del tema oscuro tiña las consultas rápidas y la marca */
 :root .quick__link, :root[data-theme="dark"] .quick__link { color: var(--ink); }
 :root .brand, :root[data-theme="dark"] .brand { color: #fff; }
+
+/* ---------- Esquemas dibujados ---------- */
+.diagram { margin: 16px 0; padding: 10px; background: #fff; border: 1px solid var(--line); border-radius: var(--radius-m); }
+.diagram img { display: block; width: 100%; max-width: 920px; height: auto; margin: 0 auto; }
+
+/* ---------- Tablas: bordes con más contraste y esquinas redondeadas en los dos temas ---------- */
+:root { --table-line: #D3D9DF; }
+:root[data-theme="dark"] { --table-line: #425163; }
+.table-wrap { border-color: var(--table-line); border-radius: 12px; }
+th, td { border-bottom-color: var(--table-line); }
+.columns section, .checklist li { border-color: var(--table-line); }
+@media (max-width: 699px) {
+  tbody tr { border: 1px solid var(--table-line); border-radius: 12px; overflow: hidden; }
+  :root[data-theme="dark"] tbody tr { background: color-mix(in srgb, var(--surface) 88%, #fff 3%); }
+  table.table--danger tbody tr { border-left: 4px solid var(--lamp-red); }
+  table.table--warning tbody tr { border-left: 4px solid var(--signal); }
+  table.table--success tbody tr { border-left: 4px solid var(--lamp-green); }
+}
+
+/* ---------- Tablas: bordes con más contraste en oscuro y esquinas redondeadas ---------- */
+:root { --table-border: #D3D9DF; --table-row: #E4E8EB; }
+:root[data-theme="dark"] { --table-border: #4A5A6D; --table-row: #354352; }
+.table-wrap { border: 1px solid var(--table-border); border-radius: 12px; overflow: hidden; }
+.table-wrap th, .table-wrap td { border-bottom: 1px solid var(--table-row); }
+.table-wrap tr:last-child td { border-bottom: 0; }
+:root[data-theme="dark"] .table-wrap th { background: color-mix(in srgb, var(--beam-blue) 16%, var(--surface)); }
+@media (max-width: 699px) {
+  .table-wrap { border: 0; border-radius: 0; overflow: visible; }
+  .table-wrap tbody tr {
+    border: 1px solid var(--table-border); border-radius: 12px; overflow: hidden;
+    box-shadow: 0 6px 16px -12px rgba(0, 0, 0, .45);
+  }
+  .table-wrap td { border-bottom: 0; }
+  .table-wrap td + td { border-top: 1px solid var(--table-row); }
+  table.has-icons td + td { border-top: 0; }
+}
+.charge-alert__routes .route-btn--alt { background: transparent; }

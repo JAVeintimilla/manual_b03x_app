@@ -22,9 +22,11 @@
 .ti-home:before{content:"\eac1"}
 .ti-key:before{content:"\eac7"}
 .ti-lock-open:before{content:"\eae1"}
+.ti-map-2:before{content:"\eae7"}
 .ti-map-pin:before{content:"\eae8"}
 .ti-menu-2:before{content:"\ec42"}
 .ti-moon:before{content:"\eaf8"}
+.ti-parking:before{content:"\eb03"}
 .ti-plug-connected:before{content:"\f00a"}
 .ti-refresh:before{content:"\eb13"}
 .ti-road:before{content:"\f018"}

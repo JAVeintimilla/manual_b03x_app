@@ -453,6 +453,7 @@ const nodeRenderers = {
   warn: (node) => renderCallout(node, "warn", "alert-triangle"),
   tip: (node) => renderCallout(node, "tip", "bulb"),
   table: renderTable,
+  figure: (node) => createElement("figure", "diagram", `<img src="${node.src}" alt="Esquema: ${node.alt ?? ""}" loading="lazy">`),
   columns: (node) =>
     createElement("div", "columns", (node.items ?? [])
       .map((item) => (typeof item === "string" ? "" : `<section><h4>${item.title}</h4><div>${item.html}</div></section>`))
@@ -473,6 +474,11 @@ function renderNodes(nodes, sectionId) {
   }
   linkCrossReferences(container);
   linkGlossaryTerms(container, sectionId);
+  // Los enlaces externos (mapas, webs) se abren fuera de la app para no perder la página
+  container.querySelectorAll('a[href^="http"]').forEach((link) => {
+    link.setAttribute("target", "_blank");
+    link.setAttribute("rel", "noopener");
+  });
   return container;
 }
 
@@ -645,15 +651,19 @@ function renderHome() {
           <i class="ti ti-route"></i>${places.length > 1 ? place.name : "Cómo llegar"}</a>`).join("");
   const chargeBanner = charge ? `
     <div class="charge-alert">
-      <a class="charge-alert__main" href="#/${manual.calendar.section}">
+      <div class="charge-alert__main">
         <span class="charge-alert__icon"><i class="ti ti-battery-charging"></i></span>
         <span class="charge-alert__body">
           <strong>Hoy toca cargar</strong>
           <span>${charge.kind.charAt(0) + charge.kind.slice(1).toLowerCase()} en <b>${charge.where}</b>, ${charge.battery}</span>
           ${charge.text ? `<small>${charge.text}</small>` : ""}
         </span>
-      </a>
-      ${routeButtons ? `<div class="charge-alert__routes">${routeButtons}</div>` : ""}
+      </div>
+      <div class="charge-alert__routes">
+        ${routeButtons}
+        <a class="route-btn route-btn--alt" href="#/${manual.calendar.section}"><i class="ti ti-calendar-event"></i>Calendario</a>
+        ${manual.calendar.howto ? `<a class="route-btn route-btn--alt" href="#/${manual.calendar.howto}"><i class="ti ti-plug-connected"></i>Cómo cargar</a>` : ""}
+      </div>
     </div>` : "";
   view.innerHTML = `
     <section class="home-hero">

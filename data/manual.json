@@ -829,8 +829,8 @@
         ],
         [
          "Vie 25",
-         "<span style=\"color:#1F4E79\"><b>CARGA 1</b></span><br/>Primera del rodaje, lenta y hasta el 100 %. <b>En uno de los dos sitios</b>, no en ambos. El coche carga en alterna a 11 kW: unos <b>1 h 15 min</b>",
-         "Mercadona Oltà o CC Aqua",
+         "<span style=\"color:#1F4E79\"><b>CARGA 1</b></span><br/>Primera del rodaje, por la tarde. Lenta, en un punto de <b>alterna</b> (no en los rápidos de Iberdrola) y hasta el 100 %. A 11 kW, unos <b>1 h 15 min</b>",
+         "CC Aqua",
          "78 &rarr; 100 %",
          "0 &euro;"
         ],
@@ -1262,7 +1262,7 @@
        "rows": [
         [
          "<b>CC Aqua</b><br/><a class=\"route-link\" href=\"https://www.google.com/maps/dir/?api=1&destination=Centro%20Comercial%20Aqua%2C%20Valencia&travelmode=driving\" target=\"_blank\" rel=\"noopener\">Cómo llegar</a>",
-         "El sitio por defecto para cargas cortas. Gratis para clientes, con límite de tiempo. Cerca de casa."
+         "El sitio por defecto para cargas cortas. Puntos de <b>alterna</b> gratis para clientes, con límite de tiempo. Cerca de casa. <b>Ojo:</b> en el sótano -1 también están los <b>cargadores rápidos de Iberdrola, de 50 kW</b>, de pago con su app. Durante el rodaje, solo los de alterna."
         ],
         [
          "<b>Mercadona Oltà</b><br/>C/ Oltà, 64<br/><a class=\"route-link\" href=\"https://www.google.com/maps/dir/?api=1&destination=Mercadona%2C%20Carrer%20d%27Olt%C3%A0%2064%2C%20Valencia&travelmode=driving\" target=\"_blank\" rel=\"noopener\">Cómo llegar</a>",
@@ -1312,11 +1312,13 @@
       {
        "t": "steps",
        "items": [
-        "Aparcar, poner la P y el freno de mano. Solo entonces abrir la trampilla.",
-        "Abrir la tapita de protección de dentro.",
-        "Meter el cable hasta oír el clic. Si no ha sonado, no está puesto.",
-        "Arrancar la sesión en el poste, con la app o acercando la tarjeta. La pantalla del coche muestra que está cargando.",
-        "Para sacarlo: desbloquear el coche, o botón de desbloqueo del cargador en pantalla.",
+        "<b>Elegir un poste de alterna.</b> Tiene un enchufe donde se conecta nuestro cable. Si el poste lleva su propia manguera gruesa con un conector grande, es de carga rápida: durante el rodaje, no.",
+        "Aparcar, poner la P y el freno de mano. Solo entonces abrir la trampilla (delante a la izquierda).",
+        "Quitar <b>solo el tapón de arriba</b>, el de alterna. El de abajo es el de carga rápida.",
+        "Enchufar el cable primero al poste y después al coche, hasta oír el clic. Si no ha sonado, no está puesto.",
+        "Arrancar la sesión en el poste, con la app o acercando la tarjeta, si lo pide.",
+        "<b>Comprobar en la pantalla del coche</b> que carga a unos 10-11 kW y que el límite de carga está en el 100 %.",
+        "Para sacarlo: desbloquear el coche, o botón de desbloqueo del cargador en pantalla. Primero del coche, después del poste.",
         "Cerrar tapita y trampilla. Cable al maletero."
        ]
       },
@@ -4156,6 +4158,155 @@
        ]
       }
      ]
+    },
+    {
+     "id": "b5-10",
+     "title": "Salir y entrar del garaje: rampas y espacios justos",
+     "marker": "10",
+     "content": [
+      {
+       "t": "p",
+       "html": "La potencia no es el problema, sino dosificarla: el motor eléctrico entrega el par al instante, así que en una rampa el secreto es un pie <b>suave y constante</b>, sin acelerones ni soltar a mitad. Tu idea es la buena: pararse al pie de la rampa y empezar a acelerar despacio. Con el coche configurado para el garaje, el propio coche te ayuda en cada fase."
+      },
+      {
+       "t": "h3",
+       "html": "Antes de mover el coche: configuración de garaje"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Ajuste",
+        "Cómo",
+        "Por qué"
+       ],
+       "rows": [
+        [
+         "Aceleración",
+         "Confort",
+         "Respuesta suave: el pedal no da tirones"
+        ],
+        [
+         "L-pedal",
+         "<b>Desactivado</b> (solo se cambia parado)",
+         "Con un pedal, al levantar el pie frena de golpe y descoloca la maniobra"
+        ],
+        [
+         "Creep",
+         "Activado",
+         "Al soltar el freno el coche avanza solo, a paso de persona: se maniobra con el freno"
+        ],
+        [
+         "Auto Hold",
+         "Activado, con cinturón y puertas cerradas",
+         "Si paras a mitad de rampa, el coche se queda quieto"
+        ],
+        [
+         "Imágenes asistidas",
+         "Las cuatro activadas",
+         "La vista 360&deg; se abre sola al arrancar, en la rampa y en pasos estrechos"
+        ],
+        [
+         "Espejos",
+         "Desplegados",
+         "Las cámaras laterales del 360&deg; van en ellos: plegados, la vista pierde los laterales"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Aparcar de morro hacia fuera"
+      },
+      {
+       "t": "figure",
+       "src": "icons/diagramas/garaje-plaza-planta.svg",
+       "alt": "garaje plaza planta"
+      },
+      {
+       "t": "small",
+       "html": "Entrando marcha atrás en la plaza, la salida del día siguiente es de frente y viendo la calle del garaje, que es justo cuando más visibilidad hace falta."
+      },
+      {
+       "t": "steps",
+       "items": [
+        "Pasa de largo la plaza y para con el coche ya orientado hacia la salida.",
+        "Mete la R: se abre sola la cámara trasera con la vista 360&deg;. Gira el volante hacia la plaza y deja que el creep mueva el coche, controlando con el freno.",
+        "Cuando la trasera esté centrada, endereza el volante y entra recto. Los sensores pitan cada vez más rápido: con el <b>pitido continuo</b>, para.",
+        "Pon la P: el freno de estacionamiento se aplica solo. Los espejos se pliegan al cerrar el coche si tienes activado el plegado automático."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Salir de la plaza"
+      },
+      {
+       "t": "steps",
+       "items": [
+        "Con el pie en el freno, pon la D: se abre sola la imagen de arranque con la vista 360&deg;.",
+        "Suelta el freno despacio: el creep saca el coche a paso de persona. Si hay que girar, espera a que el espejo haya pasado la columna o el coche vecino (lo ves en la vista cenital).",
+        "Para girar en poco espacio, usa la <b>vista de ruedas</b> o el <b>chasis transparente</b>: se ve exactamente dónde pisa la rueda delantera respecto al bordillo.",
+        "Con el diámetro de giro del B03X (10,2 m), casi siempre basta con una maniobra; si no, retrocede un poco en lugar de forzar el giro."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Subir una rampa: del -2 al -1 y del -1 a la calle"
+      },
+      {
+       "t": "figure",
+       "src": "icons/diagramas/garaje-rampa-subida.svg",
+       "alt": "garaje rampa subida"
+      },
+      {
+       "t": "steps",
+       "items": [
+        "<b>Para al pie de la rampa</b>, con las ruedas rectas. El Auto Hold sujeta el coche: puedes quitar el pie del freno.",
+        "Mira la vista 360&deg; y los espejos: que no baje nadie por la rampa.",
+        "<b>Acelera suave</b>, como si hubiera un huevo bajo el pedal. El coche arranca sin retroceder: el Auto Hold suelta al acelerar y el arranque en pendiente lo sujeta un par de segundos más.",
+        "<b>Mantén el pie constante</b> todo el tramo, a paso ligero. No sueltes a mitad: sin acelerar, en subida el coche se para.",
+        "<b>Si tienes que parar a mitad</b> (una barrera, otro coche): frena hasta detenerte y el Auto Hold lo deja quieto. Para seguir, vuelve a acelerar suave; no rueda hacia atrás.",
+        "<b>En el cambio de rasante</b>, despacio: el capó tapa el suelo. La cámara frontal y la vista 360&deg; enseñan lo que no ves. Hazlo de frente y sin prisa: el morro tiene 18&deg; de ángulo de ataque y 175 mm de altura libre.",
+        "<b>Arriba, para antes de la acera o de la calle</b>: peatones, patinetes y coches que pasan. Sal cuando esté despejado."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Bajar una rampa: de la calle al -1 y del -1 al -2"
+      },
+      {
+       "t": "figure",
+       "src": "icons/diagramas/garaje-rampa-bajada.svg",
+       "alt": "garaje rampa bajada"
+      },
+      {
+       "t": "steps",
+       "items": [
+        "<b>Llega casi parado</b> al inicio de la rampa, con el L-pedal ya desactivado.",
+        "En el cambio de rasante se abre sola la vista 360&deg;: comprueba que no sube nadie.",
+        "<b>Baja con el pie en el freno</b>, soltándolo poco a poco. El creep y la pendiente empujan solos: no hace falta acelerar. El HDC solo actúa entre 8 y 35 km/h, así que a paso de garaje controlas tú con el freno.",
+        "<b>Abajo, gira ancho</b> y mira la vista cenital para no rozar columnas ni bordillos."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "En espacios muy justos"
+      },
+      {
+       "t": "list",
+       "items": [
+        "El pitido de los sensores es la referencia más fiable: intermitente, cuidado; <b>continuo, para</b>.",
+        "Las distancias en la vista 360&deg; son orientativas y la imagen deforma: úsala junto con los espejos, no en lugar de ellos.",
+        "Si un paso es tan estrecho que dudas, para, pliega mentalmente la maniobra en dos y retrocede un poco: es más rápido que rozar.",
+        "No pliegues los espejos para pasar: las cámaras laterales dejan de verse y el roce más probable es precisamente el lateral."
+       ]
+      },
+      {
+       "t": "warn",
+       "html": "<b>Importante.</b> Si al acelerar en la rampa el coche no avanza, <b>no pises a fondo</b>: comprueba que está en D y no en N o R, y que el freno de estacionamiento se ha soltado. Si el Auto Hold no sujeta al parar, casi siempre es el cinturón del conductor o una puerta mal cerrada."
+      }
+     ],
+     "keywords": "rampa rampas garaje sotano aparcar maniobra subir bajar plaza estrecho columna"
     }
    ]
   },
@@ -5476,6 +5627,456 @@
      ]
     }
    ]
+  },
+  {
+   "id": "b8",
+   "number": 8,
+   "title": "Mis viajes",
+   "subtitle": "Rutas planificadas con paradas de carga y comida: Andorra en diciembre y Salou en verano",
+   "icon": "map-2",
+   "intro": [
+    {
+     "t": "p",
+     "html": "Los viajes largos que tenemos planificados con el B03X, con las paradas de carga pensadas para que coincidan con comidas. Todos los nombres de sitios son enlaces que abren el mapa."
+    },
+    {
+     "t": "note",
+     "html": "<b>Consumo de referencia en autovía:</b> unos 16-19 kWh/100 km en verano con aire acondicionado y unos 20-21 kWh/100 km en invierno con calefacción. Con la batería de 53 kWh, eso son unos 265 km reales con buen tiempo y 210-230 km con frío. Son estimaciones: tras los primeros viajes, los datos reales del coche mandan."
+    }
+   ],
+   "sections": [
+    {
+     "id": "b8-1",
+     "title": "Andorra: Jaime a esquiar a Pal-Arinsal (18-21 de diciembre)",
+     "marker": "1",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Dato",
+        "Valor"
+       ],
+       "rows": [
+        [
+         "Ruta",
+         "AP-7, AP-2, Tàrrega y C-14 por Agramunt, Ponts, Oliana y La Seu d'Urgell"
+        ],
+        [
+         "Distancia y tiempo",
+         "Unos 500 km y unas 6 horas de volante, más las paradas"
+        ],
+        [
+         "Salida",
+         "Viernes 18, a las 8:00, <b>con el 100 %</b>: la carga completa del miércoles 16 en CC Aqua está en el calendario (bloque 2)"
+        ],
+        [
+         "Vuelta",
+         "Lunes 21"
+        ],
+        [
+         "Ruta completa en Google Maps",
+         "<a href=\"https://www.google.com/maps/dir/?api=1&amp;origin=Valencia&amp;destination=Pal%2C%20Andorra&amp;waypoints=Vinar%C3%B2s%7CPonts%7CLa%20Seu%20d'Urgell&amp;travelmode=driving\">Abrir la ruta con sus paradas</a>"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "La ida, parada a parada (viernes 18)"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Hora",
+        "Parada",
+        "Carga",
+        "Para comer"
+       ],
+       "rows": [
+        [
+         "8:00",
+         "<b>Valencia</b>",
+         "Salida al 100 %",
+         "Desayuno en casa"
+        ],
+        [
+         "9:35",
+         "<b>Vinaròs</b> (km 150)<br/><a href=\"https://www.google.com/maps/search/?api=1&amp;query=Endesa%20X%20Way%20Vinar%C3%B2s%20Portal%20del%20Mediterr%C3%A1neo\">Endesa X Way, junto al C.C. Portal del Mediterráneo</a>",
+         "Dos conectores rápidos de 120 kW. Llegas sobre el 48-50 %: 25 minutos hasta el 90 %",
+         "<b>Almuerzo:</b> <a href=\"https://www.google.com/maps/search/?api=1&amp;query=Bar%20Restaurante%20Casa%20Ol%C3%A9%20Vinar%C3%B2s\">Casa Olé</a> (almuerzo de barra, abre a las 8:30) o <a href=\"https://www.google.com/maps/search/?api=1&amp;query=Moustache%20Caf%C3%A9%20Vinar%C3%B2s\">Moustache Café</a> (tostadas y porras, viernes de 8:00 a 14:00)"
+        ],
+        [
+         "11:30",
+         "<b>Reus</b> (km 245)<br/><a href=\"https://www.google.com/maps/search/?api=1&amp;query=IONITY%20Reus%20A-7\">IONITY Reus, en la A-7</a>",
+         "Parada técnica de 15 minutos hasta el 85 %. Seis puntos: el más fiable del corredor",
+         "Café en la gasolinera"
+        ],
+        [
+         "13:30",
+         "<b>Ponts</b> (km 385)<br/><a href=\"https://www.google.com/maps/search/?api=1&amp;query=ACCIONA%20Recarga%20Ponts\">ACCIONA Recarga Ponts</a>",
+         "100 kW. Llegas sobre el 30 %: se deja cargando hasta el 100 % mientras se come",
+         "<b>Comida:</b> <a href=\"https://www.google.com/maps/search/?api=1&amp;query=La%20Brasa%20Ponts\">La Brasa</a> (brasa a la vista, de 8:00 a 16:00; cierra martes y miércoles). Alternativas: Lo Ponts y l'Apagallums"
+        ],
+        [
+         "16:15",
+         "<b>La Seu d'Urgell</b> (km 445)<br/><a href=\"https://www.google.com/maps/search/?api=1&amp;query=Tesla%20Supercharger%20La%20Seu%20d%27Urgell\">Tesla Supercharger</a>",
+         "Abierto a otras marcas con la app de Tesla. 15 minutos hasta el 95 %. <b>Cargar aunque sobre</b>: la subida final se come un 25-30 %",
+         "<b>Merienda:</b> <a href=\"https://www.google.com/maps/search/?api=1&amp;query=Caf%C3%A8%20Orient%20La%20Seu%20d%27Urgell\">Cafè Orient</a> (bajo los porches, a 200 m; viernes de 11:00 a 24:00) o <a href=\"https://www.google.com/maps/search/?api=1&amp;query=La%20Granja%20La%20Seu%20d%27Urgell\">La Granja</a> (la torrada de la casa)"
+        ],
+        [
+         "17:45",
+         "<b>Pal-Arinsal</b>",
+         "Llegada con un 55-60 %",
+         "Cena: ver «Una vez allí»"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "La batería en la ida"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Tramo",
+        "km",
+        "Llegas con",
+        "Cargas"
+       ],
+       "rows": [
+        [
+         "Valencia &rarr; Vinaròs",
+         "150",
+         "~48 %",
+         "25 min &rarr; 90 %"
+        ],
+        [
+         "Vinaròs &rarr; Reus",
+         "95",
+         "~55 %",
+         "15 min &rarr; 85 %"
+        ],
+        [
+         "Reus &rarr; Ponts",
+         "140",
+         "~30 %",
+         "60 min, comiendo &rarr; 100 %"
+        ],
+        [
+         "Ponts &rarr; La Seu",
+         "60",
+         "~75 %",
+         "15 min &rarr; 95 %"
+        ],
+        [
+         "La Seu &rarr; Pal",
+         "40",
+         "~55-60 %",
+         "&mdash;"
+        ]
+       ]
+      },
+      {
+       "t": "note",
+       "html": "<b>Si el cargador de Vinaròs está fuera de servicio</b> (tiene reseñas de cables cortados), sigue hasta el IONITY de Reus: llegas con un 25 % de sobra. Compruébalo antes en Electromaps o en la app de Endesa."
+      },
+      {
+       "t": "h3",
+       "html": "La vuelta, parada a parada (lunes 21)"
+      },
+      {
+       "t": "p",
+       "html": "Los lunes cierran muchos cafés del camino (en La Seu, el Cafè Orient; en Vinaròs, casi todas las cafeterías del centro), así que la vuelta está pensada con sitios que abren ese día."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Hora",
+        "Parada",
+        "Carga",
+        "Para comer"
+       ],
+       "rows": [
+        [
+         "11:00",
+         "<b>Pal-Arinsal</b>",
+         "Salida con lo que haya cargado en Andorra. La bajada recupera energía",
+         "Desayuno en el alojamiento"
+        ],
+        [
+         "11:45",
+         "<b>La Seu d'Urgell</b><br/><a href=\"https://www.google.com/maps/search/?api=1&amp;query=Tesla%20Supercharger%20La%20Seu%20d%27Urgell\">Tesla Supercharger</a>",
+         "Hasta el 90-95 %, unos 20 minutos",
+         "<b>Almuerzo:</b> <a href=\"https://www.google.com/maps/search/?api=1&amp;query=Seu%26Go%20Mercat%20Caf%C3%A8%20La%20Seu%20d%27Urgell\">Seu&amp;Go Mercat Cafè</a> (lunes de 8:00 a 21:00) o <a href=\"https://www.google.com/maps/search/?api=1&amp;query=Restaurant%20De%20Bona%20Gana%20La%20Seu%20d%27Urgell\">De Bona Gana</a> (cocina casera, lunes de 8:00 a 16:00)"
+        ],
+        [
+         "13:30",
+         "<b>Ponts</b><br/><a href=\"https://www.google.com/maps/search/?api=1&amp;query=ACCIONA%20Recarga%20Ponts\">ACCIONA Recarga Ponts</a>",
+         "Hasta el 100 % mientras se come",
+         "<b>Comida:</b> <a href=\"https://www.google.com/maps/search/?api=1&amp;query=La%20Brasa%20Ponts\">La Brasa</a> (el lunes abre, de 8:00 a 16:00)"
+        ],
+        [
+         "15:45",
+         "<b>Reus</b><br/><a href=\"https://www.google.com/maps/search/?api=1&amp;query=IONITY%20Reus%20A-7\">IONITY Reus</a>",
+         "15 minutos hasta el 85 %",
+         "Café en la gasolinera"
+        ],
+        [
+         "17:15",
+         "<b>Vinaròs</b><br/><a href=\"https://www.google.com/maps/search/?api=1&amp;query=Endesa%20X%20Way%20Vinar%C3%B2s%20Portal%20del%20Mediterr%C3%A1neo\">Endesa X Way</a>",
+         "Parada corta de 10-15 minutos, hasta un 65-70 %",
+         "Estirar las piernas en el centro comercial"
+        ],
+        [
+         "19:00",
+         "<b>Valencia</b>",
+         "Llegada con un 20-30 %",
+         "Carga de recalibración el miércoles 23 (bloque 2)"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Una vez allí: comer y cenar en Arinsal y La Massana"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Sitio",
+        "Qué es",
+        "Cuándo abre"
+       ],
+       "rows": [
+        [
+         "<a href=\"https://www.google.com/maps/search/?api=1&amp;query=California%20Grill%20Arinsal\">California Grill</a>",
+         "Tacos y cocina mexicana, muy bien valorado. <b>Hay que reservar el día antes</b>",
+         "Cenas de martes a sábado; comida el sábado y el domingo"
+        ],
+        [
+         "<a href=\"https://www.google.com/maps/search/?api=1&amp;query=Restaurant%20L%27Hort%20de%20Casa%20Arinsal\">L'Hort de Casa</a>",
+         "Cocina de montaña: guisos, cordero, caracoles",
+         "Comidas de martes a domingo; cenas el viernes y el sábado"
+        ],
+        [
+         "<a href=\"https://www.google.com/maps/search/?api=1&amp;query=Surf%20Arinsal%20restaurant\">Surf Arinsal</a>",
+         "Carne a la brasa argentina, raciones grandes",
+         "Todos los días menos el martes, comida y cena"
+        ],
+        [
+         "<a href=\"https://www.google.com/maps/search/?api=1&amp;query=El%20Bosc%20La%20Massana\">El Bosc (La Massana)</a>",
+         "Cocina cuidada a buen precio para Andorra",
+         "Comidas y cenas de miércoles a sábado; domingo a mediodía"
+        ]
+       ]
+      },
+      {
+       "t": "small",
+       "html": "El viernes 18 al llegar: California Grill (reservando el jueves) o Surf. El sábado y el domingo hay de todo. Horarios según Google a septiembre de 2026: conviene confirmarlos antes del viaje."
+      },
+      {
+       "t": "h3",
+       "html": "Cargar en Andorra"
+      },
+      {
+       "t": "list",
+       "items": [
+        "La red es de <b>FEDA</b> y casi toda es de alterna a 22 kW: el coche cargará a 11 kW, unas 5 horas de vacío a lleno. Ideal para dejarlo enchufado mientras se esquía.",
+        "Pal-Arinsal tiene puntos en sus aparcamientos, incluido el de Coll de la Botella, y en La Massana hay 19.",
+        "Hace falta el <b>llavero FEDA</b> (5 euros, en la oficina de Prat de la Creu, en Andorra la Vella, con la ficha técnica y el DNI) o la tarjeta de Electromaps.",
+        "La electricidad en Andorra sale más cara que la carga en La Seu: por eso la última carga rápida se hace allí."
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Antes de salir: la lista de Jaime"
+      },
+      {
+       "t": "checklist",
+       "items": [
+        {
+         "title": "Seguro de esquí",
+         "html": "El seguro del coche <b>no cubre lesiones esquiando</b> (bloque 7). Hace falta un seguro de esquí o de viaje aparte"
+        },
+        {
+         "title": "Cobertura en Andorra",
+         "html": "Confirmar con la aseguradora en qué convenio figura Andorra (bloque 7)"
+        },
+        {
+         "title": "Cadenas o fundas",
+         "html": "Medida <b>215/50 R18</b>, en las ruedas delanteras, sin pasar de 50 km/h (bloque 6)"
+        },
+        {
+         "title": "Presión de neumáticos",
+         "html": "<b>2,7 bar</b> con el coche cargado de equipaje de esquí"
+        },
+        {
+         "title": "Permiso en la app",
+         "html": "Acceso compartido de Jaime permanente o que cubra del 18 al 21 (bloque 4)"
+        },
+        {
+         "title": "Apps",
+         "html": "Tesla (para La Seu), Electromaps y la de Endesa; llavero FEDA o tarjeta Electromaps para Andorra"
+        },
+        {
+         "title": "Batería",
+         "html": "Salida al 100 % tras la carga del miércoles 16. Precondicionar la batería desde la app antes de cada carga rápida en frío"
+        },
+        {
+         "title": "Revisión del viaje",
+         "html": "Sábado 12 de diciembre: ruta, cadenas, seguro y apps (bloque 2)"
+        }
+       ]
+      },
+      {
+       "t": "warn",
+       "html": "<b>Importante.</b> <b>En montaña con frío:</b> los 40 km finales suben de 700 a 1.550 metros y consumen un 25-30 % de batería. Nunca empezar la subida por debajo del 50 %. A la vuelta, la bajada recupera buena parte por la recuperación de energía."
+      }
+     ],
+     "keywords": "andorra pal arinsal esqui jaime ruta viaje la seu ponts vinaros comer"
+    },
+    {
+     "id": "b8-2",
+     "title": "Salou: Hotel Cala Font (verano de 2027)",
+     "marker": "2",
+     "content": [
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Dato",
+        "Valor"
+       ],
+       "rows": [
+        [
+         "Alojamiento",
+         "<a href=\"https://www.google.com/maps/search/?api=1&amp;query=Hotel%20Cala%20Font%20Salou\">Hotel Cala Font</a>, C. de les Dunes, 2, Salou"
+        ],
+        [
+         "Distancia",
+         "Unos 255 km por la AP-7"
+        ],
+        [
+         "Estancia",
+         "4 días con el coche aparcado"
+        ],
+        [
+         "Ruta en Google Maps",
+         "<a href=\"https://www.google.com/maps/dir/?api=1&amp;origin=Valencia&amp;destination=Hotel%20Cala%20Font%2C%20Salou&amp;waypoints=Vinar%C3%B2s&amp;travelmode=driving\">Abrir la ruta con la parada</a>"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "¿Se puede ir de tirón?"
+      },
+      {
+       "t": "p",
+       "html": "Llegarías, pero muy justo: con un <b>5-15 %</b> saliendo al 100 % y a 110 km/h, con aire acondicionado y maletas. No deja margen para un atasco en Castellón o un desvío, así que el plan es una parada corta."
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Paso",
+        "Qué hacer"
+       ],
+       "rows": [
+        [
+         "1. Parada a mitad",
+         "En <b>Vinaròs</b>, <a href=\"https://www.google.com/maps/search/?api=1&amp;query=Endesa%20X%20Way%20Vinar%C3%B2s%20Portal%20del%20Mediterr%C3%A1neo\">Endesa X Way junto al C.C. Portal del Mediterráneo</a>: 10-15 minutos, un 20-25 % más. Con un café en <a href=\"https://www.google.com/maps/search/?api=1&amp;query=Moustache%20Caf%C3%A9%20Vinar%C3%B2s\">Moustache Café</a> o <a href=\"https://www.google.com/maps/search/?api=1&amp;query=Cafeteria%20l%27Art%20Vinar%C3%B2s\">Cafetería l'Art</a> (ambas cierran los lunes)"
+        ],
+        [
+         "2. Aparcar tranquilo",
+         "Parado, el coche pierde alrededor del 1 % al día o menos. Desactivar el modo guardián y la vigilancia remota, que es lo que más consume"
+        ],
+        [
+         "3. Cargar antes de volver",
+         "En el Tesla de Vila-seca un día intermedio, mientras se hace la compra: evita la cola del día de salida"
+        ]
+       ]
+      },
+      {
+       "t": "h3",
+       "html": "Dónde cargar en la zona"
+      },
+      {
+       "t": "table",
+       "tone": "note",
+       "icons": false,
+       "head": [
+        "Sitio",
+        "Qué ofrece",
+        "Distancia al hotel"
+       ],
+       "rows": [
+        [
+         "<a href=\"https://www.google.com/maps/search/?api=1&amp;query=Tesla%20Supercharger%20Vila-seca%20Pere%20Molas\">Tesla Supercharger Vila-seca</a>",
+         "<b>La opción buena</b>: 20 postes de 250 kW abiertos a otras marcas, 24 horas. Junto a Mercadona y Decathlon. Comprobar en la app de Tesla que admite otras marcas",
+         "5-6 km, 10-12 minutos sin tráfico de verano"
+        ],
+        [
+         "Red municipal de Salou (Etecnic)",
+         "22 kW en Via Roma, C. Major con Illes Balears y Av. Pau Casals. Se activa con Electromaps, a unos 0,40 &euro;/kWh. En verano hay cola",
+         "Centro de Salou"
+        ],
+        [
+         "<a href=\"https://www.google.com/maps/search/?api=1&amp;query=IONITY%20Reus%20A-7\">IONITY Reus</a>",
+         "Alta potencia en la A-7: útil a la llegada o a la salida",
+         "En la autovía"
+        ],
+        [
+         "Fotolineras previstas",
+         "Av. Pompeu Fabra 31 y aparcamiento de C. Major 8, para 8 coches. Revisar en primavera si ya funcionan",
+         "Centro de Salou"
+        ]
+       ]
+      },
+      {
+       "t": "small",
+       "html": "En Cala Font no hay puntos públicos: los más cercanos, en C. Logronyo y el Repsol de la zona este, tienen reseñas de averías. Para el estado real, Electromaps y el mapa oficial del ICAEN."
+      }
+     ],
+     "keywords": "salou cala font vila-seca tesla verano ruta viaje hotel"
+    },
+    {
+     "id": "b8-3",
+     "title": "Para cualquier viaje: usar el navegador del B03X",
+     "marker": "3",
+     "content": [
+      {
+       "t": "p",
+       "html": "El navegador del propio coche está muy actualizado y permite <b>incluir en la ruta los puntos de recarga</b>. Para los viajes largos es la mejor herramienta, por encima del móvil:"
+      },
+      {
+       "t": "steps",
+       "items": [
+        "<b>Prepara la ruta desde el sofá:</b> en la app del móvil, «Preparación con un botón» envía el destino al navegador del coche.",
+        "<b>Añade las paradas de carga como etapas de la ruta</b>, con los cargadores de esta guía. Así el coche calcula tiempos y distancias contando con ellas.",
+        "<b>Descarga los mapas sin conexión</b> de España y Andorra antes de salir (en el navegador: Ajustes, Mapa sin conexión). En los valles del Pirineo la cobertura falla.",
+        "<b>Vigila en el cuadro la autonomía restante</b> frente a los kilómetros hasta la siguiente parada. Si el margen baja de 50 km, carga antes.",
+        "<b>Precondiciona la batería</b> antes de las cargas rápidas en invierno: en frío, la batería admite menos potencia hasta que se templa.",
+        "Ten a mano Electromaps como respaldo para comprobar en tiempo real que un cargador funciona antes de desviarte."
+       ]
+      },
+      {
+       "t": "note",
+       "html": "Consejo general de ruta: en autovía, a 110 km/h en lugar de 120 se gana bastante autonomía, y en invierno la calefacción del asiento y del volante gasta mucho menos que la del aire."
+      }
+     ],
+     "keywords": "navegador gps ruta mapa sin conexion paradas carga"
+    }
+   ]
   }
  ],
  "quick": [
@@ -5528,10 +6129,22 @@
    "section": "b4"
   },
   {
+   "label": "Mis viajes",
+   "icon": "map-2",
+   "tone": "note",
+   "section": "b8"
+  },
+  {
    "label": "Accidente o avería: qué hacer",
    "icon": "umbrella",
    "tone": "danger",
    "section": "b7-9"
+  },
+  {
+   "label": "Salir y entrar del garaje",
+   "icon": "parking",
+   "tone": "success",
+   "section": "b5-10"
   },
   {
    "label": "Quitar pitidos y avisos",
@@ -5594,6 +6207,7 @@
  },
  "calendar": {
   "section": "b2-2",
+  "howto": "b2-4",
   "hideFrom": "2027-01-01",
   "entries": [
    {
@@ -5612,12 +6226,9 @@
     "end": null,
     "kind": "CARGA 1",
     "charge": true,
-    "place": [
-     "mercadona-olta",
-     "aqua"
-    ],
-    "text": "Primera del rodaje, lenta y hasta el 100 %. En uno de los dos sitios , no en ambos. El coche carga en alterna a 11 kW: unos 1 h 15 min",
-    "where": "Mercadona Oltà o CC Aqua",
+    "place": "aqua",
+    "text": "Primera del rodaje, por la tarde. Lenta, en un punto de alterna (no en los rápidos de Iberdrola) y hasta el 100 %. A 11 kW, unos 1 h 15 min",
+    "where": "CC Aqua",
     "battery": "78 → 100 %",
     "cost": "0 €"
    },
@@ -5889,7 +6500,8 @@
     "b3-2",
     "b3-4",
     "b4-4",
-    "b5-6"
+    "b5-6",
+    "b5-10"
    ]
   },
   {
@@ -5904,7 +6516,19 @@
     "b4-4",
     "b4-8",
     "b4-10",
-    "b5-6"
+    "b5-6",
+    "b5-10"
+   ]
+  },
+  {
+   "id": "hillhold",
+   "label": "Arranque en pendiente",
+   "pattern": "arranque en pendiente",
+   "flags": "i",
+   "home": "b5-6",
+   "sections": [
+    "b5-6",
+    "b5-10"
    ]
   },
   {
@@ -5918,6 +6542,7 @@
     "b3-2",
     "b5-2",
     "b5-6",
+    "b5-10",
     "b6-9"
    ]
   },
@@ -5991,7 +6616,8 @@
     "b4-4",
     "b4-6",
     "b4-10",
-    "b5-3"
+    "b5-3",
+    "b5-10"
    ]
   },
   {
@@ -6005,7 +6631,8 @@
     "b4-4",
     "b4-10",
     "b5-2",
-    "b5-3"
+    "b5-3",
+    "b5-10"
    ]
   },
   {
@@ -6016,7 +6643,8 @@
    "home": "b5-3",
    "sections": [
     "b4-4",
-    "b5-3"
+    "b5-3",
+    "b8-1"
    ]
   },
   {
@@ -6121,7 +6749,8 @@
     "b4-4",
     "b4-6",
     "b4-8",
-    "b5-9"
+    "b5-9",
+    "b5-10"
    ]
   },
   {
@@ -6135,7 +6764,8 @@
     "b5-4",
     "b5-5",
     "b6-2",
-    "b6-9"
+    "b6-9",
+    "b8-1"
    ]
   },
   {
@@ -6196,7 +6826,8 @@
     "b1-2",
     "b3-4",
     "b4-6",
-    "b4-10"
+    "b4-10",
+    "b8-2"
    ]
   },
   {
@@ -6262,6 +6893,7 @@
    "home": "b1-1",
    "sections": [
     "b1-1",
+    "b2-4",
     "b4-7"
    ]
   },
