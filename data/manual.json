@@ -829,8 +829,8 @@
         ],
         [
          "Vie 25",
-         "<span style=\"color:#1F4E79\"><b>CARGA 1</b></span><br/>Primera del rodaje, por la tarde. Lenta, en un punto de <b>alterna</b> (no en los rápidos de Iberdrola) y hasta el 100 %. A 11 kW, unos <b>1 h 15 min</b>",
-         "CC Aqua",
+         "<span style=\"color:#1F4E79\"><b>CARGA 1</b></span><br/>Primera del rodaje, en alterna y hasta el 100 %. Dos opciones: <b>A)</b> Mercadona Oltà durante la compra, 40 min hasta un 90 %, y remate en CC Aqua, unos 45-50 min hasta el 100 %. <b>B)</b> Solo CC Aqua, unos 1 h 15 min del 78 % al 100 %. En Aqua, puntos de alterna, no los rápidos de Iberdrola",
+         "Mercadona Oltà + CC Aqua, o solo CC Aqua",
          "78 &rarr; 100 %",
          "0 &euro;"
         ],
@@ -6226,9 +6226,12 @@
     "end": null,
     "kind": "CARGA 1",
     "charge": true,
-    "place": "aqua",
-    "text": "Primera del rodaje, por la tarde. Lenta, en un punto de alterna (no en los rápidos de Iberdrola) y hasta el 100 %. A 11 kW, unos 1 h 15 min",
-    "where": "CC Aqua",
+    "place": [
+     "mercadona-olta",
+     "aqua"
+    ],
+    "text": "Primera del rodaje, en alterna y hasta el 100 %. Dos opciones: A) Mercadona Oltà durante la compra, 40 min hasta un 90 %, y remate en CC Aqua, unos 45-50 min hasta el 100 %. B) Solo CC Aqua, unos 1 h 15 min del 78 % al 100 %. En Aqua, puntos de alterna, no los rápidos de Iberdrola",
+    "where": "Mercadona Oltà + CC Aqua, o solo CC Aqua",
     "battery": "78 → 100 %",
     "cost": "0 €"
    },
